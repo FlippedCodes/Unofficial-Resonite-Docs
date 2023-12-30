@@ -8,27 +8,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link 
     rel="stylesheet"
-    href="//unpkg.com/docsify/themes/dark.css"
+    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
     title="docsify-darklight-theme"
     type="text/css"
   />
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
 </head>
+<style>
+  .app-name-link {
+    filter:  var(--custom_logo_invert);
+  }
+</style>
 <body>
-  <div id="app">Loading Wiki ...</div>
-  <div id="app"></div>
+  <div id="app">Loading...</div>
   <script>
     window.$docsify = {
-      name: 'Unoffical Resonite Wiki',
-      // repo: '',
+      name: 'Unoffical Resonite Documentaiton',
+      repo: 'https://github.com/FlippedCodes/resonitewiki/',
       search: 'auto',
       loadFooter: true,
+      auto2top: true,
+      logo: '/_images/logo.png',
+      // themeColor: '#f8f770', // FIXME: gets ignored by selected design
       tabs: {
         persist    : true,
         sync       : true,
         theme      : 'classic',
         tabComments: true,
         tabHeadings: true
+      },
+      darklightTheme: {
+        dark: {
+          custom_logo_invert: 'invert()',
+        },
+        light: {
+          custom_logo_invert: '',
+        },
       },
       plugins: [
         // Edit on Github https://github.com/docsifyjs/docsify/blob/167596be51d8918efa2238a0e12eab14445e4022/docs/index.html#L193C16-L193C16
@@ -44,10 +59,10 @@
                 .replace('@master', '/blob/master');
             } else {
               url =
-                'https://github.com/docsifyjs/docsify/blob/develop/docs/' +
+                'https://github.com/FlippedCodes/resonitewiki/' +
                 vm.route.file;
             }
-            const editHtml = '[:memo: Edit Document](' + url + ')\n';
+            const editHtml = '[:memo: Edit Document](' + url + ')\n\n';
             return (
               editHtml + html
             );
