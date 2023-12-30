@@ -17,6 +17,20 @@ To run the Wiki locally, please follow the [Docsify.JS instructions](https://doc
 
 Start command is `docsify serve .`
 
-## TODO
+## Roadmap
 
 The plan right now is to make the website fit Resonites branding and get all needed Docsify.JS Plugins running. Content wise, I think it is good to start out with what NeosVR offers on their Wiki. and import it. For that [mediawiki-to-gfm](https://github.com/outofcontrol/mediawiki-to-gfm) can be used. But im unsure on how to proceed from there... Specifically, when the Offical Resonite Wiki launches.
+
+### ToDo List
+
+- [ ] NeosVR MediaWiki import
+  - [ ] Get all XML files from all articles
+  - [ ] [Run Script](https://github.com/outofcontrol/mediawiki-to-gfm) and convert to Markdown files
+  - [ ] Try different configurations on how to sort the articles
+  - [ ] Consolidate articles for repetitive content and use [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) of files
+- [ ] Sidebar
+  - [ ] [Check, if it can be automated](https://docsify.js.org/#/more-pages?id=sidebar)
+  - [ ] Write Script/Setup/Write manually
+- [ ] Evaluate if Navbar is needed
+- [ ] MediaWiki Template Support
+  - [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) could work, might need script
