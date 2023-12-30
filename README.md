@@ -1,5 +1,8 @@
 # Unofficial Resonite Documentation
 
+![](_images/logo_light.png#gh-dark-mode-only)
+![](_images/logo_dark.png#gh-light-mode-only)
+
 > [!NOTE]
 > This project is a WIP. There are plans to automate certain parts of the wiki.
 
