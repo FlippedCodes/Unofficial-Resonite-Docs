@@ -28,9 +28,14 @@ The plan right now is to make the website fit Resonites branding and get all nee
   - [ ] [Run Script](https://github.com/outofcontrol/mediawiki-to-gfm) and convert to Markdown files
   - [ ] Try different configurations on how to sort the articles
   - [ ] Consolidate articles for repetitive content and use [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) of files
+  - [ ] Decide on how to handle the new Resonite Wikis content. (Import then override?)
+- [ ] Decide on custom URL Routing for Ingame help
 - [ ] Sidebar
   - [ ] [Check, if it can be automated](https://docsify.js.org/#/more-pages?id=sidebar)
   - [ ] Write Script/Setup/Write manually
 - [ ] Evaluate if Navbar is needed
-- [ ] MediaWiki Template Support
+- [ ] Evaluate MediaWiki Template Support
   - [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) could work, might need script
+- [ ] Create Overrides to convert Githubs Markdown to Docsify.JS
+  - Noticed on Alert and Info box syntax
+
