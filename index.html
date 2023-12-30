@@ -71,7 +71,21 @@
       },
       plugins: [
         // Edit on Github https://github.com/docsifyjs/docsify/blob/167596be51d8918efa2238a0e12eab14445e4022/docs/index.html#L193C16-L193C16
+        // footer https://github.com/boopathikumar018/docsify-darklight-theme/blob/master/docs/index.html
         function (hook, vm) {
+          const footer = [
+            '<footer style="text-align: center; padding-top: 40px;">',
+            // 'Unoffical Resonite Wiki &copy; 2024',
+            // '<br/>',
+            '"Resonite" is a trademark of Yellow Dog Man Studios s.r.o.',
+            '<br/>',
+            'We are not affiliated with Yellow Dog Man Studios.',
+            '<br/>',
+            'Made with ❤ by <a href="https://github.com/FlipperLP" target="_blank">@Phil</a>  &copy; 2024',
+            '</footer>'
+          ].join('');
+
+          // TODO: Look into what this does
           hook.beforeEach(html => {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
@@ -83,30 +97,15 @@
                 .replace('@master', '/blob/master');
             } else {
               url =
-                'https://github.com/FlippedCodes/resonitewiki/' +
+                'https://github.com/FlippedCodes/resonitewiki/blob/main/' +
                 vm.route.file;
             }
-            const editHtml = '[:memo: Edit Document](' + url + ')\n\n';
-            return (
-              editHtml + html
-            );
-          });
-        },
-        function(hook) {
-          var footer = [
-            '<footer style="text-align: center;margin-top: 50px;">',
-            // 'Unoffical Resonite Wiki &copy; 2024',
-            // '<br/>',
-            '"Resonite" is a trademark of Yellow Dog Man Studios s.r.o.',
-            '<br/>',
-            'We are not affiliated with Yellow Dog Man Studios.',
-            '<br/>',
-            'Made with ❤ by <a href="https://github.com/FlipperLP" target="_blank">@Phil</a>  &copy; 2024',
-            '</footer>'
-          ].join('');
+            // FIXME: move edit text to the right
+            const editText = `\n\n[:memo: Edit on GitHub](${url})`;
 
-          hook.afterEach(function(html) {
-            return html + footer;
+            return (
+              html + editText + footer
+            );
           });
         }
       ]
