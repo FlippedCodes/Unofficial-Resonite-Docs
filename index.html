@@ -25,8 +25,6 @@
     window.$docsify = {
       name: 'Unoffical Resonite Documentaiton',
       repo: 'https://github.com/FlippedCodes/resonitewiki/',
-      search: 'auto',
-      loadFooter: true,
       auto2top: true,
       logo: '/_images/logo_dark.png', // gets converted with css for dark mode
       // themeColor: '#f8f770', // FIXME: gets ignored by selected design
@@ -68,6 +66,23 @@
             );
           });
         },
+        function(hook) {
+          var footer = [
+            '<footer style="text-align: center;margin-top: 50px;">',
+            // 'Unoffical Resonite Wiki &copy; 2024',
+            // '<br/>',
+            '"Resonite" is a trademark of Yellow Dog Man Studios s.r.o.',
+            '<br/>',
+            'We are not affiliated with Yellow Dog Man Studios.',
+            '<br/>',
+            'Made with ❤ by <a href="https://github.com/FlipperLP" target="_blank">@Phil</a>  &copy; 2024',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function(html) {
+            return html + footer;
+          });
+        }
       ]
     }
   </script>
@@ -78,7 +93,6 @@
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
-  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
   <script 
     src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
     type="text/javascript">
