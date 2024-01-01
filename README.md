@@ -36,6 +36,7 @@ The plan right now is to make the website fit Resonites branding and get all nee
 - [ ] Evaluate if Navbar is needed
 - [ ] Evaluate MediaWiki Template Support
   - [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) could work, might need script
-- [ ] Create Overrides to convert Githubs Markdown to Docsify.JS
-  - Noticed on Alert and Info box syntax
+- [x] ~~Create Overrides to convert Githubs Markdown to Docsify.JS~~
+  - ~~Noticed on Alert and Info box syntax~~ Fixed with plugin
+- [ ] Add glossary plugin?
 
