@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "1 categoryExport",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\_TEMP\\categoryExport.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "2 postsExport",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\_TEMP\\postsExport.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "3 getPosts",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\_TEMP\\getPosts.js"
+        }
+    ]
+}
