@@ -24,7 +24,7 @@ The plan right now is to make the website fit Resonites branding and get all nee
 ### ToDo List
 
 - [ ] NeosVR MediaWiki import
-  - [ ] Get all XML files from all articles
+  - [x] Get all XML files from all articles
   - [ ] [Run Script](https://github.com/outofcontrol/mediawiki-to-gfm) and convert to Markdown files
   - [ ] Try different configurations on how to sort the articles
   - [ ] Consolidate articles for repetitive content and use [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) of files
@@ -39,4 +39,4 @@ The plan right now is to make the website fit Resonites branding and get all nee
 - [x] ~~Create Overrides to convert Githubs Markdown to Docsify.JS~~
   - ~~Noticed on Alert and Info box syntax~~ Fixed with plugin
 - [ ] Add glossary plugin?
-
+- [ ] Create render plugin to display protoflux nodes with dynamic content.
