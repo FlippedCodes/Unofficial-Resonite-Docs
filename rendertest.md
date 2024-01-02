@@ -25,19 +25,19 @@ A testfile to see if we can render protoflux nodes on the fly with js.
 
 | PFN: Core | Some function name |        |
 |-----------|--------------------|--------|
-| input     | Some fielt text    | String |
+| input     | Some field text    | String |
 
 ### URI
 
 | PFN: Core | Some function name |        |
 |-----------|--------------------|--------|
-| input     | Some fielt text    | URI    |
+| input     | Some field text    | URI    |
 
 ### Slot
 
 | PFN: Core | Some function name |        |
 |-----------|--------------------|--------|
-| input     | Some fielt text    | Slot   |
+| input     | Some field text    | Slot   |
 
 ### Bool
 
