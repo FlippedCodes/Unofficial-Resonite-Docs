@@ -15,9 +15,9 @@ A testfile to see if we can render protoflux nodes on the fly with js.
 
 ## Operator
 
-| PFN: Operators | Some function name |   |
-|----------------|--------------------|---|
-|                | ==                 |   |
+| PFN: Operators | Some function name |        |
+|----------------|--------------------|--------|
+| String         | ==                 | String |
 
 ## Input
 
