@@ -3,6 +3,8 @@ window.$docsify = {
     repo: "https://github.com/FlippedCodes/resonitewiki/",
     auto2top: true,
     loadSidebar: true,
+    loadNavbar: true,
+    subMaxLevel: 2,
     logo: "/_images/logo_dark.png", // gets converted with css for dark mode
     // themeColor: '#f8f770', // FIXME: gets ignored by selected design
     formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
