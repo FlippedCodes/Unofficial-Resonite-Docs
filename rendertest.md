@@ -15,39 +15,45 @@ A testfile to see if we can render protoflux nodes on the fly with js.
 
 ## Operator
 
-| PFN: Operators | Some function name |        |
-|----------------|--------------------|--------|
-| String         | ==                 | String |
+| Some function name |     |        |
+| ------------------ | --- | ------ |
+| String             | ==  | String |
+| String             |     |        |
+| Operator           |     |        |
 
 ## Input
 
 ### String
 
-| PFN: Core | Some function name |        |
-|-----------|--------------------|--------|
-| input     | Some field text    | String |
+| Some function name |                 |        |
+| ------------------ | --------------- | ------ |
+| input              | Some field text | String |
+| Core               |                 |        |
 
 ### URI
 
-| PFN: Core | Some function name |        |
-|-----------|--------------------|--------|
-| input     | Some field text    | URI    |
+| Some function name |                 |     |
+| ------------------ | --------------- | --- |
+| input              | Some field text | URI |
+| Core               |                 |     |
 
 ### Slot
 
-| PFN: Core | Some function name |        |
-|-----------|--------------------|--------|
-| input     | Some field text    | Slot   |
+| Some function name |                 |      |
+| ------------------ | --------------- | ---- |
+| input              | Some field text | Slot |
+| Core               |                 |      |
 
 ### Bool
 
-| PFN: Core | Some function name |      |
-|-----------|--------------------|------|
-| input     |                    | Bool |
+| Some function name |     |      |
+| ------------------ | --- | ---- |
+| input              |     | Bool |
+| Core               |     |      |
 
 ### Button Call
 
-| PFN: Core | Some function name |         |
-|-----------|--------------------|---------|
-| input     | Call               | Trigger |
-
+| Some function name |      |         |
+| ------------------ | ---- | ------- |
+| input              | Call | Trigger |
+| Core               |      |         |
