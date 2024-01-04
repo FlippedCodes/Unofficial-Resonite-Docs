@@ -43,11 +43,13 @@ The plan right now is to make the website fit Resonites branding and get all nee
   - [ ] Write Script/Setup/Write manually
 - [ ] Evaluate if Navbar is needed
 - [ ] Evaluate MediaWiki Template Support
-  - [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) could work, might need script
+  - [x] [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) could work, might need script
+  - [ ] Is possible: Add [Docsify mustache](https://docsify-mustache.github.io/#/) for templating with variables
+    - But needs to be tested, if vars are applied to embeds
 - [x] ~~Create Overrides to convert Githubs Markdown to Docsify.JS~~
   - ~~Noticed on Alert and Info box syntax~~ Fixed with plugin
 - [ ] Add glossary plugin
-- [ ] Add Docsify mustache for templating with variables
 - [ ] Test Tabs Plugin
 - [x] Resonite Theming
 - [x] Create render plugin to display protoflux nodes with dynamic content.
+- [ ] Hide drop shadow when sidebar is closed.
