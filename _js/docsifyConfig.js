@@ -20,15 +20,22 @@ window.$docsify = {
         noData: {
         // "/de-de/": "Keine Ergebnisse!", example
         "/": "No results!",
+        "/jp/": "結果がありません！",
+        "/kr/": "결과가 없습니다!",
+        "/zh-tw/": "没有结果！",
+        "/zh-cn/": "沒有結果！",
         },
         paths: "auto",
         placeholder: {
-        // "/de-de/": "Suche", example
         "/": "Search",
+        "/jp/": "検索",
+        "/kr/": "찾다",
+        "/zh-tw/": "搜尋",
+        "/zh-cn/": "搜索",
         },
-        // pathNamespaces: ["/de-de"],
+        pathNamespaces: ['/jp', '/kr', '/zh-tw', '/zh-cn'],
     },
-    // fallbackLanguages: ['de-de'],
+    fallbackLanguages: ['jp', 'kr', 'zh-tw', 'zh-cn'],
     darklightTheme: {
         dark: { custom_logo_invert: "invert()" },
         light: { custom_logo_invert: "" },
