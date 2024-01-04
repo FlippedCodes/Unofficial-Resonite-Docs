@@ -25,7 +25,7 @@ function footer(hook, vm) {
         .replace("@master", "/blob/master");
     } else {
       url =
-        "https://github.com/FlippedCodes/resonitewiki/blob/main/" +
+        "https://github.com/FlippedCodes/Unofficial-Resonite-Docs/blob/main/" +
         vm.route.file;
     }
     // FIXME: move edit text to the right

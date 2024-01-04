@@ -1,7 +1,7 @@
 window.$docsify = {
     catchPluginErrors: true,
     name: "Unoffical Resonite Documentaiton",
-    repo: "https://github.com/FlippedCodes/resonitewiki/",
+    repo: "https://github.com/FlippedCodes/Unofficial-Resonite-Docs/",
     auto2top: true,
     loadSidebar: true,
     loadNavbar: true,
@@ -18,20 +18,20 @@ window.$docsify = {
     // Search config https://github.com/docsifyjs/docsify/blob/141ac96add9892fcb345551906770c4e9b2265b0/docs/index.html#L105
     search: {
         noData: {
-        // "/de-de/": "Keine Ergebnisse!", example
-        "/": "No results!",
-        "/jp/": "結果がありません！",
-        "/kr/": "결과가 없습니다!",
-        "/zh-tw/": "没有结果！",
-        "/zh-cn/": "沒有結果！",
+            // "/de-de/": "Keine Ergebnisse!", example
+            "/": "No results!",
+            "/jp/": "結果がありません！",
+            "/kr/": "결과가 없습니다!",
+            "/zh-tw/": "没有结果！",
+            "/zh-cn/": "沒有結果！",
         },
         paths: "auto",
         placeholder: {
-        "/": "Search",
-        "/jp/": "検索",
-        "/kr/": "찾다",
-        "/zh-tw/": "搜尋",
-        "/zh-cn/": "搜索",
+            "/": "Search",
+            "/jp/": "検索",
+            "/kr/": "찾다",
+            "/zh-tw/": "搜尋",
+            "/zh-cn/": "搜索",
         },
         pathNamespaces: ['/jp', '/kr', '/zh-tw', '/zh-cn'],
     },
