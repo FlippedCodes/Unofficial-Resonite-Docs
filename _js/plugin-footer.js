@@ -9,7 +9,7 @@ function footer(hook, vm) {
     "<br/>",
     "We are not affiliated with Yellow Dog Man Studios.",
     "<br/>",
-    'Made with ❤ by <a href="https://github.com/FlipperLP" target="_blank">@Phil</a>  &copy; 2024',
+    'Made with ❤ by <a href="https://github.com/FlipperLP" target="_blank">@Phil</a> and <a href="https://github.com/FlippedCodes/Unofficial-Resonite-Docs/graphs/contributors" target="_blank">Helpers</a>  &copy; 2024',
     "</footer>",
   ].join("");
 
