@@ -1,8 +1,10 @@
 /* Logo darkmode invert */
 
 .app-name-link {
-  filter:  var(--custom_logo_invert);
+  filter: var(--custom_logo_invert);
 }
+
+/* Make border more visible */
 
 .markdown-section td,
 .markdown-section th {
