@@ -270,3 +270,5 @@ For instance:
 
 When using `requiredUserJoinCloudVariable`, you can use the `requiredUserJoinCloudVariableDenyMessage` configuration key to set a deny message.  
 It can be useful for whitelisted sessions or events.
+
+[Article by J4](../../_template/usageTerms/J4Credit.md ':include')
