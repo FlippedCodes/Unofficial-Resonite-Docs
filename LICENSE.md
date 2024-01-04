@@ -1,9 +1,10 @@
 # Licensing and Terms
 
-Content and the code for the page structure are separately licensed.
+Content, code and fonts for this documentation are separately licensed.
 
-- The code for the page structure is licensed under the MIT License.
-- The content is licensed under the CC BY 4.0 license.
+- The code for the page structure is licensed under the [MIT License](/LICENSE.md#mit-license).
+- The content is licensed under the [CC BY 4.0 license](/LICENSE.md#creative-commons-attribution-sharealike-40-international).
+- Fonts are Licensed under the [Open Font License](/LICENSE.md#open-font-license).
 - Individual articles can be licensed differently. They are marked and sourced at the bottom of the page accordingly.
 
 ## MIT License
