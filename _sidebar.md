@@ -1,11 +1,11 @@
-- [About the Wiki](README.md)
-
 - Gameplay
   - [Desktop Controls](/gameplay/desktopControlls.md)
   - [Bot Commands](/gameplay/botCommands.md)
-  - [Cloud Variables](/gameplay/advanced/cloudVars.md)
+  - Advanced
+    - [Cloud Variables](/gameplay/advanced/cloudVars.md)
 
 - Wiki Guides And Guidelines
+  - [About the Wiki](README.md)
   - [Protoflux Node Showcase](/wikiGuides/nodeRender.md)
   - [Licensing and Terms](/wikiGuides/licence.md)
 
