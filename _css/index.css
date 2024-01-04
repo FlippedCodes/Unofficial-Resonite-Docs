@@ -3,7 +3,16 @@
   src: url("../_fonts/Poppins-SemiBold.ttf");
 }
 
-@import url("https://fonts.googleapis.com/css?family=PT+Sans&Source+Sans+Pro&Roboto+Mono&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=PT+Sans&Source+Sans+Pro&Roboto+Mono&display=swap"); */
+/* google fonts are not deemed GDPR compliant in Germany */
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../_fonts/PTSans-Regular.ttf");
+}
 
 * {
   -webkit-font-smoothing: antialiased;
