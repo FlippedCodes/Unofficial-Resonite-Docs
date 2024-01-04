@@ -1,13 +1,14 @@
-# Render Test
+# Protoflux Render Engine Showcase
 
-A testfile to see if we can render protoflux nodes on the fly with js.
+> A showcase of how the protoflux nodes are generated on this documentation.
 
 ## Normal
 
-> Edge cases are below.
+<!-- panels:start -->
+<!-- div:left-panel -->
+### Example
 
-# Dynamic Impulse Trigger
-
+```md
 <!-- ProtofluxNode:start -->
 | Dynamic Impulse Trigger | Type          | Label            |
 | ----------------------- | ------------- | ---------------- |
@@ -16,9 +17,29 @@ A testfile to see if we can render protoflux nodes on the fly with js.
 | input                   | Bool          | Tag              |
 | output                  | Int           | TriggeredCount   |
 | input                   | String        | TargetHierarchy  |
+| output                  | Double        | ExcludedDisabled |
 | input                   | TriggerString | ExcludedDisabled |
 | Async                   |               |                  |
 <!-- ProtofluxNode:end -->
+```
+<!-- div:right-panel -->
+### Output
+<!-- ProtofluxNode:start -->
+| Dynamic Impulse Trigger | Type          | Label            |
+| ----------------------- | ------------- | ---------------- |
+| input                   | Bool          | *                |
+| output                  | String        | Next             |
+| input                   | Bool          | Tag              |
+| output                  | Int           | TriggeredCount   |
+| input                   | String        | TargetHierarchy  |
+| output                  | Double        | ExcludedDisabled |
+| input                   | TriggerString | ExcludedDisabled |
+| Async                   |               |                  |
+<!-- ProtofluxNode:end -->
+<!-- panels:end -->
+
+> [!Warning]
+> Below are not implemented and are not yet final and will change!
 
 ## Operator
 
