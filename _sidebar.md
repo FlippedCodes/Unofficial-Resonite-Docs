@@ -1,12 +1,11 @@
-- Getting started
-  - [Quick Start](README.md)
+- [About the Wiki](README.md)
 
-  - [Protoflux Node Showcase](ProtofluxNodeShowcase.md)
 
-  - [sdfsdf](TEST/README.md)
-    - [some other](TEST/someotherfile.md)
+- Gameplay
+  - [Desktop Controls](/gameplay/desktopControlls.md)
 
-  - [About the Wiki](README.md)
+- Wiki Guides And Guidelines
+  - [Protoflux Node Showcase](/wikiGuides/nodeRender.md)
   - [Licensing and Terms](LICENSE.md)
 
 <!-- - **Links**
