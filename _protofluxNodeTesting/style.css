@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../_fonts/Poppins-SemiBold.ttf");
+}
+
+.PFN tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+/* remove img and temp before production */
+.PFN, img {
+  scale: 150%;
+  margin: 32px;
+  margin-top: 62px;
+  margin-bottom: 80px !important;
+  border-spacing: 0;
+  background-color: #12151d;
+  color: white;
+  width: 128px !important;
+  /* temp */
+  display: inline;
+  float: left;
+}
+
+.PFN:hover {
+  background-color: #292d1a;
+}
+
+.PFN thead {
+  background-color: #1a2a36;
+}
+
+.PFN tbody tr {
+  line-height: 8px;
+  height: 16px;
+}
+
+.PFN td,
+.PFN th,
+.PFN tr {
+  border: 0px transparent;
+  padding: 0px;
+}
+
+.PFN-Title,
+.PFN-NodeType {
+  width: 128px;
+  font-family: "Poppins-SemiBold";
+  text-align: center;
+  height: 24px;
+  padding: 0px;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.PFN-NodeType {
+  font-size: 12px;
+  padding: 2px;
+  height: 12px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.PFN-LabelRight,
+.PFN-LabelLeft {
+  font-family: "Poppins-SemiBold";
+  padding: 0px;
+  font-size: 8px;
+  background-repeat: no-repeat;
+}
+
+.PFN-LabelRight {
+  text-align: right;
+  background-position: 100% 50%;
+  background-size: 80px 12px;
+}
+
+.PFN-LabelLeft {
+  background-position: 0% 50%;
+  background-size: 80px 12px;
+}
+
+.PFN-Connector {
+  height: 32px;
+  width: 16px;
+  stroke-width: 2px;
+  padding: 0px;
+  background-image: linear-gradient(black, black) !important;
+}
+
+.PFN-String, .PFN-TriggerString {
+  --color: 255, 0, 0;
+  fill: rgb(var(--color), 0.2);
+  stroke: rgb(var(--color));
+  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
+}
+
+.PFN-Bool {
+  --color: 128, 128, 128;
+  fill: rgb(var(--color), 0);;
+  stroke: rgb(var(--color));
+  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
+}
+
+.PFN-Int {
+  --color: 229, 250, 109;
+  fill: rgb(var(--color), 0.2);
+  stroke: rgb(var(--color));
+  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
+}
+
+.PFN-Double {
+  --color: 0, 128, 128;
+  fill: rgb(var(--color), 0.2);
+  stroke: rgb(var(--color));
+  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
+}

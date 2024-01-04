@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Protoflux test layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <img
+    src="https://cdn.discordapp.com/attachments/295949844843986944/1192151078792347779/image.png?ex=65a80836&is=65959336&hm=faa587aa728c4111fbfab79b6575bab5a49128966de4312c6174b7a36137acdd&"
+    alt="">
+
+  <!-- left connector -->
+  <svg width="16" height="32">
+    <path class="PFN-Connector PFN-String" d="M 0 1 H 15 V 31 H 0" />
+  </svg>
+
+  <!-- right connector -->
+  <svg width="16" height="32">
+    <path class="PFN-Connector PFN-Bool" d="M 32 31 H 1 V 1 H 32" />
+  </svg>
+
+  <!-- trigger -->
+  <svg width="16" height="32">
+    <polygon class="PFN-Connector PFN-String" style="stroke-width: 1px;" points="0.5,0 0.5,32 16,16" />
+  </svg>
+
+  <table class="PFN">
+    <thead>
+      <tr>
+        <th class="PFN-Title" colspan="4">Dynamic Impulse Trigger</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="PFN-Connector PFN-Bool" rowspan="2">
+          <svg width="16" height="32">
+            <path d="M 0 1 H 15 V 31 H 0" />
+          </svg>
+        </td>
+        <td class="PFN-LabelLeft PFN-Bool" colspan="2">Some</td>
+        <td class="PFN-Connector PFN-String" rowspan="2">
+          <svg width="16" height="32">
+            <path d="M 32 31 H 1 V 1 H 32" />
+          </svg>
+        </td>
+      </tr>
+      <tr>
+        <td class="PFN-LabelRight PFN-String">what</td>
+      </tr>
+      <tr>
+        <td class="PFN-Connector PFN-Bool" rowspan="2">
+          <svg width="16" height="32">
+            <path d="M 0 1 H 15 V 31 H 0" />
+          </svg>
+        </td>
+        <td class="PFN-LabelLeft PFN-Bool" colspan="2">Some</td>
+        <td class="PFN-Connector PFN-Int" rowspan="2">
+          <svg width="16" height="32">
+            <path d="M 32 31 H 1 V 1 H 32" />
+          </svg>
+        </td>
+      </tr>
+      <tr>
+        <td class="PFN-LabelRight PFN-Int" colspan="2">they</td>
+      </tr>
+      <tr>
+        <td class="PFN-Connector PFN-Int" rowspan="2">
+          <svg width="16" height="32">
+            <path d="M 0 1 H 15 V 31 H 0" />
+          </svg>
+        </td>
+        <td class="PFN-LabelLeft PFN-Int" colspan="2">Names</td>
+        <td class="PFN-Connector PFN-Bool" rowspan="2">
+          <svg width="16" height="32">
+            <path d="M 32 31 H 1 V 1 H 32" />
+          </svg>
+        </td>
+      </tr>
+      <tr>
+        <td class="PFN-LabelRight PFN-Bool" colspan="2">are</td>
+      </tr>
+      <tr>
+        <td class="PFN-Connector PFN-String" rowspan="2">
+          <svg height="32" width="16">
+            <polygon style="stroke-width: 1px;" points="0.5,0 0.5,32 16,16" />
+          </svg>
+        </td>
+        <td class="PFN-LabelLeft PFN-String" colspan="2">For</td>
+        <td class="PFN-Connector PFN-Int" rowspan="2">
+          <svg width="16" height="32">
+            <path d="M 32 31 H 1 V 1 H 32" />
+          </svg>
+        </td>
+      </tr>
+      <tr>
+        <td class="PFN-LabelRight PFN-Int" colspan="2">are</td>
+      </tr>
+      <tr>
+        <td class="PFN-Connector PFN-String" rowspan="2">
+          <svg height="32" width="16">
+            <polygon style="stroke-width: 1px;" points="0.5,0 0.5,32 16,16" />
+          </svg>
+        </td>
+        <td class="PFN-LabelLeft PFN-String" colspan="2">For</td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td class="PFN-NodeType" colspan="4">Async</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
