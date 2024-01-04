@@ -81,32 +81,12 @@
   background-image: linear-gradient(black, black) !important;
 }
 
-/* Colors */
+/* Color overrides */
 
-.PFN-String, .PFN-TriggerString {
-  --color: 255, 0, 0;
-  fill: rgb(var(--color), 0.2);
-  stroke: rgb(var(--color));
-  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
-}
-
-.PFN-Bool {
-  --color: 128, 128, 128;
-  fill: rgb(var(--color), 0);;
-  stroke: rgb(var(--color));
-  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
-}
-
-.PFN-Int {
-  --color: 229, 250, 109;
-  fill: rgb(var(--color), 0.2);
-  stroke: rgb(var(--color));
-  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
-}
-
-.PFN-Double {
-  --color: 0, 128, 128;
-  fill: rgb(var(--color), 0.2);
-  stroke: rgb(var(--color));
-  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
+.PFN-Boolean {
+  --colorConnector: 115, 115, 115;
+  --colorLabel: rgba(var(--colorConnector), 0.3);
+  fill: rgb(var(--colorConnector), 0.08);
+  stroke: rgb(var(--colorConnector));
+  background-image: linear-gradient(var(--colorLabel), var(--colorLabel));
 }
