@@ -260,4 +260,4 @@ There is a bunch of commands that can be used to manage the headless client with
 | tickRate             | Modifies the headless tickrate                                             | tickRate &#60;number>                          |
 | log                  | Switches to logging mode, press enter to return to the interactive console | log                                            |
 
-[Article by J4](../../_template/usageTerms/J4Credit.md ':include')
+[Article by J4](../_template/usageTerms/J4Credit.md ':include')
