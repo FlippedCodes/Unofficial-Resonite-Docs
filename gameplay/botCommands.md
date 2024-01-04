@@ -1,5 +1,6 @@
 ---
-name: test
+title: "Resonite Bot"
+description: "Resonite Bot commands."
 ---
 
 # Resonite Bot

@@ -1,6 +1,11 @@
-# Cloud Variables
+---
+title: "Cloud variables"
+description: "Using Cloud Variables."
+---
 
-Cloud Variables are variables that persist across worlds.  
+# Cloud Variable
+
+Cloud Variables are variables that persist across worlds.
 They rely on paths and user/group ownership.
 
 Cloud Variables have two parts:

@@ -1,3 +1,8 @@
+---
+title: "Desktop Controls"
+description: "Resonite has a bunch of keybinds available in desktop mode, here is most of them."
+---
+
 # Keybinds
 
 Resonite has a bunch of keybinds available in desktop mode, here is most of them.
