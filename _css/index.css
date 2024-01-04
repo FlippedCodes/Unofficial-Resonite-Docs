@@ -905,7 +905,7 @@ pre:after {
   margin-top: 55px;
   margin-bottom: 80px !important;
   border-spacing: 0;
-  background-color: #12151d;
+  background-color: #11151d;
   color: white;
   width: 128px !important;
 }
@@ -915,7 +915,7 @@ pre:after {
 }
 
 .PFN thead {
-  background-color: #1b2b36;
+  background-color: #1a2a36;
 }
 
 .PFN tbody tr {
