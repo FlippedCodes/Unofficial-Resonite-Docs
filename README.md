@@ -4,13 +4,19 @@
 ![](_images/logo_dark.png#gh-light-mode-only)
 
 > [!NOTE]
-> This project is a WIP. There are plans to automate certain parts of the wiki.
+> This project is a WIP. But there is a "[Roadmap](/README.md#todo-list)"
 
 ## Why
 
-This documentation(/wiki) got created in response to the [Resonite Issue #1](https://github.com/Yellow-Dog-Man/Resonite-Issues/issues/1). Myself and a few involved in this Issue think a static site generator is the better Wiki-Solution for complex Software these days.
+This documentation(/wiki) got created in response to the [Resonite Issue #1](https://github.com/Yellow-Dog-Man/Resonite-Issues/issues/1). Myself and a few involved in the linked issue think a static site generator is the better Wiki-Solution for complex software like resonite. While I personally understand the challenges and learning curve that comes with, I think it is still easier approach what is planned with the official Wiki.
 
 ## Contribute
+
+### I just want to write
+
+While I'm always happy see people trying, I don't want anyone to feel forced using Git and Markdown. If you just want to write something for this documentation without the shortcomings, feel free to shoot me a DM on Discord. My username is [`the.phil.`](https://discord.com/users/172031697355800577). (If possible, please do not send me a friend request and rather contact me in DMs directly through the [Resonite Discord Server](https://discord.gg/resonite).) You can send me anything unformatted and I will try my best to read your mind and make it pretty in Markdown ^^'
+
+### How it works
 
 This documentation is using [Docsify.JS](https://docsify.js.org) with Markdown.
 To run the Wiki locally, please follow the [Docsify.JS instructions](https://docsify.js.org/#/quickstart). You need Node.JS installed on your workstation for the instructions to work.
