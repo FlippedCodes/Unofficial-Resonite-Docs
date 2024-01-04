@@ -10,8 +10,8 @@ Content and the code for the page structure are separately licensed.
 
 > Custom plugins and code edits: Copyright (c) 2024 - present [Unofficial-Resonite-Docs Contributors](https://github.com/FlippedCodes/Unofficial-Resonite-Docs/graphs/contributors)
 >
-> Static Site Generator - Docsify.JS <br>
-> Search plugin <br>
+> Static Site Generator - Docsify.JS </br>
+> Search plugin </br>
 > Image zoom plugin: Copyright (c) 2016 - present [Docsify Contributors](https://github.com/docsifyjs/docsify/graphs/contributors)
 >
 > Docsify Dark Design: Copyright (c) 2020 - present [Boopathi Kumar](https://github.com/boopathikumar018/docsify-darklight-theme)
