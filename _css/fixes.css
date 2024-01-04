@@ -46,3 +46,47 @@
     transform: rotate(360deg);
   }
 }
+
+/* remove border from alerts and set background color to what codeblocks use */
+
+.alert {
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  filter: drop-shadow(0 0 0.5rem var(--custom_dropshadow_color));
+  background-color: var(--codeBackgroundColor) !important;
+}
+
+/*
+Sidebar: 
+  remove white line
+  add drop shadow
+  make it darker
+  move Scrollbar to the left
+*/
+
+.sidebar {
+  border-color: transparent;
+  background-color: var(--codeBackgroundColor);
+  direction: rtl;
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+}
+
+.sidebar-nav {
+  direction: ltr;
+}
+
+.search {
+  direction: ltr;
+}
+
+/* 
+Codeblock:
+  add rounded corners
+  add drop shadow
+*/
+
+pre {
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  border-radius: 0.25rem;
+}
