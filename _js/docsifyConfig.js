@@ -6,7 +6,6 @@ window.$docsify = {
     loadNavbar: true,
     subMaxLevel: 2,
     logo: "/_images/logo_dark.png", // gets converted with css for dark mode
-    // themeColor: '#f8f770', // FIXME: gets ignored by selected design
     formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
     tabs: {
         persist: true,
@@ -18,23 +17,17 @@ window.$docsify = {
     // Search config https://github.com/docsifyjs/docsify/blob/141ac96add9892fcb345551906770c4e9b2265b0/docs/index.html#L105
     search: {
         noData: {
-        // '/es/': '¡No hay resultados!',
-        "/de-de/": "Keine Ergebnisse!",
-        // '/ru-ru/': 'Никаких результатов!',
-        // '/zh-cn/': '没有结果!',
+        // "/de-de/": "Keine Ergebnisse!", example
         "/": "No results!",
         },
         paths: "auto",
         placeholder: {
-        // '/es/': 'Buscar',
-        "/de-de/": "Suche",
-        // '/ru-ru/': 'Поиск',
-        // '/zh-cn/': '搜索',
+        // "/de-de/": "Suche", example
         "/": "Search",
         },
-        pathNamespaces: ["/de-de"],
-        // pathNamespaces: ['/es', '/de-de', '/ru-ru', '/zh-cn'],
+        // pathNamespaces: ["/de-de"],
     },
+    // fallbackLanguages: ['de-de'],
     darklightTheme: {
         dark: { custom_logo_invert: "invert()" },
         light: { custom_logo_invert: "" },
