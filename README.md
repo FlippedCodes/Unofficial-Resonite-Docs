@@ -25,11 +25,11 @@ The plan right now is to make the website fit Resonites branding and get all nee
 
 - [ ] NeosVR MediaWiki import
   - [x] Get all XML files from all articles
-  - [ ] [Run Script](https://github.com/outofcontrol/mediawiki-to-gfm) and convert to Markdown files
+  - [x] [Run Script](https://github.com/outofcontrol/mediawiki-to-gfm) and convert to Markdown files
   - [ ] Try different configurations on how to sort the articles
   - [ ] Consolidate articles for repetitive content and use [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) of files
   - [ ] Decide on how to handle the new Resonite Wikis content. (Import then override?)
-- [ ] Decide on custom URL Routing for Ingame help
+- [x] ~~Decide on custom URL Routing for Ingame help~~ Normal URLs can be used.
 - [ ] Sidebar
   - [ ] [Check, if it can be automated](https://docsify.js.org/#/more-pages?id=sidebar)
   - [ ] Write Script/Setup/Write manually
@@ -38,5 +38,6 @@ The plan right now is to make the website fit Resonites branding and get all nee
   - [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) could work, might need script
 - [x] ~~Create Overrides to convert Githubs Markdown to Docsify.JS~~
   - ~~Noticed on Alert and Info box syntax~~ Fixed with plugin
-- [ ] Add glossary plugin?
-- [ ] Create render plugin to display protoflux nodes with dynamic content.
+- [ ] Add glossary plugin
+- [x] Resonite Theming
+- [x] Create render plugin to display protoflux nodes with dynamic content.
