@@ -72,24 +72,25 @@ Sidebar:
   filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
 }
 
-.sidebar-nav {
-  direction: ltr;
-}
-
+.sidebar-nav,
 .search {
   direction: ltr;
 }
 
 /* 
 Codeblock:
+Image:
   add rounded corners
   add drop shadow
 */
 
-pre {
+pre,
+.medium-zoom-image {
   filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
   border-radius: 0.25rem;
 }
+
+/* Table drop shadow attempt */
 
 /* table {
   filter: drop-shadow(0 0 0.75rem var(--custom_dropshadow_color));
