@@ -9,18 +9,15 @@ A testfile to see if we can render protoflux nodes on the fly with js.
 # Dynamic Impulse Trigger
 
 <!-- ProtofluxNode:start -->
-
-| Side   | Type          | Label |
-| ------ | ------------- | ----- |
-| input  | Bool          | Some  |
-| output | String        | what  |
-| input  | Bool          | Some  |
-| output | Int           | they  |
-| input  | String        | For   |
-| output | Double        | used  |
-| input  | StringTrigger | For   |
-| Async  |               |       |
-
+| Dynamic Impulse Trigger | Type          | Label            |
+| ----------------------- | ------------- | ---------------- |
+| input                   | Bool          | *                |
+| output                  | String        | Next             |
+| input                   | Bool          | Tag              |
+| output                  | Int           | TriggeredCount   |
+| input                   | String        | TargetHierarchy  |
+| input                   | TriggerString | ExcludedDisabled |
+| Async                   |               |                  |
 <!-- ProtofluxNode:end -->
 
 ## Operator
