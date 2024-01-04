@@ -36,9 +36,36 @@ window.$docsify = {
         pathNamespaces: ['/jp', '/kr', '/zh-tw', '/zh-cn'],
     },
     fallbackLanguages: ['jp', 'kr', 'zh-tw', 'zh-cn'],
-    darklightTheme: {
-        dark: { custom_logo_invert: "invert()" },
-        light: { custom_logo_invert: "" },
+    progress: {
+        position: "top",
+        color: "var(--accent)",
+        height: "2px",
     },
-    plugins: [],
+    darklightTheme: {
+        // Theme colors chose according to Resonite color palette
+        dark: {
+            custom_logo_invert: "invert()",
+            accent: '#824aab    ',
+            toogleBackground : '#ffffff',
+            background: '#2b2f35',
+            textColor: '#e1e1e0',
+            codeTextColor : '#e1e1e0',
+            codeBackgroundColor : '#11151d',
+            borderColor : '#e1e1e0',
+            blockQuoteColor : '#858585',
+            highlightColor : '#ae5458',
+        },
+        light: {
+            custom_logo_invert: "",
+            accent: '#e69e50',
+            toogleBackground : '#091a28',
+            background: '#e1e1e0',
+            textColor: '#2b2f35',
+            codeTextColor : '#11151d',
+            codeBackgroundColor : '#fff',
+            borderColor : '#86888b',
+            blockQuoteColor : '#858585',
+            highlightColor : '#ba64f2',
+        },
+    },
 };
