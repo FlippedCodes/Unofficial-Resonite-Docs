@@ -914,13 +914,6 @@ pre:after {
   background-color: #292d1a;
 }
 
-.PFN td,
-.PFN th,
-.PFN tr {
-  border: 0px transparent;
-  padding: 0px;
-}
-
 .PFN thead {
   background-color: #1b2b36;
 }
@@ -928,6 +921,13 @@ pre:after {
 .PFN tbody tr {
   line-height: 8px;
   height: 16px;
+}
+
+.PFN td,
+.PFN th,
+.PFN tr {
+  border: 0px transparent;
+  padding: 0px;
 }
 
 .PFN-Title,
