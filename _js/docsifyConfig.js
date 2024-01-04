@@ -44,7 +44,8 @@ window.$docsify = {
     darklightTheme: {
         // Theme colors chose according to Resonite color palette
         dark: {
-            custom_logo_invert: "invert()",
+            custom_dropshadow_color: 'var(--codeBackgroundColor)',
+            custom_logo_invert: 'invert()',
             accent: '#ba64f2',
             toogleBackground : '#ffffff',
             background: '#2b2f35',
@@ -52,11 +53,11 @@ window.$docsify = {
             codeTextColor : '#e1e1e0',
             codeBackgroundColor : '#11151d',
             borderColor : '#e1e1e0',
-            blockQuoteColor : '#858585',
             highlightColor : '#ae5458',
         },
         light: {
-            custom_logo_invert: "",
+            custom_dropshadow_color: 'var(--borderColor)',
+            custom_logo_invert: '',
             accent: '#e69e50',
             toogleBackground : '#091a28',
             background: '#e1e1e0',
@@ -64,7 +65,6 @@ window.$docsify = {
             codeTextColor : '#11151d',
             codeBackgroundColor : '#fff',
             borderColor : '#86888b',
-            blockQuoteColor : '#858585',
             highlightColor : '#ba64f2',
         },
     },
