@@ -90,8 +90,23 @@ pre,
   border-radius: 0.25rem;
 }
 
-/* Table drop shadow attempt */
+/* Table drop shadow */
 
 /* table {
   filter: drop-shadow(0 0 0.75rem var(--custom_dropshadow_color));
+  border-radius: 6px;
+}
+
+td, th {
+  border-left:solid black 1px;
+  border-top:solid black 1px;
+}
+
+th {
+  background-color: blue;
+  border-top: none;
+}
+
+td:first-child, th:first-child {
+   border-left: none;
 } */
