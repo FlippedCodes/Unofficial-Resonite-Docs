@@ -1,7 +1,7 @@
 # Unofficial Resonite Documentation
 
-![](_images/logo_light.png#gh-dark-mode-only)
-![](_images/logo_dark.png#gh-light-mode-only)
+![](_media/logo_light.png#gh-dark-mode-only)
+![](_media/logo_dark.png#gh-light-mode-only)
 
 > [!NOTE]
 > This project is a WIP. But there is a "[Roadmap](/README.md#todo-list)"

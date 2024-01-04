@@ -6,7 +6,7 @@ window.$docsify = {
     loadSidebar: true,
     loadNavbar: true,
     subMaxLevel: 3,
-    logo: "/_images/logo_dark.png", // gets converted with css for dark mode
+    logo: "/_media/logo_dark.png", // gets converted with css for dark mode
     formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
     tabs: {
         persist: true,

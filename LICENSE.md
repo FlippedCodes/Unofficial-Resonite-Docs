@@ -51,7 +51,7 @@ SOFTWARE.
 
 ## Creative Commons Attribution-ShareAlike 4.0 International
 
-![CC Logo](_images/Cc.svg) ![CC Attribution Logo](_images/Cc-by.svg) ![CC ShareAlike Logo](_images/Cc-sa.svg) 
+![CC Logo](_media/Cc.svg) ![CC Attribution Logo](_media/Cc-by.svg) ![CC ShareAlike Logo](_media/Cc-sa.svg) 
 
 > A simple simplified explanation can be found on [creativecommons.org](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
