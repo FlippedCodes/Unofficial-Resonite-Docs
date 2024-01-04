@@ -2,6 +2,21 @@
 
 Resonite has a bunch of keybinds available in desktop mode, here is most of them.
 
+<!-- panels:start -->
+<!-- div:right-panel -->
+
+## Legend
+
+| Button | Function                         |
+| -----: | :------------------------------- |
+|  `LMB` | Left Mouse Button (left click)   |
+|  `RMB` | Right Mouse Button (right click) |
+| `SCRW` | Scroll Wheel                     |
+
+[Article by J4](../_template/usageTerms/J4Credit.md ':include')
+
+<!-- div:left-panel -->
+
 ## Basic controls
 
 |                                      Button | Function                                                                                                  |
@@ -41,12 +56,4 @@ Resonite has a bunch of keybinds available in desktop mode, here is most of them
 |                                                       `F2` | Toggle Edit Mode           |
 |                                               `CTRL` + `I` | Opens the legacy inventory |
 
-## Legend
-
-| Button | Function                         |
-| -----: | :------------------------------- |
-|  `LMB` | Left Mouse Button (left click)   |
-|  `RMB` | Right Mouse Button (right click) |
-| `SCRW` | Scroll Wheel                     |
-
-[Article by J4](../_template/usageTerms/J4Credit.md ':include')
+<!-- panels:end -->
