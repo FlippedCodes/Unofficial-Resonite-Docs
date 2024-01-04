@@ -1,11 +1,6 @@
 @font-face {
-  font-family: "Poppins-Regular";
-  src: url("Poppins-Regular.ttf");
-}
-
-@font-face {
   font-family: "Poppins-SemiBold";
-  src: url("Poppins-SemiBold.ttf");
+  src: url("../_fonts/Poppins-SemiBold.ttf");
 }
 
 @import url("https://fonts.googleapis.com/css?family=PT+Sans&Source+Sans+Pro&Roboto+Mono&display=swap");
