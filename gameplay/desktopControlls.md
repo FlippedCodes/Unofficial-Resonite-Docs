@@ -9,8 +9,8 @@ Resonite has a bunch of keybinds available in desktop mode, here is most of them
 | `F5`                                     | Enables the third person camera      |
 | `F6`                                     | Enables the freeform camera          | To control it, press CTRL, RMB and use WASD as usual           |
 | `F8`                                     | Switches between VR and Desktop mode | For this to work, you need to launch the game in VR mode first |
-| `SHIFT` + `P` </br> `SHIFT` + `PrintSCR` | Take an instant screenshot           |
-| `CTRL` + `P` </br> `SHIFT` + `PrintSCR`  | Take a screenshot with timer         |
+| `SHIFT` + `P` or </br> `SHIFT` + `PrintSCR` | Take an instant screenshot           |
+| `CTRL` + `P` or </br> `SHIFT` + `PrintSCR`  | Take a screenshot with timer         |
 | `CTRL` + `C`                             | Copy                                 |
 | `CTRL` + `V`                             | Paste                                |
 | `CTRL` + `Z`                             | Undo                                 |
@@ -22,14 +22,14 @@ Resonite has a bunch of keybinds available in desktop mode, here is most of them
 
 | Button                                                       | Function                                                              |
 | ------------------------------------------------------------ | --------------------------------------------------------------------- |
-| `DEL` </br> `CTRL` + `SHIFT` + `D` (while holding an object) | Deletes the object                                                    |
+| `DEL` or </br> `CTRL` + `SHIFT` + `D` (while holding an object) | Deletes the object                                                    |
 | `CTRL` + `D` (while holding an object)                       | Duplicates the object                                                 |
 | `CTRL` + `LBM`                                               | Focus on an UIX panel (useful for inspectors)                         |
-| - `CTRL` + `LMB` on empty space </br> `F5`                   | Focus out                                                             |
+| :arrow_lower_right: `CTRL` + `LMB` on empty space or </br> `F5`                   | Focus out                                                             |
 | `I` (while having a dev tooltip equipped)                    | Opens an inspector                                                    |
 | `CTRL` + `F`                                                 | Focus on the selected object (you will need to select one beforehand) |
-| - `ALT` + `RMB`                                              | Rotates around the focused object                                     |
-| - `ALT` + `RMB` + `SCRW`                                     | Modify the zoom level on the focused object                           |
+| :arrow_lower_right:  `ALT` + `RMB`                                              | Rotates around the focused object                                     |
+| :arrow_lower_right:  `ALT` + `RMB` + `SCRW`                                     | Modify the zoom level on the focused object                           |
 
 ## Other controls
 
@@ -37,7 +37,7 @@ Resonite has a bunch of keybinds available in desktop mode, here is most of them
 | ------------------------------------------------------- | -------------------------- |
 | `M`                                                     | Mutes you                  |
 | `V`                                                     | Push-to-talk (when muted)  |
-| `SHIFT` + Double tap `ESC` </br> `CTRL` + `SHIFT` + `Q` | Emergency world exit       |
+| `SHIFT` + Double tap `ESC` or </br> `CTRL` + `SHIFT` + `Q` | Emergency world exit       |
 | `F2`                                                    | Toggle Edit Mode           |
 | `CTRL` + `I`                                            | Opens the legacy inventory |
 
