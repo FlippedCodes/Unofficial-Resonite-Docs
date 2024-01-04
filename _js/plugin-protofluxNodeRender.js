@@ -110,6 +110,8 @@ function protofluxNodeRender(hook, vm) {
           type: connector[1],
           label: connector[2],
         };
+        if (connectorData.type.includes('\'')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
+        if (connectorData.type.includes('"')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
         // FIXME: Edge case with only one output is not working
         // check if previous entry was the same connector type -> only connectors left on that side
         if (i !== 0 && connectorData.connectorType === connectors[i-1][0]) {
@@ -128,7 +130,7 @@ function protofluxNodeRender(hook, vm) {
         if (connectorData.connectorType === 'input') return table += connectorInputRegular(connectorData);
         if (connectorData.connectorType === 'output') return table += connectorOutputRegular(connectorData);
 
-        console.warn(`Unknown connector type. ${connectorData.label}: ${connectorData.connectorType}`);
+        console.warn(`Unknown connector type. ${connectorData.label}: "${connectorData.connectorType}"`);
       });
 
       table += addType(nodeType);
