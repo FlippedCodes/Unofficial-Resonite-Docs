@@ -1,6 +1,5 @@
 - [About the Wiki](README.md)
 
-
 - Gameplay
   - [Desktop Controls](/gameplay/desktopControlls.md)
 
