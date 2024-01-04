@@ -10,3 +10,39 @@
 .markdown-section th {
   border: 1px solid var(--borderColor);
 }
+
+/* better sidebar arrow viability */
+
+.sidebar-nav ul:not(.app-sub-sidebar) > li:not(.file)::before {
+  top: 13px;
+  border-right: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  transition: transform 0.2s;
+}
+
+/* start animation */
+
+#app {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+#app:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid black;
+  border-color: black transparent black transparent;
+  animation: app 1.2s linear infinite;
+}
+@keyframes app {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
