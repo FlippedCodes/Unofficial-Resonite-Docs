@@ -39,7 +39,7 @@
 <!-- panels:end -->
 
 > [!Warning]
-> Below are not implemented and are not yet final and will change!
+> The nodes below are not yet implemented and will change before being rendered correctly.
 
 ## Operator
 
