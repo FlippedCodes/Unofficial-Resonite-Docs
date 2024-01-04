@@ -1,0 +1,10 @@
+/* Logo darkmode invert */
+
+.app-name-link {
+  filter:  var(--custom_logo_invert);
+}
+
+.markdown-section td,
+.markdown-section th {
+  border: 1px solid var(--borderColor);
+}
