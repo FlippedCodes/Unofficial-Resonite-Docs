@@ -19,10 +19,12 @@ Start command is `docsify serve .`
 
 ## Roadmap
 
-The plan right now is to make the website fit Resonites branding and get all needed Docsify.JS Plugins running. Content wise, I think it is good to start out with what NeosVR offers on their Wiki. and import it. For that [mediawiki-to-gfm](https://github.com/outofcontrol/mediawiki-to-gfm) can be used. But im unsure on how to proceed from there... Specifically, when the Offical Resonite Wiki launches.
+The plan right now is to make the website fit Resonites branding and get all needed Docsify.JS Plugins running. Content wise, I think it is good to start out with what NeosVR offers on their Wiki. and import it. For that [mediawiki-to-gfm](https://github.com/outofcontrol/mediawiki-to-gfm) can be used. But im unsure on how to proceed from there... Specifically, when the Official Resonite Wiki launches.
+[Jae](https://777.tf/) Was so nice and allowed us to use their Wiki content about Resonite in our Docs. [The wiki](https://777.tf/wiki/resonite/) wiki wiki will be source referenced accordingly. Thankies again ^^
 
 ### ToDo List
 
+- [ ] Import Jae's Wiki articles about Resonite
 - [ ] NeosVR MediaWiki import
   - [x] Get all XML files from all articles
   - [x] [Run Script](https://github.com/outofcontrol/mediawiki-to-gfm) and convert to Markdown files
@@ -39,5 +41,7 @@ The plan right now is to make the website fit Resonites branding and get all nee
 - [x] ~~Create Overrides to convert Githubs Markdown to Docsify.JS~~
   - ~~Noticed on Alert and Info box syntax~~ Fixed with plugin
 - [ ] Add glossary plugin
+- [ ] Add Docsify mustache for templating with variables
+- [ ] Test Tabs Plugin
 - [x] Resonite Theming
 - [x] Create render plugin to display protoflux nodes with dynamic content.
