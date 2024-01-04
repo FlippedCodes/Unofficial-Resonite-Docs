@@ -3,7 +3,7 @@
 - Gameplay
   - [Desktop Controls](/gameplay/desktopControlls.md)
   - [Bot Commands](/gameplay/botCommands.md)
-  - [Cloud Variables](/gameplay/cloudVars.md)
+  - [Cloud Variables](/gameplay/advanced/cloudVars.md)
 
 - Wiki Guides And Guidelines
   - [Protoflux Node Showcase](/wikiGuides/nodeRender.md)
