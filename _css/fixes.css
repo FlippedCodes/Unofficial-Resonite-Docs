@@ -90,3 +90,7 @@ pre {
   filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
   border-radius: 0.25rem;
 }
+
+/* table {
+  filter: drop-shadow(0 0 0.75rem var(--custom_dropshadow_color));
+} */
