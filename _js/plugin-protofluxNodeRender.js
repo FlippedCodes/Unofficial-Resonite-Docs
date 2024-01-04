@@ -110,6 +110,7 @@ function protofluxNodeRender(hook, vm) {
           type: connector[1],
           label: connector[2],
         };
+        // FIXME: Edge case with only one output is not working
         // check if previous entry was the same connector type -> only connectors left on that side
         if (i !== 0 && connectorData.connectorType === connectors[i-1][0]) {
           if (connectorData.connectorType === 'input') return table += connectorInputEnd(connectorData);
