@@ -361,7 +361,7 @@ body.sticky .sidebar-toggle {
 }
 .markdown-section td,
 .markdown-section th {
-  border: 1px solid #ddd;
+  border: 1px solid var(--borderColor);
   padding: 6px 13px;
 }
 .markdown-section tr {
