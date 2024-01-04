@@ -1,3 +1,4 @@
+- [Discord](https://discord.gg/resonite)
 - :globe_with_meridians: Language
   - [:uk: English](/)
   - [:jp: 日本語](/jp/)
