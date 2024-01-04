@@ -41,7 +41,7 @@ The plan right now is to make the website fit Resonites branding and get all nee
 - [ ] Sidebar
   - [ ] [Check, if it can be automated](https://docsify.js.org/#/more-pages?id=sidebar)
   - [ ] Write Script/Setup/Write manually
-- [ ] Evaluate if Navbar is needed
+- [x] Evaluate if Navbar is needed: Navbar is needed for language changes and official links
 - [ ] Evaluate MediaWiki Template Support
   - [x] [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) could work, might need script
   - [ ] Is possible: Add [Docsify mustache](https://docsify-mustache.github.io/#/) for templating with variables
@@ -53,3 +53,5 @@ The plan right now is to make the website fit Resonites branding and get all nee
 - [x] Resonite Theming
 - [x] Create render plugin to display protoflux nodes with dynamic content.
 - [ ] Hide drop shadow when sidebar is closed.
+- [ ] Look into how to use Github Pages with Docsify
+- [ ] Fix Light-Dark switcher overlapping with text on mobile.
