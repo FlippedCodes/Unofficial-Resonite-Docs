@@ -17,7 +17,7 @@
 | input                   | Bool          | Tag              |
 | output                  | Int           | TriggeredCount   |
 | input                   | String        | TargetHierarchy  |
-| output                  | Double        | ExcludedDisabled |
+| output                  | Double        | Some Output      |
 | input                   | TriggerString | ExcludedDisabled |
 | Async                   |               |                  |
 <!-- ProtofluxNode:end -->
@@ -32,7 +32,7 @@
 | input                   | Bool          | Tag              |
 | output                  | Int           | TriggeredCount   |
 | input                   | String        | TargetHierarchy  |
-| output                  | Double        | ExcludedDisabled |
+| output                  | Double        | Some Output      |
 | input                   | TriggerString | ExcludedDisabled |
 | Async                   |               |                  |
 <!-- ProtofluxNode:end -->
