@@ -975,32 +975,30 @@ pre:after {
   background-image: linear-gradient(black, black) !important;
 }
 
-.PFN-String {
-  fill: rgb(94, 5, 5);
-  stroke: red;
-  background-image: linear-gradient(red, red);
-}
-
-.PFN-TriggerString {
-  fill: rgb(94, 5, 5);
-  stroke: red;
-  background-image: linear-gradient(red, red);
+.PFN-String, .PFN-TriggerString {
+  --color: 255, 0, 0;
+  fill: rgb(var(--color), 0.2);
+  stroke: rgb(var(--color));
+  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
 }
 
 .PFN-Bool {
-  fill: black;
-  background-image: linear-gradient(gray, gray);
-  stroke: gray;
+  --color: 128, 128, 128;
+  fill: rgb(var(--color), 0);;
+  stroke: rgb(var(--color));
+  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
 }
 
 .PFN-Int {
-  fill: rgba(229, 250, 109, 0.2);
-  background-image: linear-gradient(rgb(229, 250, 109), rgb(229, 250, 109));
-  stroke: rgb(229, 250, 109);
+  --color: 229, 250, 109;
+  fill: rgb(var(--color), 0.2);
+  stroke: rgb(var(--color));
+  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
 }
 
 .PFN-Double {
-  fill: rgba(0, 128, 128, 0.2);
-  background-image: linear-gradient(rgb(0, 128, 128), rgb(0, 128, 128));
-  stroke: rgba(0, 128, 128, 0.2);
+  --color: 0, 128, 128;
+  fill: rgb(var(--color), 0.2);
+  stroke: rgb(var(--color));
+  background-image: linear-gradient(rgb(var(--color)), rgb(var(--color)));
 }
