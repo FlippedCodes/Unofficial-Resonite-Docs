@@ -12,10 +12,10 @@
 <!-- ProtofluxNode:start -->
 | Dynamic Impulse Trigger | Type          | Label            |
 | ----------------------- | ------------- | ---------------- |
-| input                   | Bool          | *                |
+| input                   | Boolean       | *                |
 | output                  | String        | Next             |
-| input                   | Bool          | Tag              |
-| output                  | Int           | TriggeredCount   |
+| input                   | Boolean       | Tag              |
+| output                  | Int32         | TriggeredCount   |
 | input                   | String        | TargetHierarchy  |
 | output                  | Double        | Some Output      |
 | input                   | TriggerString | ExcludedDisabled |
@@ -27,13 +27,13 @@
 <!-- ProtofluxNode:start -->
 | Dynamic Impulse Trigger | Type          | Label            |
 | ----------------------- | ------------- | ---------------- |
-| input                   | Bool          | *                |
+| input                   | Boolean       | *                |
 | output                  | String        | Next             |
-| input                   | Bool          | Tag              |
-| output                  | Int           | TriggeredCount   |
+| input                   | Boolean       | Tag              |
+| output                  | Int32         | TriggeredCount   |
 | input                   | String        | TargetHierarchy  |
 | output                  | Double        | Some Output      |
-| input                   | TriggerString | ExcludedDisabled |
+| input                   | AsyncOperation | ExcludedDisabled |
 | Async                   |               |                  |
 <!-- ProtofluxNode:end -->
 <!-- panels:end -->
