@@ -13,6 +13,7 @@
   background-color: #11151d;
   color: white;
   width: 128px !important;
+  filter: drop-shadow(0 0 0.75rem var(--custom_dropshadow_color));
 }
 
 .PFN:hover {
