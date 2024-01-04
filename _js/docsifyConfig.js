@@ -45,7 +45,7 @@ window.$docsify = {
         // Theme colors chose according to Resonite color palette
         dark: {
             custom_logo_invert: "invert()",
-            accent: '#824aab    ',
+            accent: '#ba64f2',
             toogleBackground : '#ffffff',
             background: '#2b2f35',
             textColor: '#e1e1e0',
