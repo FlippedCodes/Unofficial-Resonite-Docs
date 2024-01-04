@@ -38,10 +38,10 @@
 <!-- ProtofluxNode:end -->
 <!-- panels:end -->
 
-> [!Warning]
-> The nodes below are not yet implemented and will change before being rendered correctly.
-
 ## Operator
+
+> [!Warning]
+> This node-type is not yet implemented. The table will change before being implemented.
 
 | Some function name |     |        |
 | ------------------ | --- | ------ |
@@ -50,6 +50,9 @@
 | Operator           |     |        |
 
 ## Input
+
+> [!Warning]
+> This node-type is not yet implemented. The table will change before being implemented.
 
 ### String
 
