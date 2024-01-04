@@ -6,26 +6,6 @@ A testfile to see if we can render protoflux nodes on the fly with js.
 
 > Edge cases are below.
 
-<!-- |                | Some function name |      |        |
-| -------------- | ------------------ | ---- | ------ |
-| Bool           | Some               | what | String |
-| Bool           | Some               | they | Int    |
-| String         | For                | used | Double |
-| String Trigger | For                |      |        |
-| Async          |                    |      |        |
-
-| Some function name |      |      |        |
-| ------------------ | ---- | ---- | ------ |
-| Bool 1             | Some |      | String |
-| Bool 1             |      | what | String |
-| Bool 2             | Some |      | Int    |
-| Bool 2             |      | they | Int    |
-| String             | For  |      | Bool   |
-| String             |      | are  | Bool   |
-| String Trigger     | For  |      |        |
-| String Trigger     |      |      |        |
-| Async              |      |      |        | -->
-
 # Dynamic Impulse Trigger
 
 <!-- ProtofluxNode:start -->
