@@ -81,6 +81,8 @@
   background-image: linear-gradient(black, black) !important;
 }
 
+/* Colors */
+
 .PFN-String, .PFN-TriggerString {
   --color: 255, 0, 0;
   fill: rgb(var(--color), 0.2);
