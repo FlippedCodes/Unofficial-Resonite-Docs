@@ -893,6 +893,13 @@ pre:after {
 
 /* CUSTOM */
 
+/* Logo Darkmode invert */
+.app-name-link {
+  filter:  var(--custom_logo_invert);
+}
+
+/* Protoflux node render */
+
 .PFN tr:nth-child(2n) {
   background-color: transparent;
 }
