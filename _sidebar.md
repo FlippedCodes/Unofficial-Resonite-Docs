@@ -1,4 +1,3 @@
-- [Patreon Tiers](/patreon.md)
 - Gameplay
   - [Desktop Controls](/gameplay/desktopControlls.md)
   - [Bot Commands](/gameplay/botCommands.md)
@@ -10,6 +9,9 @@
 
 - Headless
   - [Headless Client](/headless/headlessClient.md)
+
+- General Resonite Information
+  - [Patreon Tiers](/general/patreon.md)
 
 - Wiki Guides And Guidelines
   - [About the Wiki](README.md)
