@@ -1,0 +1,19 @@
+<languages/> <translate> Occasionally Resonite' local database may need
+a repair. This can be due to a number of factors, some of which may
+trigger automatic database repair.
+
+# Triggering a manual repair
+
+You can trigger a database repair manually by using the
+`-RepairDatabase` command line argument.
+
+Using this command line argument, differs depending on your platform,
+please follow the guidance below for your platform.
+
+## For the Steam build
+
+## For the Standalone build
+
+</translate>
+
+[Category:Troubleshooting](Category:Troubleshooting "wikilink")

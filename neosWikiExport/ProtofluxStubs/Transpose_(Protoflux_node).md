@@ -1,0 +1,17 @@
+<languages></languages> <translate>
+
+The **Transpose** node outputs a
+[transposed](https://en.wikipedia.org/wiki/Transpose) version of the
+input matrix.
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink") [Transpose
+Float2x2](Category:Protoflux{{#translation:}} "wikilink") [Transpose
+Float2x2](Category:Protoflux:Operators{{#translation:}} "wikilink")

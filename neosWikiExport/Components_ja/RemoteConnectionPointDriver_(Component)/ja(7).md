@@ -1,0 +1,27 @@
+<languages></languages><noinclude>RemoteConnectionPointDriverを使用すると、ターゲットスロットからローカルの位置、ベクトル、向き、およびサイズをDriveできます。TubeWireMeshおよびStripeWireMeshと共に使用して、別のスロットからもう一方のポイントをDriveできます。
+
+## Fields
+
+## Usage
+
+-   It's not a complete physical rope simulator or anything, but it lets
+    you connect two endpoints using the different wire mesh types.
+    \[<https://discord.com/channels/402159838827905024/735381514988159016/884508590776389662>\|
+    Official Discord conversation\]
+-   Hyper convenience components that make tube meshes squishy like
+    neurons \[<https://misskey.Resonite.love/notes/9ayr0ptm5x>\| Post in
+    jp Community\]
+
+## 例
+
+\[<https://discord.com/channels/402159838827905024/469131434628612116/884387788651384882>\|
+Official Discord post when update (2021.9.6.614)\]
+
+## 関係するコンポーネント
+
+<noinclude></noinclude>
+
+[Remote Connection Point
+Driver](Category:Components{{#translation:}} "wikilink") [Remote
+Connection Point
+Driver](Category:Components:Transform:Drivers{{#translation:}} "wikilink")

@@ -1,0 +1,18 @@
+<languages></languages> <translate>
+
+The **Read Cloud Variable\`1** node is used to read a `Value` from an
+existing cloud variable specified by `Path` for the user specified in
+`VariableOwnerId`
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink") [Read
+Cloud Variable\`1](Category:Protoflux{{#translation:}} "wikilink") [Read
+Cloud
+Variable\`1](Category:Protoflux:Variables{{#translation:}} "wikilink")

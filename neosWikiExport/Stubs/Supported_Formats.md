@@ -1,0 +1,220 @@
+<languages/> <translate> As Resonite allows you to import many types of
+assets, directly from your computer it can be unclear what formats are
+supported. This page, presents a list of Supported formats for various
+types of Assets. It is not intended to show you how to import these
+assets or how to manipulate them. Please see the related pages section
+for links to articles that do cover these items.
+
+**THIS LIST IS A WORK IN PROGRESS AND NOT COMPLETE**
+
+-   [Image Formats](Image_Import "wikilink")
+-   [3D Model Formats](3D_Model_Import "wikilink")
+
+# Text
+
+Plain text files encoded in UTF-8 are supported for import. When
+imported, the contents of the text file are viewable in a text box.
+Files supporting this format will show up in the file browser as light
+red.
+
+## Supported file extensions
+
+-   .txt
+
+# Font
+
+Fonts are supported for import. Files supporting this format do not have
+an assigned color, so they will show up as grey.
+
+## Supported file extensions
+
+-   .ttf
+-   .otf
+-   .woff
+
+# Audio
+
+Resonite uses the [cscore](https://github.com/Resonite-Metaverse/cscore)
+library for playing other multimedia formats such as audio. The audio
+subsystem of Resonite supports less formats but is more stable than the
+general multimedia subsystem. Files supporting this format will show up
+in the file browser as light blue.
+
+## Supported file extensions
+
+-   .wav
+-   .ogg
+-   .flac
+
+## Container formats
+
+-   RIFF/WAV
+-   Ogg
+
+## Codecs
+
+-   PCM
+-   Vorbis
+-   FLAC
+
+# General multimedia
+
+Resonite uses the
+[UMP](https://assetstore.unity.com/packages/tools/video/ump-win-mac-linux-webgl-49625)
+library for playing other multimedia formats such as video and audio.
+Files supporting this format will show up in the file browser as light
+purple.
+
+## Supported file extensions
+
+-   .3gp
+-   .aac
+-   .ac3
+-   .ape
+-   .avi
+-   .flv
+-   .m4a
+-   .mka
+-   .mkv
+-   .mov
+-   .mp2
+-   .mp3
+-   .mp4
+-   .webm
+
+## Container formats
+
+-   adaptive
+-   aiff
+-   asf
+-   au
+-   avi
+-   caf
+-   demux_cdg
+-   demux_chromecast
+-   demux_stl
+-   demuxdump
+-   diracsys
+-   directory_demux
+-   es
+-   flacsys
+-   gme
+-   h26x
+-   image
+-   mjpeg
+-   mkv
+-   mod
+-   mp4
+-   mpc
+-   mpgv
+-   noseek
+-   nsc
+-   nsv
+-   nuv
+-   ogg
+-   playlist
+-   ps
+-   pva
+-   rawaud
+-   rawdv
+-   rawvid
+-   real
+-   sid
+-   smf
+-   subtitle
+-   ts
+-   tta
+-   ty
+-   vc1
+-   vobsub
+-   voc
+-   wav
+-   xa
+
+## Codecs
+
+-   a52
+-   adpcm
+-   aes3
+-   aom
+-   araw
+-   aribsub
+-   avcodec
+-   cc
+-   cdg
+-   crystalhd
+-   cvdsub
+-   d3d11va
+-   dav1d
+-   dca
+-   ddummy
+-   dmo
+-   dvbsub
+-   dxva2
+-   edummy
+-   faad
+-   flac
+-   fluidsynth
+-   g711
+-   jpeg
+-   kate
+-   libass
+-   libmpeg2
+-   lpcm
+-   mft
+-   mpg123
+-   oggspots
+-   opus
+-   png
+-   qsv
+-   rawvideo
+-   rtpvideo
+-   schroedinger
+-   scte18
+-   scte27
+-   sdl_image
+-   spdif
+-   speex
+-   spudec
+-   stl
+-   subsdec
+-   substx3g
+-   subsusf
+-   svcdsub
+-   t140
+-   textst
+-   theora
+-   ttml
+-   twolame
+-   uleaddvaudio
+-   vorbis
+-   vpx
+-   webvtt
+-   x26410b
+-   x264
+-   x265
+-   zvbi
+
+# Resonite Datamodel
+
+Resonite datamodel files are compressed with either LZMA or LZ4 and
+serialized in the BSON format. These files do not contain any referenced
+assets such as meshes and textures.
+
+## Supported file extensions
+
+-   .7zbson
+-   .lz4bson
+
+# Raw
+
+Raw files are supported for import. An unhandled file extension will
+import as a raw file by default. A handled file can be imported as a raw
+file by clicking the orange file icon in the File Browser. Raw files are
+not converted in any way when exporting from Resonite.
+
+## Supported file extensions
+
+-   .\*
+
+</translate>

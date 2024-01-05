@@ -1,0 +1,2 @@
+[Variables](Category:Protoflux{{#translation:}} "wikilink")
+[Variables](Category:NodeMenu{{#translation:}} "wikilink")

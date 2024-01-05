@@ -1,0 +1,36 @@
+<languages></languages> <translate>
+
+The **Websocket Text Message Sender** node sends a string specified by
+`Data` to the websocket endpoint specified by `Client`
+
+## Usage
+
+Once a connection has been initialized by a [Websocket Connect
+node](Websocket_Connect_(Protoflux_node) "wikilink"), and the
+`Connected` event has been received on a [Websocket Connection Events
+node](Websocket_Connection_Events_(Protoflux_node) "wikilink"), this
+node can be used to send strings to the target endpoint.
+
+`OnSendStart` indicates that the `Data` string has began transmitting.
+
+`OnSent` indicates that the `Data` string has finished transmitting
+successfully.
+
+`OnSendError` indicates that the `Data` string failed to transmit -
+either the socket is no longer connected, or some other error occurred
+during transmission.
+
+If the send was successful, `SentData` contains the string that was
+originally given as `Data` - this is useful in cases where `Data`'s
+value has changed between the `Send` impulse, and the `OnSent` impulse.
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink") [Websocket
+Text Message Sender](Category:Protoflux{{#translation:}} "wikilink")
+[Websocket Text Message
+Sender](Category:Protoflux:Network:Websocket{{#translation:}} "wikilink")

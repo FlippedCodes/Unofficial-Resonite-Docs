@@ -1,0 +1,1 @@
+1.  REDIRECT [Template:NodeMenu-Math](Template:NodeMenu-Math "wikilink")

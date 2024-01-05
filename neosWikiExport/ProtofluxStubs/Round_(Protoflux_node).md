@@ -1,0 +1,19 @@
+<languages></languages> <translate>
+
+The **Round** node outputs the value N rounded to the nearest integer.
+Note that this node returns an float instead of an integer. Because
+floating-point errors can occur when using floats, this node may offer
+less precision and reliability than would otherwise be attainable with
+the [Round To Int](Round_To_Int_(Protoflux_node) "wikilink") node.
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink") [Round
+Float](Category:Protoflux{{#translation:}} "wikilink") [Round
+Float](Category:Protoflux:Math{{#translation:}} "wikilink")

@@ -1,0 +1,19 @@
+<languages></languages> <translate>
+
+The **Adder** node can be used to simulate the behavior of a [hardware
+full adder
+circuit](https://en.wikipedia.org/wiki/Adder_(electronics)#Full_adder).
+It accepts two input bits plus a carry-in and returns the addition
+result plus a carry-out.
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink")
+[Adder](Category:Protoflux{{#translation:}} "wikilink")
+[Adder](Category:Protoflux:Math:Binary{{#translation:}} "wikilink")

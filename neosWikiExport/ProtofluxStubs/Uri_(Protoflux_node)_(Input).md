@@ -1,0 +1,33 @@
+<languages></languages> <translate>
+
+The **Uri** node outputs a Uri, based on a string entered into the node.
+
+## Usage
+
+## Examples
+
+## Related Issues
+
+[<s>#2995 - World exception on URI field if not typing out a full
+URI</s>](https://github.com/Resonite-Metaverse/ResonitePublic/issues/2995)
+
+[<s>#2996 - URI input Node can't use it with
+secondary</s>](https://github.com/Resonite-Metaverse/ResonitePublic/issues/2996)
+
+[<s>#3010 - URI Node crashes if field is empty and enter is
+presses</s>](https://github.com/Resonite-Metaverse/ResonitePublic/issues/3010)
+
+[<s>#3048 - URI input field crashes the session if a non-host user
+backspaces the
+contents</s>](https://github.com/Resonite-Metaverse/ResonitePublic/issues/3048)
+
+[#3495 - Cannot save URI input node with invalid URI in
+it.](https://github.com/Resonite-Metaverse/ResonitePublic/issues/3495)
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink")
+[Uri](Category:Protoflux{{#translation:}} "wikilink")
+[Uri](Category:Protoflux:Input{{#translation:}} "wikilink")

@@ -1,0 +1,16 @@
+<languages></languages> <translate>
+
+The **Display** node displays the current value of the Datatype. Create
+this node by Dragging a Datatype and pressing the [Secondary Action
+Button](Controls "wikilink").
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink") [Display
+Dummy](Category:Protoflux{{#translation:}} "wikilink")

@@ -1,0 +1,16 @@
+<languages></languages> <translate>
+
+The **Nᵗʰ Root** node outputs the [Nth
+root](https://en.wikipedia.org/wiki/Nth_root) of the input value.
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink") [Nᵗʰ
+Root](Category:Protoflux{{#translation:}} "wikilink") [Nᵗʰ
+Root](Category:Protoflux:Math{{#translation:}} "wikilink")

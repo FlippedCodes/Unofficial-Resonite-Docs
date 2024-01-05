@@ -1,0 +1,18 @@
+<languages></languages> <translate>
+
+The **Tan** node returns the output of the [tangent
+function](https://en.wikipedia.org/wiki/Trigonometric_functions#tan)
+according to an input in
+[radians](https://en.wikipedia.org/wiki/Radian).
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink") [Tan
+Float](Category:Protoflux{{#translation:}} "wikilink") [Tan
+Float](Category:Protoflux:Math{{#translation:}} "wikilink")

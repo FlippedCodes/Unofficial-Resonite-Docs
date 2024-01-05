@@ -1,0 +1,19 @@
+<languages></languages> <translate>
+
+The **Escape String** node escapes the provided text using the [C# regex
+escape
+method](https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex.escape?view=net-5.0).
+
+Note: This implementation escapes whitespace.
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink") [Escape
+String](Category:Protoflux{{#translation:}} "wikilink") [Escape
+String](Category:Protoflux:String{{#translation:}} "wikilink")

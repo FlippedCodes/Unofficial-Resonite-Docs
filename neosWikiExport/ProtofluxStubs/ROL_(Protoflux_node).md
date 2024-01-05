@@ -1,0 +1,17 @@
+<languages></languages> <translate>
+
+The **ROL** node outputs an integer that has had its binary value
+[circularly shifted](https://en.wikipedia.org/wiki/Circular_shift) X
+units to the left.
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[Category:ProtofluxStubs](Category:ProtofluxStubs "wikilink")
+[ROL](Category:Protoflux{{#translation:}} "wikilink")
+[ROL](Category:Protoflux:Operators{{#translation:}} "wikilink")

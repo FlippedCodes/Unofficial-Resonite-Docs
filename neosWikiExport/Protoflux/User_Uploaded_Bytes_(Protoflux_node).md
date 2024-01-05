@@ -1,0 +1,29 @@
+<languages></languages> <translate> The **User Uploaded Bytes** node.
+
+## Inputs & Outputs
+
+|       |       |      |
+|-------|-------|------|
+| Color | Label | Type |
+|       | User  | User |
+
+Inputs
+
+|       |       |       |
+|-------|-------|-------|
+| Color | Label | Type  |
+|       | \*    | Ulong |
+
+Outputs
+
+## Usage
+
+## Examples
+
+## Node Menu
+
+</translate>
+
+[User Uploaded Bytes (Protoflux node)](Category:Protoflux "wikilink")
+[User Uploaded Bytes (Protoflux
+node)](Category:Protoflux:Users "wikilink")
