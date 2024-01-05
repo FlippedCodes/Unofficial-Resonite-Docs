@@ -2,6 +2,18 @@ const regexGet = /<!-- ProtofluxNode:start -->(.*?)<!-- ProtofluxNode:end -->/gs
 
 const regexReplace = /<!-- ProtofluxNode:start -->(.*?)<!-- ProtofluxNode:end -->/s;
 
+const triggerTypes = [
+  'SyncOperation',
+  'AsyncOperation',
+  'Continuation',
+  'Call',
+  'AsyncCall',
+  'SyncResumption',
+  'AsyncResumption',
+  'SyncOperation',
+  'AsyncOperation'
+];
+
 const leftConnector = `
     <svg width="16" height="32">
       <path d="M 0 1 H 15 V 31 H 0"/>
@@ -41,14 +53,14 @@ const addType = (type) => `
 const connectorInputRegular = (data) => `
 <tr>
   <td class="PFN-Connector PFN-${data.type}" rowspan="2">
-    ${data.type.startsWith('Trigger') ? triggerConnector : leftConnector}
+    ${triggerTypes.includes(data.type) ? triggerConnector : leftConnector}
   </td>
   <td class="PFN-LabelLeft PFN-${data.type}" colspan="2">${data.label}</td>
 `;
 
 const connectorOutputRegular = (data) => `
   <td class="PFN-Connector PFN-${data.type}" rowspan="2">
-    ${data.type.startsWith('Trigger') ? triggerConnector : rightConnector}
+    ${triggerTypes.includes(data.type) ? triggerConnector : rightConnector}
   </td>
 </tr>
 <tr>
@@ -60,7 +72,7 @@ const connectorOutputEnd = (data) => `
 <tr>
   <td rowspan="2"></td>
   <td class="PFN-Connector PFN-${data.type}" rowspan="2">
-    ${data.type.startsWith('Trigger') ? triggerConnector : rightConnector}
+    ${triggerTypes.includes(data.type) ? triggerConnector : rightConnector}
   </td>
 </tr>
 <tr>
@@ -72,7 +84,7 @@ const connectorOutputEnd = (data) => `
 const connectorInputEnd = (data) => `
 <tr>
   <td class="PFN-Connector PFN-${data.type}" rowspan="2">
-  ${data.type.startsWith('Trigger') ? triggerConnector : leftConnector}
+  ${triggerTypes.includes(data.type) ? triggerConnector : leftConnector}
   </td>
   <td class="PFN-LabelLeft PFN-${data.type}" colspan="2">${data.label}</td>
 </tr>
