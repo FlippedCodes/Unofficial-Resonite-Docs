@@ -5,6 +5,7 @@ window.$docsify = {
     auto2top: true,
     loadSidebar: true,
     loadNavbar: true,
+    mergeNavbar: true,
     subMaxLevel: 3,
     logo: "/_media/logo_dark.png", // gets converted with css for dark mode
     formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
