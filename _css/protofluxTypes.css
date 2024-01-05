@@ -4,445 +4,446 @@
  *************************************************************************/
 
  .PFN-Continuation {
-  stroke: rgb(162, 162, 113);
-  fill: rgb(162, 162, 113, 0.2);
-  background-image: linear-gradient(rgba(162, 162, 113, 0.3), rgba(162, 162, 113, 0.3));
+  stroke: rgb(255, 255, 179);
+  fill: rgb(255, 255, 179, 0.174);
+  background-image: linear-gradient(rgba(255, 255, 179, 0.7), rgba(255, 255, 179, 0.7));
 }
 
 .PFN-Call {
-  stroke: rgb(113, 162, 162);
-  fill: rgb(113, 162, 162, 0.2);
-  background-image: linear-gradient(rgba(113, 162, 162, 0.3), rgba(113, 162, 162, 0.3));
+  stroke: rgb(179, 255, 255);
+  fill: rgb(179, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(179, 255, 255, 0.7), rgba(179, 255, 255, 0.7));
 }
 
 .PFN-AsyncCall {
-  stroke: rgb(140, 122, 175);
-  fill: rgb(140, 122, 175, 0.2);
-  background-image: linear-gradient(rgba(140, 122, 175, 0.3), rgba(140, 122, 175, 0.3));
+  stroke: rgb(204, 179, 255);
+  fill: rgb(204, 179, 255, 0.174);
+  background-image: linear-gradient(rgba(204, 179, 255, 0.7), rgba(204, 179, 255, 0.7));
 }
 
 .PFN-SyncResumption {
-  stroke: rgb(127, 127, 181);
-  fill: rgb(127, 127, 181, 0.2);
-  background-image: linear-gradient(rgba(127, 127, 181, 0.3), rgba(127, 127, 181, 0.3));
+  stroke: rgb(179, 179, 255);
+  fill: rgb(179, 179, 255, 0.174);
+  background-image: linear-gradient(rgba(179, 179, 255, 0.7), rgba(179, 179, 255, 0.7));
 }
 
 .PFN-AsyncResumption {
-  stroke: rgb(181, 127, 127);
-  fill: rgb(181, 127, 127, 0.2);
-  background-image: linear-gradient(rgba(181, 127, 127, 0.3), rgba(181, 127, 127, 0.3));
+  stroke: rgb(255, 179, 179);
+  fill: rgb(255, 179, 179, 0.174);
+  background-image: linear-gradient(rgba(255, 179, 179, 0.7), rgba(255, 179, 179, 0.7));
 }
 
 .PFN-SyncOperation {
-  stroke: rgb(113, 162, 162);
-  fill: rgb(113, 162, 162, 0.2);
-  background-image: linear-gradient(rgba(113, 162, 162, 0.3), rgba(113, 162, 162, 0.3));
+  stroke: rgb(179, 255, 255);
+  fill: rgb(179, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(179, 255, 255, 0.7), rgba(179, 255, 255, 0.7));
 }
 
 .PFN-AsyncOperation {
-  stroke: rgb(140, 122, 175);
-  fill: rgb(140, 122, 175, 0.2);
-  background-image: linear-gradient(rgba(140, 122, 175, 0.3), rgba(140, 122, 175, 0.3));
+  stroke: rgb(204, 179, 255);
+  fill: rgb(204, 179, 255, 0.174);
+  background-image: linear-gradient(rgba(204, 179, 255, 0.7), rgba(204, 179, 255, 0.7));
 }
 
 .PFN-Boolean {
-  stroke: rgb(147, 147, 147);
-  fill: rgb(147, 147, 147, 0.2);
-  background-image: linear-gradient(rgba(147, 147, 147, 0.3), rgba(147, 147, 147, 0.3));
+  stroke: rgb(115, 115, 115);
+  fill: rgb(115, 115, 115, 0.174);
+  background-image: linear-gradient(rgba(115, 115, 115, 0.7), rgba(115, 115, 115, 0.7));
 }
 
 .PFN-Byte {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-UInt16 {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-UInt32 {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-UInt64 {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-SByte {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-Int16 {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-Int32 {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-Int64 {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-Single {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-Double {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-Decimal {
   stroke: rgb(0, 0, 255);
-  fill: rgb(0, 0, 255, 0.2);
-  background-image: linear-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3));
+  fill: rgb(0, 0, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 0, 255, 0.7), rgba(0, 0, 255, 0.7));
 }
 
 .PFN-Char {
-  stroke: rgb(210, 143, 27);
-  fill: rgb(210, 143, 27, 0.2);
-  background-image: linear-gradient(rgba(210, 143, 27, 0.3), rgba(210, 143, 27, 0.3));
+  stroke: rgb(245, 167, 32);
+  fill: rgb(245, 167, 32, 0.174);
+  background-image: linear-gradient(rgba(245, 167, 32, 0.7), rgba(245, 167, 32, 0.7));
 }
 
 .PFN-String {
-  stroke: rgb(251, 32, 32);
-  fill: rgb(251, 32, 32, 0.2);
-  background-image: linear-gradient(rgba(251, 32, 32, 0.3), rgba(251, 32, 32, 0.3));
+  stroke: rgb(245, 32, 32);
+  fill: rgb(245, 32, 32, 0.174);
+  background-image: linear-gradient(rgba(245, 32, 32, 0.7), rgba(245, 32, 32, 0.7));
 }
 
 .PFN-Uri {
-  stroke: rgb(138, 55, 207);
-  fill: rgb(138, 55, 207, 0.2);
-  background-image: linear-gradient(rgba(138, 55, 207, 0.3), rgba(138, 55, 207, 0.3));
+  stroke: rgb(124, 50, 187);
+  fill: rgb(124, 50, 187, 0.174);
+  background-image: linear-gradient(rgba(124, 50, 187, 0.7), rgba(124, 50, 187, 0.7));
 }
 
 .PFN-bool2 {
-  stroke: rgb(147, 147, 147);
-  fill: rgb(147, 147, 147, 0.2);
-  background-image: linear-gradient(rgba(147, 147, 147, 0.3), rgba(147, 147, 147, 0.3));
+  stroke: rgb(115, 115, 115);
+  fill: rgb(115, 115, 115, 0.174);
+  background-image: linear-gradient(rgba(115, 115, 115, 0.7), rgba(115, 115, 115, 0.7));
 }
 
 .PFN-uint2 {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-ulong2 {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-int2 {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-long2 {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-float2 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-double2 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-bool3 {
-  stroke: rgb(147, 147, 147);
-  fill: rgb(147, 147, 147, 0.2);
-  background-image: linear-gradient(rgba(147, 147, 147, 0.3), rgba(147, 147, 147, 0.3));
+  stroke: rgb(115, 115, 115);
+  fill: rgb(115, 115, 115, 0.174);
+  background-image: linear-gradient(rgba(115, 115, 115, 0.7), rgba(115, 115, 115, 0.7));
 }
 
 .PFN-uint3 {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-ulong3 {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-int3 {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-long3 {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-float3 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-double3 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-bool4 {
-  stroke: rgb(147, 147, 147);
-  fill: rgb(147, 147, 147, 0.2);
-  background-image: linear-gradient(rgba(147, 147, 147, 0.3), rgba(147, 147, 147, 0.3));
+  stroke: rgb(115, 115, 115);
+  fill: rgb(115, 115, 115, 0.174);
+  background-image: linear-gradient(rgba(115, 115, 115, 0.7), rgba(115, 115, 115, 0.7));
 }
 
 .PFN-uint4 {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-ulong4 {
-  stroke: rgb(0, 228, 114);
-  fill: rgb(0, 228, 114, 0.2);
-  background-image: linear-gradient(rgba(0, 228, 114, 0.3), rgba(0, 228, 114, 0.3));
+  stroke: rgb(0, 255, 128);
+  fill: rgb(0, 255, 128, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 128, 0.7), rgba(0, 255, 128, 0.7));
 }
 
 .PFN-int4 {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-long4 {
   stroke: rgb(0, 255, 0);
-  fill: rgb(0, 255, 0, 0.2);
-  background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+  fill: rgb(0, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 0, 0.7), rgba(0, 255, 0, 0.7));
 }
 
 .PFN-float4 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-double4 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-float2x2 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-double2x2 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-float3x3 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-double3x3 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-float4x4 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-double4x4 {
-  stroke: rgb(0, 180, 180);
-  fill: rgb(0, 180, 180, 0.2);
-  background-image: linear-gradient(rgba(0, 180, 180, 0.3), rgba(0, 180, 180, 0.3));
+  stroke: rgb(0, 255, 255);
+  fill: rgb(0, 255, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7));
 }
 
 .PFN-floatQ {
-  stroke: rgb(0, 114, 228);
-  fill: rgb(0, 114, 228, 0.2);
-  background-image: linear-gradient(rgba(0, 114, 228, 0.3), rgba(0, 114, 228, 0.3));
+  stroke: rgb(0, 128, 255);
+  fill: rgb(0, 128, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 128, 255, 0.7), rgba(0, 128, 255, 0.7));
 }
 
 .PFN-doubleQ {
-  stroke: rgb(0, 114, 228);
-  fill: rgb(0, 114, 228, 0.2);
-  background-image: linear-gradient(rgba(0, 114, 228, 0.3), rgba(0, 114, 228, 0.3));
+  stroke: rgb(0, 128, 255);
+  fill: rgb(0, 128, 255, 0.174);
+  background-image: linear-gradient(rgba(0, 128, 255, 0.7), rgba(0, 128, 255, 0.7));
 }
 
 .PFN-DateTime {
-  stroke: rgb(127, 136, 174);
-  fill: rgb(127, 136, 174, 0.2);
-  background-image: linear-gradient(rgba(127, 136, 174, 0.3), rgba(127, 136, 174, 0.3));
+  stroke: rgb(186, 199, 255);
+  fill: rgb(186, 199, 255, 0.174);
+  background-image: linear-gradient(rgba(186, 199, 255, 0.7), rgba(186, 199, 255, 0.7));
 }
 
 .PFN-TimeSpan {
-  stroke: rgb(115, 161, 161);
-  fill: rgb(115, 161, 161, 0.2);
-  background-image: linear-gradient(rgba(115, 161, 161, 0.3), rgba(115, 161, 161, 0.3));
+  stroke: rgb(169, 236, 235);
+  fill: rgb(169, 236, 235, 0.174);
+  background-image: linear-gradient(rgba(169, 236, 235, 0.7), rgba(169, 236, 235, 0.7));
 }
 
 .PFN-color {
-  stroke: rgb(180, 180, 0);
-  fill: rgb(180, 180, 0, 0.2);
-  background-image: linear-gradient(rgba(180, 180, 0, 0.3), rgba(180, 180, 0, 0.3));
+  stroke: rgb(255, 255, 0);
+  fill: rgb(255, 255, 0, 0.174);
+  background-image: linear-gradient(rgba(255, 255, 0, 0.7), rgba(255, 255, 0, 0.7));
 }
 
 .PFN-colorX {
-  stroke: rgb(228, 114, 0);
-  fill: rgb(228, 114, 0, 0.2);
-  background-image: linear-gradient(rgba(228, 114, 0, 0.3), rgba(228, 114, 0, 0.3));
+  stroke: rgb(255, 128, 0);
+  fill: rgb(255, 128, 0, 0.174);
+  background-image: linear-gradient(rgba(255, 128, 0, 0.7), rgba(255, 128, 0, 0.7));
 }
 
 .PFN-ShadowCastMode {
-  stroke: rgb(152, 170, 115);
-  fill: rgb(152, 170, 115, 0.2);
-  background-image: linear-gradient(rgba(152, 170, 115, 0.3), rgba(152, 170, 115, 0.3));
+  stroke: rgb(213, 237, 160);
+  fill: rgb(213, 237, 160, 0.174);
+  background-image: linear-gradient(rgba(213, 237, 160, 0.7), rgba(213, 237, 160, 0.7));
 }
 
 .PFN-LightType {
-  stroke: rgb(70, 187, 158);
-  fill: rgb(70, 187, 158, 0.2);
-  background-image: linear-gradient(rgba(70, 187, 158, 0.3), rgba(70, 187, 158, 0.3));
+  stroke: rgb(65, 176, 148);
+  fill: rgb(65, 176, 148, 0.174);
+  background-image: linear-gradient(rgba(65, 176, 148, 0.7), rgba(65, 176, 148, 0.7));
 }
 
 .PFN-SessionAccessLevel {
-  stroke: rgb(159, 107, 168);
-  fill: rgb(159, 107, 168, 0.2);
-  background-image: linear-gradient(rgba(159, 107, 168, 0.3), rgba(159, 107, 168, 0.3));
+  stroke: rgb(241, 163, 255);
+  fill: rgb(241, 163, 255, 0.174);
+  background-image: linear-gradient(rgba(241, 163, 255, 0.7), rgba(241, 163, 255, 0.7));
 }
 
 .PFN-Key {
-  stroke: rgb(108, 222, 63);
-  fill: rgb(108, 222, 63, 0.2);
-  background-image: linear-gradient(rgba(108, 222, 63, 0.3), rgba(108, 222, 63, 0.3));
+  stroke: rgb(124, 255, 73);
+  fill: rgb(124, 255, 73, 0.174);
+  background-image: linear-gradient(rgba(124, 255, 73, 0.7), rgba(124, 255, 73, 0.7));
 }
 
 .PFN-HttpStatusCode {
-  stroke: rgb(164, 185, 62);
-  fill: rgb(164, 185, 62, 0.2);
-  background-image: linear-gradient(rgba(164, 185, 62, 0.3), rgba(164, 185, 62, 0.3));
+  stroke: rgb(223, 253, 85);
+  fill: rgb(223, 253, 85, 0.174);
+  background-image: linear-gradient(rgba(223, 253, 85, 0.7), rgba(223, 253, 85, 0.7));
 }
 
 .PFN-HeadOutputDevice {
-  stroke: rgb(161, 101, 170);
-  fill: rgb(161, 101, 170, 0.2);
-  background-image: linear-gradient(rgba(161, 101, 170, 0.3), rgba(161, 101, 170, 0.3));
+  stroke: rgb(242, 152, 255);
+  fill: rgb(242, 152, 255, 0.174);
+  background-image: linear-gradient(rgba(242, 152, 255, 0.7), rgba(242, 152, 255, 0.7));
 }
 
 .PFN-Clear {
-  stroke: rgb(231, 80, 73);
-  fill: rgb(231, 80, 73, 0.2);
-  background-image: linear-gradient(rgba(231, 80, 73, 0.3), rgba(231, 80, 73, 0.3));
+  stroke: rgb(222, 77, 70);
+  fill: rgb(222, 77, 70, 0.174);
+  background-image: linear-gradient(rgba(222, 77, 70, 0.7), rgba(222, 77, 70, 0.7));
 }
 
 .PFN-Type {
-  stroke: rgb(208, 138, 55);
-  fill: rgb(208, 138, 55, 0.2);
-  background-image: linear-gradient(rgba(208, 138, 55, 0.3), rgba(208, 138, 55, 0.3));
+  stroke: rgb(255, 169, 67);
+  fill: rgb(255, 169, 67, 0.174);
+  background-image: linear-gradient(rgba(255, 169, 67, 0.7), rgba(255, 169, 67, 0.7));
 }
 
 .PFN-TimeSlicingMode {
-  stroke: rgb(114, 200, 110);
-  fill: rgb(114, 200, 110, 0.2);
-  background-image: linear-gradient(rgba(114, 200, 110, 0.3), rgba(114, 200, 110, 0.3));
+  stroke: rgb(145, 255, 140);
+  fill: rgb(145, 255, 140, 0.174);
+  background-image: linear-gradient(rgba(145, 255, 140, 0.7), rgba(145, 255, 140, 0.7));
 }
 
 .PFN-CameraClearMode {
-  stroke: rgb(69, 235, 69);
-  fill: rgb(69, 235, 69, 0.2);
-  background-image: linear-gradient(rgba(69, 235, 69, 0.3), rgba(69, 235, 69, 0.3));
+  stroke: rgb(34, 115, 34);
+  fill: rgb(34, 115, 34, 0.174);
+  background-image: linear-gradient(rgba(34, 115, 34, 0.7), rgba(34, 115, 34, 0.7));
 }
 
 .PFN-CameraPositioningMode {
-  stroke: rgb(198, 139, 80);
-  fill: rgb(198, 139, 80, 0.2);
-  background-image: linear-gradient(rgba(198, 139, 80, 0.3), rgba(198, 139, 80, 0.3));
+  stroke: rgb(228, 160, 92);
+  fill: rgb(228, 160, 92, 0.174);
+  background-image: linear-gradient(rgba(228, 160, 92, 0.7), rgba(228, 160, 92, 0.7));
 }
 
 .PFN-CameraProjection {
-  stroke: rgb(50, 185, 168);
-  fill: rgb(50, 185, 168, 0.2);
-  background-image: linear-gradient(rgba(50, 185, 168, 0.3), rgba(50, 185, 168, 0.3));
+  stroke: rgb(69, 255, 231);
+  fill: rgb(69, 255, 231, 0.174);
+  background-image: linear-gradient(rgba(69, 255, 231, 0.7), rgba(69, 255, 231, 0.7));
 }
 
 .PFN-ZWrite {
-  stroke: rgb(113, 169, 154);
-  fill: rgb(113, 169, 154, 0.2);
-  background-image: linear-gradient(rgba(113, 169, 154, 0.3), rgba(113, 169, 154, 0.3));
+  stroke: rgb(136, 203, 185);
+  fill: rgb(136, 203, 185, 0.174);
+  background-image: linear-gradient(rgba(136, 203, 185, 0.7), rgba(136, 203, 185, 0.7));
 }
 
 .PFN-ZTest {
-  stroke: rgb(122, 184, 128);
-  fill: rgb(122, 184, 128, 0.2);
-  background-image: linear-gradient(rgba(122, 184, 128, 0.3), rgba(122, 184, 128, 0.3));
+  stroke: rgb(164, 249, 172);
+  fill: rgb(164, 249, 172, 0.174);
+  background-image: linear-gradient(rgba(164, 249, 172, 0.7), rgba(164, 249, 172, 0.7));
 }
 
 .PFN-Blend {
-  stroke: rgb(166, 169, 95);
-  fill: rgb(166, 169, 95, 0.2);
-  background-image: linear-gradient(rgba(166, 169, 95, 0.3), rgba(166, 169, 95, 0.3));
+  stroke: rgb(196, 199, 113);
+  fill: rgb(196, 199, 113, 0.174);
+  background-image: linear-gradient(rgba(196, 199, 113, 0.7), rgba(196, 199, 113, 0.7));
 }
 
 .PFN-BlendMode {
-  stroke: rgb(132, 107, 190);
-  fill: rgb(132, 107, 190, 0.2);
-  background-image: linear-gradient(rgba(132, 107, 190, 0.3), rgba(132, 107, 190, 0.3));
+  stroke: rgb(134, 108, 194);
+  fill: rgb(134, 108, 194, 0.174);
+  background-image: linear-gradient(rgba(134, 108, 194, 0.7), rgba(134, 108, 194, 0.7));
 }
 
 .PFN-Culling {
-  stroke: rgb(80, 210, 120);
-  fill: rgb(80, 210, 120, 0.2);
-  background-image: linear-gradient(rgba(80, 210, 120, 0.3), rgba(80, 210, 120, 0.3));
+  stroke: rgb(97, 255, 146);
+  fill: rgb(97, 255, 146, 0.174);
+  background-image: linear-gradient(rgba(97, 255, 146, 0.7), rgba(97, 255, 146, 0.7));
 }
 
 .PFN-BodyNode {
-  stroke: rgb(103, 195, 127);
-  fill: rgb(103, 195, 127, 0.2);
-  background-image: linear-gradient(rgba(103, 195, 127, 0.3), rgba(103, 195, 127, 0.3));
+  stroke: rgb(135, 255, 166);
+  fill: rgb(135, 255, 166, 0.174);
+  background-image: linear-gradient(rgba(135, 255, 166, 0.7), rgba(135, 255, 166, 0.7));
 }
 
 .PFN-Chirality {
-  stroke: rgb(188, 153, 80);
-  fill: rgb(188, 153, 80, 0.2);
-  background-image: linear-gradient(rgba(188, 153, 80, 0.3), rgba(188, 153, 80, 0.3));
+  stroke: rgb(255, 208, 108);
+  fill: rgb(255, 208, 108, 0.174);
+  background-image: linear-gradient(rgba(255, 208, 108, 0.7), rgba(255, 208, 108, 0.7));
 }
+
