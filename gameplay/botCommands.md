@@ -71,6 +71,6 @@ Groups created on Resonite start without any storage and you will need to use `/
 
 ### Cloud variables
 
-[Working with Cloud Variables](../gameplay/advanced/cloudVars.md')
+[Working with Cloud Variables](../gameplay/advanced/cloudVars.md)
 
 [Article by J4](../_template/usageTerms/J4Credit.md ':include')
