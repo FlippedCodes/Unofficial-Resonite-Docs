@@ -53,7 +53,7 @@ window.$docsify = {
             textColor: '#e1e1e0',
             codeTextColor: '#e1e1e0',
             codeBackgroundColor: '#11151d',
-            borderColor: '#e1e1e0',
+            borderColor: '#474c50',
             highlightColor: '#ae5458',
         },
         light: {
