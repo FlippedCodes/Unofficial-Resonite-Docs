@@ -90,6 +90,14 @@ pre,
   border-radius: 0.25rem;
 }
 
+/* Navbar BG color fix */
+
+.app-nav li ul {
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  background-color: var(--codeBackgroundColor);
+  border-color: transparent;
+}
+
 /* Table drop shadow */
 
 /* table {
