@@ -70,13 +70,12 @@ const connectorOutputRegular = (data) => `
 
 const connectorOutputEnd = (data) => `
 <tr>
-  <td rowspan="2"></td>
+  <td colspan="3"></td>
   <td class="PFN-Connector PFN-${data.type}" rowspan="2">
     ${triggerTypes.includes(data.type) ? triggerConnector : rightConnector}
   </td>
 </tr>
 <tr>
-  <td></td>
   <td class="PFN-LabelRight PFN-${data.type}" colspan="2">${data.label}</td>
 </tr>
 `;
