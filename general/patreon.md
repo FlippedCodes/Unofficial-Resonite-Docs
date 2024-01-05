@@ -27,4 +27,4 @@ In order to get your benefits make sure:
 
 At the moment, Patreon is the only way to receive benefits, though issue [#497](https://github.com/Yellow-Dog-Man/Resonite-Issues/issues/497) is exploring alternatives to Patreon.
 
-[Article by J4](_template/usageTerms/J4Credit.md ':include')
+[Article by J4](../_template/usageTerms/J4Credit.md ':include')
