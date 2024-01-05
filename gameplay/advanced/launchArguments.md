@@ -11,10 +11,6 @@ description: "Resonite launch arguments."
 Resonite can be launched with a number of arguments.  
 To use them, all you have to do is right click on Resonite on Steam, select "properties" and add your launch arguments to the text box.
 
-<!-- div:right-panel -->
-![Steam game property window with at the bottom some launch arguments.](./_media/launchArguments_steamExample.png)
-<!-- panels:end -->
-
 ## Most common
 
 - `-Invisible` - Starts your game with the "invisible" status by default
@@ -81,5 +77,9 @@ To use them, all you have to do is right click on Resonite on Steam, select "pro
 - `-GeneratePreCache` - ??
 - `-priorityWorkers <num>` - Sets the number of priority workers
 - `-BackgroundWorkers` - Sets the number of background workers
+
+<!-- div:right-panel -->
+![Steam game property window with at the bottom some launch arguments.](./_media/launchArguments_steamExample.png)
+<!-- panels:end -->
 
 [Article by J4](../../_template/usageTerms/J4Credit.md ':include')
