@@ -1,6 +1,6 @@
 # Protoflux Render Engine Showcase
 
-> A showcase of how the protoflux nodes are generated on this documentation.
+A showcase of how the protoflux nodes are generated on this documentation.
 
 ## Normal
 
