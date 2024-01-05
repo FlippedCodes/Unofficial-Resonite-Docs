@@ -107,7 +107,7 @@ function protofluxNodeRender(hook, vm) {
   hook.afterEach((content) => {
     if (!regexGet.test(content)) return;
     const data = content.match(regexGet);
-    data.forEach((dataTable, i) => {
+    data.forEach((dataTable) => {
       const connectors = tableToJson(createElementFromHTML(dataTable));
       const nodeTitle = connectors.shift()[0];
       const nodeType = connectors.pop()[0];
