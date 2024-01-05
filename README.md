@@ -52,6 +52,7 @@ The plan right now is to make the website fit Resonites branding and get all nee
 - [ ] Test Tabs Plugin
 - [x] Resonite Theming
 - [x] Create render plugin to display protoflux nodes with dynamic content.
+- [x] Create full list of a Protoflux nodes
 - [ ] Hide drop shadow when sidebar is closed.
 - [ ] Look into how to use Github Pages with Docsify
 - [ ] Fix Light-Dark switcher overlapping with text on mobile.
