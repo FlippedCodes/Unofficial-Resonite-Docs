@@ -45,6 +45,12 @@
   background-image: linear-gradient(rgba(204, 179, 255, 0.7), rgba(204, 179, 255, 0.7));
 }
 
+.PFN-MixedOperation {
+  stroke: rgb(191, 217, 255);
+  fill: rgb(191, 217, 255, 0.174);
+  background-image: linear-gradient(rgba(191, 217, 255, 0.7), rgba(191, 217, 255, 0.7));
+}
+
 .PFN-Boolean {
   stroke: rgb(115, 115, 115);
   fill: rgb(115, 115, 115, 0.174);
@@ -459,7 +465,7 @@
   background-image: linear-gradient(rgba(255, 124, 114, 0.7), rgba(255, 124, 114, 0.7));
 }
 
-.PFN-Nullable`1 {
+.PFN-Nullable_1 {
   stroke: rgb(51, 100, 64);
   fill: rgb(51, 100, 64, 0.174);
   background-image: linear-gradient(rgba(51, 100, 64, 0.7), rgba(51, 100, 64, 0.7));
@@ -483,13 +489,13 @@
   background-image: linear-gradient(rgba(97, 96, 49, 0.7), rgba(97, 96, 49, 0.7));
 }
 
-.PFN-IValue`1 {
+.PFN-IValue_1 {
   stroke: rgb(69, 169, 116);
   fill: rgb(69, 169, 116, 0.174);
   background-image: linear-gradient(rgba(69, 169, 116, 0.7), rgba(69, 169, 116, 0.7));
 }
 
-.PFN-IVariable`2 {
+.PFN-IVariable_2 {
   stroke: rgb(176, 194, 57);
   fill: rgb(176, 194, 57, 0.174);
   background-image: linear-gradient(rgba(176, 194, 57, 0.7), rgba(176, 194, 57, 0.7));
@@ -501,7 +507,7 @@
   background-image: linear-gradient(rgba(172, 243, 133, 0.7), rgba(172, 243, 133, 0.7));
 }
 
-.PFN-IField`1 {
+.PFN-IField_1 {
   stroke: rgb(49, 74, 113);
   fill: rgb(49, 74, 113, 0.174);
   background-image: linear-gradient(rgba(49, 74, 113, 0.7), rgba(49, 74, 113, 0.7));
@@ -513,7 +519,7 @@
   background-image: linear-gradient(rgba(116, 94, 52, 0.7), rgba(116, 94, 52, 0.7));
 }
 
-.PFN-ISyncRef`1 {
+.PFN-ISyncRef_1 {
   stroke: rgb(179, 76, 201);
   fill: rgb(179, 76, 201, 0.174);
   background-image: linear-gradient(rgba(179, 76, 201, 0.7), rgba(179, 76, 201, 0.7));
@@ -711,7 +717,7 @@
   background-image: linear-gradient(rgba(199, 78, 255, 0.7), rgba(199, 78, 255, 0.7));
 }
 
-.PFN-UsersAssetLoadProgress`1 {
+.PFN-UsersAssetLoadProgress_1 {
   stroke: rgb(86, 182, 129);
   fill: rgb(86, 182, 129, 0.174);
   background-image: linear-gradient(rgba(86, 182, 129, 0.7), rgba(86, 182, 129, 0.7));
@@ -801,7 +807,7 @@
   background-image: linear-gradient(rgba(179, 62, 147, 0.7), rgba(179, 62, 147, 0.7));
 }
 
-.PFN-IAssetProvider`1 {
+.PFN-IAssetProvider_1 {
   stroke: rgb(154, 66, 187);
   fill: rgb(154, 66, 187, 0.174);
   background-image: linear-gradient(rgba(154, 66, 187, 0.7), rgba(154, 66, 187, 0.7));
