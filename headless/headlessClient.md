@@ -10,9 +10,12 @@ In order to access the headless client, you need to be a supporter on the [Reson
 
 ## Downloading the headless client
 
-> Note: before proceeding, I can recommend creating a dedicated Steam account for the headless. Doing so will make it easy to automate the process with Docker or scripts later.
+> [!Note]
+> Before proceeding, I can recommend creating a dedicated Steam account for the headless. Doing so will make it easy to automate the process with Docker or scripts later.
 
-### Bare metal
+<!-- tabs:start -->
+
+### **Bare metal**
 
 To obtain the headless, you currently will need [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) and the headless beta code (can be obtained by sending `/headlessCode` to the Resonite bot).
 
@@ -34,7 +37,7 @@ bash steamcmd.sh \
 This will install the headless client into the directory specified, you can now go on to the [configuration](#configuration).  
 To run the headless client, you can go within the directory and do `mono Headless/Resonite.exe` and the headless should launch.
 
-### Docker
+### **Docker**
 
 To run a headless within Docker, I can recommend Shadowpanther's [resonite-headless](https://github.com/shadowpanther/resonite-headless).  
 It is fairly easy to use.
@@ -91,6 +94,8 @@ This version will hijack the start script to instead run the headless with the `
 
 Now that you have this setup, you can proceed to the [configuration](#configuration) section.  
 Launching the headless is as easy as `docker compose up -d` and `docker compose logs` to see logs (add `-f` to it to follow them in real-time).
+
+<!-- tabs:end -->
 
 ## Configuration
 
