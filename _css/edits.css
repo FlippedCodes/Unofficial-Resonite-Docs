@@ -99,6 +99,14 @@ pre,
   border-color: transparent;
 }
 
+/* Hide sidebar pin to fix mobile sidebar:  */
+
+.sidebar-pin {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0;
+}
+
 /* Table drop shadow */
 
 /* table {
