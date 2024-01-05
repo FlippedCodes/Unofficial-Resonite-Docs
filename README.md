@@ -33,7 +33,7 @@ Start command is `docsify serve .`
 ### A deserved Thank you ^^
 
 A deserved shout-out goes out to [Banane9](https://github.com/Banane9) for helping me to get all the color of the different data types as well as a detailed list of all the Protoflux nodes.
-Also a big thankies go to [Jae aka J4](https://777.tf/) for allowing us to use their work. It really helped to kick-start this documentation and get the ball rolling on how to structure it.
+Also big thankies go to [Jae aka J4](https://777.tf/) for allowing us to use their work. It really helped to kick-start this documentation and get the ball rolling on how to structure it.
 
 <!-- panels:end -->
 
