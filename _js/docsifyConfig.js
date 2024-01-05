@@ -12,7 +12,7 @@ window.$docsify = {
     tabs: {
         persist: true,
         sync: true,
-        theme: "classic",
+        theme: "material",
         tabComments: true,
         tabHeadings: true,
     },
