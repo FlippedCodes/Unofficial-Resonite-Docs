@@ -107,6 +107,16 @@ pre,
   padding: 0;
 }
 
+/* Fix mobile theme switch overlap */
+
+@media screen and (max-width: 768px) {
+  #docsify-darklight-theme {
+    position: absolute;
+    left: -10px;
+    top: -5px !important;
+  }
+}
+
 /* Table drop shadow */
 
 /* table {
