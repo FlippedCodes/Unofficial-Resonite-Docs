@@ -10,16 +10,13 @@
 
 ```md
 <!-- ProtofluxNode:start -->
-| Dynamic Impulse Trigger | Type          | Label            |
-| ----------------------- | ------------- | ---------------- |
-| input                   | Boolean       | *                |
-| output                  | String        | Next             |
-| input                   | Boolean       | Tag              |
-| output                  | Int32         | TriggeredCount   |
-| input                   | String        | TargetHierarchy  |
-| output                  | Double        | Some Output      |
-| input                   | TriggerString | ExcludedDisabled |
-| Async                   |               |                  |
+| Dynamic Impulse Trigger | Type          | Label   |
+| ----------------------- | ------------- | ------- |
+| input                   | SyncOperation | Trigger |
+| output                  | Continuation  | Next    |
+| input                   | SyncOperation | Reset   |
+| input                   | float2        | Timeout |
+| Flow                    |               |         |
 <!-- ProtofluxNode:end -->
 ```
 <!-- div:right-panel -->
