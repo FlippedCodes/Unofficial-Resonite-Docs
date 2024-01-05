@@ -633,6 +633,12 @@
   background-image: linear-gradient(rgba(86, 88, 146, 0.7), rgba(86, 88, 146, 0.7));
 }
 
+.PFN-Platform {
+  stroke: rgb(55, 80, 136);
+  fill: rgb(55, 80, 136, 0.174);
+  background-image: linear-gradient(rgba(55, 80, 136, 0.7), rgba(55, 80, 136, 0.7));
+}
+
 .PFN-IWorldElement {
   stroke: rgb(214, 231, 145);
   fill: rgb(214, 231, 145, 0.174);
@@ -895,5 +901,23 @@
   stroke: rgb(194, 242, 175);
   fill: rgb(194, 242, 175, 0.174);
   background-image: linear-gradient(rgba(194, 242, 175, 0.7), rgba(194, 242, 175, 0.7));
+}
+
+.PFN-T {
+  stroke: rgb(166, 255, 70);
+  fill: rgb(166, 255, 70, 0.174);
+  background-image: linear-gradient(rgba(166, 255, 70, 0.7), rgba(166, 255, 70, 0.7));
+}
+
+.PFN-E {
+  stroke: rgb(189, 253, 228);
+  fill: rgb(189, 253, 228, 0.174);
+  background-image: linear-gradient(rgba(189, 253, 228, 0.7), rgba(189, 253, 228, 0.7));
+}
+
+.PFN-U {
+  stroke: rgb(132, 172, 212);
+  fill: rgb(132, 172, 212, 0.174);
+  background-image: linear-gradient(rgba(132, 172, 212, 0.7), rgba(132, 172, 212, 0.7));
 }
 
