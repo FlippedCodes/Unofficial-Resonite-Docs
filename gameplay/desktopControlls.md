@@ -59,6 +59,7 @@ Resonite has a bunch of keybinds available in desktop mode, here is most of them
 | <kbd>&nbsp;&nbsp;⇧</kbd> + Double tap <kbd>ESC</kbd> or </br> <kbd>CTRL</kbd> + <kbd>&nbsp;&nbsp;⇧</kbd> + <kbd>Q</kbd> | Emergency world exit       |
 | <kbd>F2</kbd>                                                                                           | Toggle Edit Mode           |
 | <kbd>CTRL</kbd> + <kbd>I</kbd>                                                                          | Opens the legacy inventory |
+| <kbd>ALT</kbd> + <kbd>Enter</kbd>                                                                       | Switch between full-screen and windowed mode |
 
 <!-- div:right-panel -->
 
