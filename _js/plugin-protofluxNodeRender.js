@@ -50,6 +50,19 @@ const addType = (type) => `
 </table>
 `;
 
+const connectorOutputStart = (data) => `
+<tr>
+  <td colspan="3"></td>
+  <td class="PFN-Connector PFN-${data.type}" rowspan="2">
+    ${triggerTypes.includes(data.type) ? triggerConnector : rightConnector}
+  </td>
+</tr>
+<tr>
+  <td colspan="1"></td>
+  <td class="PFN-LabelRight PFN-${data.type}">${data.label}</td>
+</tr>
+`
+
 const connectorInputRegular = (data) => `
 <tr>
   <td class="PFN-Connector PFN-${data.type}" rowspan="2">
@@ -123,7 +136,10 @@ function protofluxNodeRender(hook, vm) {
         };
         if (connectorData.type.includes('\'')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
         if (connectorData.type.includes('"')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
-        // FIXME: Edge case with only one output is not working
+        // check if first one is a output
+        if (i === 0 && connectorData.connectorType === 'output') {
+          return table += connectorOutputStart(connectorData);
+        }
         // check if previous entry was the same connector type -> only connectors left on that side
         if (i !== 0 && connectorData.connectorType === connectors[i-1][0]) {
           if (connectorData.connectorType === 'input') return table += connectorInputEnd(connectorData);
