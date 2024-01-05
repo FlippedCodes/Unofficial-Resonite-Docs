@@ -16,7 +16,10 @@ To use them, all you have to do is right click on Resonite on Steam, select "pro
 - `-Invisible` - Starts your game with the "invisible" status by default
 - `-ForceSRAnipal` - Forces SRanipal to be launched (face tracking)
 - `-LoadAssembly <path>` - Loads additional plug-ins
-- `-ResetDash` - Resets your dashboard /!\ Will remove all your facets /!\
+- `-ResetDash` - Resets your dashboard
+  > [!Attention]
+  > Will remove all your facets.
+
 - `-SteamVR` - Launches the game with SteamVR
 - `-RiftTouch` - Launches the game with Oculus rift + touch controllers
 - `-Screen` - Launches the game in desktop mode
@@ -27,12 +30,18 @@ To use them, all you have to do is right click on Resonite on Steam, select "pro
 - `-data <path>` or `-dataPath <path>` - Sets the data storage path
 - `-logs <path>` or `-logsPath <path>` - Sets the logs path
 - `-cache <path>` or `-cachePath <path>` - Sets the cache path
-- `-deleteUnsyncedCloudRecords` - Deletes records that couldn't be synced at the last closure /!\ Might lead to data loss /!\
-- `-forceSyncConflictingCloudRecords` - Forces syncing of conflicting records /!\ Might lead to data loss /!\
+- `-deleteUnsyncedCloudRecords` - Deletes records that couldn't be synced at the last closure
+  > [!Attention]
+  > Might lead to data loss.
+
+- `-forceSyncConflictingCloudRecords` - Forces syncing of conflicting records
+  > [!Attention]
+  > Might lead to data loss.
 
 ## The rest
 
 - `-Screen360` - Launches the game in desktop mode with 360 projection on
+
 - `-ctaa` - Enables Cinematic Temporal Antialiasing, overrides the default FXAA
 - `-ctaaTemporalEdgePower <num>` - Adjusts the Edge Power when using CTAA (values from 1.0 to 4.0; default is 4.0)
 - `-ctaaSharpnessEnabbled <true/false>` - Adjusts or disables the CTAA sharpening (defaults to `false`)
