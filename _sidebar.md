@@ -17,6 +17,3 @@
   - [About the Wiki](README.md)
   - [Protoflux Node Showcase](/wikiGuides/nodeRender.md)
   - [Licensing and Terms](/wikiGuides/licence.md)
-
-<!-- - **Links**
-- [![Github](https://icongr.am/simple/github.svg?color=808080&size=32)Github](https://github.com/FlippedCodes/Unofficial-Resonite-Docs) -->
