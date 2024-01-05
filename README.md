@@ -7,12 +7,12 @@
 > This project is a WIP. But there is a "[ToDo List](/README.md#todo-list)"
 
 <!-- panels:start -->
-<!-- div:left-panel -->
+<!-- div:right-panel -->
 ## Table of Contents
 
 [ToC](_sidebar.md ':include')
 
-<!-- div:right-panel -->
+<!-- div:left-panel -->
 ## Why
 
 This documentation(/wiki) got created in response to the [Resonite Issue #1](https://github.com/Yellow-Dog-Man/Resonite-Issues/issues/1). Myself and a few involved in the linked issue think a static site generator is the better Wiki-Solution for complex software like resonite. While I personally understand the challenges and learning curve that comes with, I think it is still easier approach what is planned with the official Wiki.
