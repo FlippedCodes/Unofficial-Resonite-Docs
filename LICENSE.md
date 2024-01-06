@@ -30,6 +30,8 @@ Content, code and fonts for this documentation are separately licensed.
 > Docsify Example Panels: Copyright (c) 2019 [Vagner Domingues Madeira](https://github.com/VagnerDomingues/docsify-example-panels)
 >
 > Docsify SideBar Collapse: Copyright (c) 2018 [iPeng6](https://github.com/iPeng6/docsify-sidebar-collapse)
+>
+> Docsify Mustache: Copyright (c) 2020 [Ivan SZKIBA](https://github.com/docsify-mustache/docsify-mustache.github.io)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
