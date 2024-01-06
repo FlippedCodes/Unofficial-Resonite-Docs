@@ -7,6 +7,7 @@
 
 ### Focus World
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.FocusWorld -->
 <!-- ProtofluxNode:start -->
 | Focus World | Type | Label |
 | --- | ---- | ----- |
@@ -18,10 +19,12 @@
 | input | Boolean | CloseCurrent |
 | Root/World | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.FocusWorld |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.FocusWorld -->
 
 
 ### Open World
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.OpenWorld -->
 <!-- ProtofluxNode:start -->
 | Open World | Type | Label |
 | --- | ---- | ----- |
@@ -41,10 +44,12 @@
 | input | Boolean | MakePrivate |
 | Root/World | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.OpenWorld |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.OpenWorld -->
 
 
 ### User Joined
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.UserJoined -->
 <!-- ProtofluxNode:start -->
 | User Joined | Type | Label |
 | --- | ---- | ----- |
@@ -52,10 +57,12 @@
 | output | User | JoinedUser |
 | Root/World | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.UserJoined |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.UserJoined -->
 
 
 ### User Left
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.UserLeft -->
 <!-- ProtofluxNode:start -->
 | User Left | Type | Label |
 | --- | ---- | ----- |
@@ -63,10 +70,12 @@
 | output | User | LeftUser |
 | Root/World | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.UserLeft |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.UserLeft -->
 
 
 ### User Spawn
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.UserSpawn -->
 <!-- ProtofluxNode:start -->
 | User Spawn | Type | Label |
 | --- | ---- | ----- |
@@ -74,15 +83,18 @@
 | output | User | SpawnedUser |
 | Root/World | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.UserSpawn |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.UserSpawn -->
 
 
 ### World Saved
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.WorldSaved -->
 <!-- ProtofluxNode:start -->
 | World Saved | Type | Label |
 | --- | ---- | ----- |
 | output | Call | OnSaved |
 | Root/World | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.WorldSaved |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Worlds.WorldSaved -->
 
 

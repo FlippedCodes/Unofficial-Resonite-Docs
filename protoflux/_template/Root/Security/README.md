@@ -7,6 +7,7 @@
 
 ### Allow Join
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.AllowJoin -->
 <!-- ProtofluxNode:start -->
 | Allow Join | Type | Label |
 | --- | ---- | ----- |
@@ -15,10 +16,12 @@
 | input | JoinRequestHandle | Handle |
 | Root/Security | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.AllowJoin |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.AllowJoin -->
 
 
 ### Assign Role
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.AssignRole -->
 <!-- ProtofluxNode:start -->
 | Assign Role | Type | Label |
 | --- | ---- | ----- |
@@ -28,10 +31,12 @@
 | input | String | RoleName |
 | Root/Security | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.AssignRole |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.AssignRole -->
 
 
 ### Deny Join
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.DenyJoin -->
 <!-- ProtofluxNode:start -->
 | Deny Join | Type | Label |
 | --- | ---- | ----- |
@@ -41,10 +46,12 @@
 | input | String | DenyReason |
 | Root/Security | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.DenyJoin |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.DenyJoin -->
 
 
 ### Verify Join Request
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.VerifyJoinRequest -->
 <!-- ProtofluxNode:start -->
 | Verify Join Request | Type | Label |
 | --- | ---- | ----- |
@@ -63,5 +70,6 @@
 | output | JoinRequestHandle | Handle |
 | Root/Security | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.VerifyJoinRequest |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Security.VerifyJoinRequest -->
 
 

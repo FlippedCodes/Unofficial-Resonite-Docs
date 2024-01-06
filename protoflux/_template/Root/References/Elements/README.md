@@ -7,6 +7,7 @@
 
 ### Element Exists
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.ElementExists -->
 <!-- ProtofluxNode:start -->
 | Element Exists | Type | Label |
 | --- | ---- | ----- |
@@ -14,10 +15,12 @@
 | output | Boolean | * |
 | Root/References/Elements | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.ElementExists |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.ElementExists -->
 
 
 ### Is Destroyed
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsDestroyed -->
 <!-- ProtofluxNode:start -->
 | Is Destroyed | Type | Label |
 | --- | ---- | ----- |
@@ -25,10 +28,12 @@
 | output | Boolean | * |
 | Root/References/Elements | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsDestroyed |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsDestroyed -->
 
 
 ### Is Disposed
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsDisposed -->
 <!-- ProtofluxNode:start -->
 | Is Disposed | Type | Label |
 | --- | ---- | ----- |
@@ -36,10 +41,12 @@
 | output | Boolean | * |
 | Root/References/Elements | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsDisposed |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsDisposed -->
 
 
 ### Is Local Element
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsLocalElement -->
 <!-- ProtofluxNode:start -->
 | Is Local Element | Type | Label |
 | --- | ---- | ----- |
@@ -47,10 +54,12 @@
 | output | Boolean | * |
 | Root/References/Elements | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsLocalElement |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsLocalElement -->
 
 
 ### Is Removed
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsRemoved -->
 <!-- ProtofluxNode:start -->
 | Is Removed | Type | Label |
 | --- | ---- | ----- |
@@ -58,5 +67,6 @@
 | output | Boolean | * |
 | Root/References/Elements | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsRemoved |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Elements.IsRemoved -->
 
 

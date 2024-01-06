@@ -7,6 +7,7 @@
 
 ### Button Events
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.ButtonEvents -->
 <!-- ProtofluxNode:start -->
 | Button Events | Type | Label |
 | --- | ---- | ----- |
@@ -22,10 +23,12 @@
 | output | float2 | NormalizedPoint |
 | Root/Interaction | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.ButtonEvents |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.ButtonEvents -->
 
 
 ### Close Context Menu
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.CloseContextMenu -->
 <!-- ProtofluxNode:start -->
 | Close Context Menu | Type | Label |
 | --- | ---- | ----- |
@@ -34,10 +37,12 @@
 | input | IWorldElement | Summoner |
 | Root/Interaction | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.CloseContextMenu |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.CloseContextMenu -->
 
 
 ### Is Context Menu Open
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.IsContextMenuOpen -->
 <!-- ProtofluxNode:start -->
 | Is Context Menu Open | Type | Label |
 | --- | ---- | ----- |
@@ -45,10 +50,12 @@
 | output | Boolean | * |
 | Root/Interaction | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.IsContextMenuOpen |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.IsContextMenuOpen -->
 
 
 ### Touchable Events
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.TouchableEvents -->
 <!-- ProtofluxNode:start -->
 | Touchable Events | Type | Label |
 | --- | ---- | ----- |
@@ -61,5 +68,6 @@
 | output | Component | Source |
 | Root/Interaction | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.TouchableEvents |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.TouchableEvents -->
 
 

@@ -7,16 +7,19 @@
 
 ### Test Feature Upgrade
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Debugging.TestFeatureUpgrade -->
 <!-- ProtofluxNode:start -->
 | Test Feature Upgrade | Type | Label |
 | --- | ---- | ----- |
 | input | SyncOperation | * |
 | Root/Experimental | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Debugging.TestFeatureUpgrade |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Debugging.TestFeatureUpgrade -->
 
 
 ### Write Text To File
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Experimental.WriteTextToFile -->
 <!-- ProtofluxNode:start -->
 | Write Text To File | Type | Label |
 | --- | ---- | ----- |
@@ -30,5 +33,6 @@
 | input | Boolean | NewLine |
 | Root/Experimental | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Experimental.WriteTextToFile |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Experimental.WriteTextToFile -->
 
 

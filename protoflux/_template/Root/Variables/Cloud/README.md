@@ -7,6 +7,7 @@
 
 ### Read Cloud Variable
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.ReadValueCloudVariable\`1 -->
 <!-- ProtofluxNode:start -->
 | Read Cloud Variable | Type | Label |
 | --- | ---- | ----- |
@@ -19,10 +20,12 @@
 | output | T | Value |
 | Root/Variables/Cloud | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.ReadValueCloudVariable\`1 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.ReadValueCloudVariable\`1 -->
 
 
 ### Write Cloud Variable
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.WriteValueCloudVariable\`1 -->
 <!-- ProtofluxNode:start -->
 | Write Cloud Variable | Type | Label |
 | --- | ---- | ----- |
@@ -35,5 +38,6 @@
 | input | T | Value |
 | Root/Variables/Cloud | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.WriteValueCloudVariable\`1 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.WriteValueCloudVariable\`1 -->
 
 

@@ -7,6 +7,7 @@
 
 ### Line Circle Intersections
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.LineCircleIntersections -->
 <!-- ProtofluxNode:start -->
 | Line Circle Intersections | Type | Label |
 | --- | ---- | ----- |
@@ -19,10 +20,12 @@
 | input | float2 | LinePoint1 |
 | Root/Math/Geometry 2D | ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.LineCircleIntersections |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.LineCircleIntersections -->
 
 
 ### Point On Circle
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.PointOnCircle -->
 <!-- ProtofluxNode:start -->
 | Point On Circle | Type | Label |
 | --- | ---- | ----- |
@@ -31,10 +34,12 @@
 | input | Single | Radius |
 | Root/Math/Geometry 2D | ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.PointOnCircle |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.PointOnCircle -->
 
 
 ### Ray Rectangle Intersection
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.RayRectangleIntersection -->
 <!-- ProtofluxNode:start -->
 | Ray Rectangle Intersection | Type | Label |
 | --- | ---- | ----- |
@@ -45,10 +50,12 @@
 | input | Rect | Rectangle |
 | Root/Math/Geometry 2D | ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.RayRectangleIntersection |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.RayRectangleIntersection -->
 
 
 ### Ray To Line Intersection
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.RayToLineIntersection -->
 <!-- ProtofluxNode:start -->
 | Ray To Line Intersection | Type | Label |
 | --- | ---- | ----- |
@@ -60,10 +67,12 @@
 | input | float2 | LinePoint1 |
 | Root/Math/Geometry 2D | ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.RayToLineIntersection |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.RayToLineIntersection -->
 
 
 ### Ray To Line Intersection Distance
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.RayToLineIntersectionDistance -->
 <!-- ProtofluxNode:start -->
 | Ray To Line Intersection Distance | Type | Label |
 | --- | ---- | ----- |
@@ -75,5 +84,6 @@
 | input | float2 | LinePoint1 |
 | Root/Math/Geometry 2D | ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.RayToLineIntersectionDistance |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Geometry2D.RayToLineIntersectionDistance -->
 
 

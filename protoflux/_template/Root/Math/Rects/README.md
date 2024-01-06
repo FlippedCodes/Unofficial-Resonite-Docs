@@ -7,6 +7,7 @@
 
 ### Clip Rect
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.ClipRect -->
 <!-- ProtofluxNode:start -->
 | Clip Rect | Type | Label |
 | --- | ---- | ----- |
@@ -15,10 +16,12 @@
 | input | Rect | Mask |
 | Root/Math/Rects | ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.ClipRect |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.ClipRect -->
 
 
 ### Encapsulate Rect
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.EncapsulateRect -->
 <!-- ProtofluxNode:start -->
 | Encapsulate Rect | Type | Label |
 | --- | ---- | ----- |
@@ -27,10 +30,12 @@
 | input | Rect | B |
 | Root/Math/Rects | ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.EncapsulateRect |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.EncapsulateRect -->
 
 
 ### Rect From Min Max
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromMinMax -->
 <!-- ProtofluxNode:start -->
 | Rect From Min Max | Type | Label |
 | --- | ---- | ----- |
@@ -39,10 +44,12 @@
 | input | float2 | Max |
 | Root/Math/Rects | ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromMinMax |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromMinMax -->
 
 
 ### Rect From Position Size
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromPositionSize -->
 <!-- ProtofluxNode:start -->
 | Rect From Position Size | Type | Label |
 | --- | ---- | ----- |
@@ -51,10 +58,12 @@
 | input | float2 | Size |
 | Root/Math/Rects | ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromPositionSize |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromPositionSize -->
 
 
 ### Rect From XYWH
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromXYWH -->
 <!-- ProtofluxNode:start -->
 | Rect From XYWH | Type | Label |
 | --- | ---- | ----- |
@@ -65,10 +74,12 @@
 | input | Single | Height |
 | Root/Math/Rects | ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromXYWH |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectFromXYWH -->
 
 
 ### Rect To Min Max
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectToMinMax -->
 <!-- ProtofluxNode:start -->
 | Rect To Min Max | Type | Label |
 | --- | ---- | ----- |
@@ -77,10 +88,12 @@
 | output | float2 | Max |
 | Root/Math/Rects | ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectToMinMax |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectToMinMax -->
 
 
 ### Rect To Position Size
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectToPositionSize -->
 <!-- ProtofluxNode:start -->
 | Rect To Position Size | Type | Label |
 | --- | ---- | ----- |
@@ -89,10 +102,12 @@
 | output | float2 | Size |
 | Root/Math/Rects | ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectToPositionSize |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectToPositionSize -->
 
 
 ### Rect To XYWH
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectToXYWH -->
 <!-- ProtofluxNode:start -->
 | Rect To XYWH | Type | Label |
 | --- | ---- | ----- |
@@ -103,10 +118,12 @@
 | output | Single | Height |
 | Root/Math/Rects | ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectToXYWH |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.RectToXYWH -->
 
 
 ### Translate Rect
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.TranslateRect -->
 <!-- ProtofluxNode:start -->
 | Translate Rect | Type | Label |
 | --- | ---- | ----- |
@@ -115,5 +132,6 @@
 | input | float2 | Offset |
 | Root/Math/Rects | ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.TranslateRect |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Rects.TranslateRect -->
 
 

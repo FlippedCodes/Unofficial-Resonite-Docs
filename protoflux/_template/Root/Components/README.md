@@ -7,6 +7,7 @@
 
 ### Get Component Enabled
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Components.GetComponentEnabled -->
 <!-- ProtofluxNode:start -->
 | Get Component Enabled | Type | Label |
 | --- | ---- | ----- |
@@ -14,10 +15,12 @@
 | output | Boolean | * |
 | Root/Components | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Components.GetComponentEnabled |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Components.GetComponentEnabled -->
 
 
 ### Get User From Component
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.GetUserFromComponent -->
 <!-- ProtofluxNode:start -->
 | Get User From Component | Type | Label |
 | --- | ---- | ----- |
@@ -25,10 +28,12 @@
 | output | User | * |
 | Root/Components | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.GetUserFromComponent |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.GetUserFromComponent -->
 
 
 ### Set Component Enabled
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Components.SetComponentEnabled -->
 <!-- ProtofluxNode:start -->
 | Set Component Enabled | Type | Label |
 | --- | ---- | ----- |
@@ -38,5 +43,6 @@
 | input | Boolean | State |
 | Root/Components | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Components.SetComponentEnabled |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Components.SetComponentEnabled -->
 
 

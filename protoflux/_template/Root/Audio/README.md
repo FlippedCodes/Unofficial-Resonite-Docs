@@ -7,6 +7,7 @@
 
 ### Play One Shot
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Audio.PlayOneShot -->
 <!-- ProtofluxNode:start -->
 | Play One Shot | Type | Label |
 | --- | ---- | ----- |
@@ -33,10 +34,12 @@
 | input | Boolean | LocalOnly |
 | Root/Audio | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Audio.PlayOneShot |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Audio.PlayOneShot -->
 
 
 ### Play One Shot And Wait
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Audio.PlayOneShotAndWait -->
 <!-- ProtofluxNode:start -->
 | Play One Shot And Wait | Type | Label |
 | --- | ---- | ----- |
@@ -64,5 +67,6 @@
 | input | Boolean | LocalOnly |
 | Root/Audio | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Audio.PlayOneShotAndWait |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Audio.PlayOneShotAndWait -->
 
 

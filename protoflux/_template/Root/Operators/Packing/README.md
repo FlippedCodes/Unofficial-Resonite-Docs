@@ -7,6 +7,7 @@
 
 ### Pack Xy
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool2 -->
 <!-- ProtofluxNode:start -->
 | Pack Xy | Type | Label |
 | --- | ---- | ----- |
@@ -15,10 +16,12 @@
 | input | Boolean | Y |
 | Root/Operators/Packing | ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool2 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool2 -->
 
 
 ### Pack Xyz
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool3 -->
 <!-- ProtofluxNode:start -->
 | Pack Xyz | Type | Label |
 | --- | ---- | ----- |
@@ -28,10 +31,12 @@
 | input | Boolean | Z |
 | Root/Operators/Packing | ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool3 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool3 -->
 
 
 ### Pack Xyzw
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool4 -->
 <!-- ProtofluxNode:start -->
 | Pack Xyzw | Type | Label |
 | --- | ---- | ----- |
@@ -42,10 +47,12 @@
 | input | Boolean | W |
 | Root/Operators/Packing | ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool4 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool4 -->
 
 
 ### Unpack Xy
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Operators.Unpack_Bool2 -->
 <!-- ProtofluxNode:start -->
 | Unpack Xy | Type | Label |
 | --- | ---- | ----- |
@@ -54,10 +61,12 @@
 | output | Boolean | Y |
 | Root/Operators/Packing | ProtoFlux.Runtimes.Execution.Nodes.Operators.Unpack_Bool2 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Operators.Unpack_Bool2 -->
 
 
 ### Unpack Xyz
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Operators.Unpack_Bool3 -->
 <!-- ProtofluxNode:start -->
 | Unpack Xyz | Type | Label |
 | --- | ---- | ----- |
@@ -67,10 +76,12 @@
 | output | Boolean | Z |
 | Root/Operators/Packing | ProtoFlux.Runtimes.Execution.Nodes.Operators.Unpack_Bool3 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Operators.Unpack_Bool3 -->
 
 
 ### Unpack Xyzw
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Operators.Unpack_Bool4 -->
 <!-- ProtofluxNode:start -->
 | Unpack Xyzw | Type | Label |
 | --- | ---- | ----- |
@@ -81,10 +92,12 @@
 | output | Boolean | W |
 | Root/Operators/Packing | ProtoFlux.Runtimes.Execution.Nodes.Operators.Unpack_Bool4 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Operators.Unpack_Bool4 -->
 
 
 ### Pack Nullable
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.PackNullable\`1 -->
 <!-- ProtofluxNode:start -->
 | Pack Nullable | Type | Label |
 | --- | ---- | ----- |
@@ -93,10 +106,12 @@
 | input | Boolean | HasValue |
 | Root/Operators/Packing | ProtoFlux.Runtimes.Execution.Nodes.PackNullable\`1 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.PackNullable\`1 -->
 
 
 ### Unpack Nullable
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.UnpackNullable\`1 -->
 <!-- ProtofluxNode:start -->
 | Unpack Nullable | Type | Label |
 | --- | ---- | ----- |
@@ -105,5 +120,6 @@
 | output | Boolean | HasValue |
 | Root/Operators/Packing | ProtoFlux.Runtimes.Execution.Nodes.UnpackNullable\`1 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.UnpackNullable\`1 -->
 
 

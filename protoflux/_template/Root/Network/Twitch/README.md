@@ -7,6 +7,7 @@
 
 ### Twitch Chat Message Event
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchChatMessageEvent -->
 <!-- ProtofluxNode:start -->
 | Twitch Chat Message Event | Type | Label |
 | --- | ---- | ----- |
@@ -29,10 +30,12 @@
 | output | String | CustomRewardId |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchChatMessageEvent |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchChatMessageEvent -->
 
 
 ### Twitch Follow Event
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchFollowEvent -->
 <!-- ProtofluxNode:start -->
 | Twitch Follow Event | Type | Label |
 | --- | ---- | ----- |
@@ -41,10 +44,12 @@
 | output | String | DisplayName |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchFollowEvent |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchFollowEvent -->
 
 
 ### Twitch Raid Event
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRaidEvent -->
 <!-- ProtofluxNode:start -->
 | Twitch Raid Event | Type | Label |
 | --- | ---- | ----- |
@@ -56,10 +61,12 @@
 | output | Boolean | IsSubscriber |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRaidEvent |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRaidEvent -->
 
 
 ### Twitch Reward Redeem Event
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRewardRedeemEvent -->
 <!-- ProtofluxNode:start -->
 | Twitch Reward Redeem Event | Type | Label |
 | --- | ---- | ----- |
@@ -74,10 +81,12 @@
 | output | Int32 | RewardCost |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRewardRedeemEvent |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRewardRedeemEvent -->
 
 
 ### Twitch Subscription Event
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchSubscriptionEvent -->
 <!-- ProtofluxNode:start -->
 | Twitch Subscription Event | Type | Label |
 | --- | ---- | ----- |
@@ -93,5 +102,6 @@
 | output | Boolean | IsAnonymous |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchSubscriptionEvent |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchSubscriptionEvent -->
 
 

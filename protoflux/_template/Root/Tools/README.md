@@ -7,6 +7,7 @@
 
 ### Dequip Tool
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.DequipTool -->
 <!-- ProtofluxNode:start -->
 | Dequip Tool | Type | Label |
 | --- | ---- | ----- |
@@ -18,10 +19,12 @@
 | input | Boolean | PopOff |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.DequipTool |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.DequipTool -->
 
 
 ### Equip Tool
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.EquipTool -->
 <!-- ProtofluxNode:start -->
 | Equip Tool | Type | Label |
 | --- | ---- | ----- |
@@ -34,10 +37,12 @@
 | input | Boolean | DequipExisting |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.EquipTool |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.EquipTool -->
 
 
 ### Get Raw Data Tool Hit
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.GetRawDataToolHit -->
 <!-- ProtofluxNode:start -->
 | Get Raw Data Tool Hit | Type | Label |
 | --- | ---- | ----- |
@@ -49,10 +54,12 @@
 | output | Int32 | HitTriangleIndex |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.GetRawDataToolHit |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.GetRawDataToolHit -->
 
 
 ### Get Tool
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.GetTool -->
 <!-- ProtofluxNode:start -->
 | Get Tool | Type | Label |
 | --- | ---- | ----- |
@@ -61,10 +68,12 @@
 | input | Chirality | Side |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.GetTool |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.GetTool -->
 
 
 ### Has Tool
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.HasTool -->
 <!-- ProtofluxNode:start -->
 | Has Tool | Type | Label |
 | --- | ---- | ----- |
@@ -73,10 +82,12 @@
 | input | Chirality | Side |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.HasTool |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.HasTool -->
 
 
 ### Is Tool Equipped
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.IsToolEquipped -->
 <!-- ProtofluxNode:start -->
 | Is Tool Equipped | Type | Label |
 | --- | ---- | ----- |
@@ -84,10 +95,12 @@
 | output | Boolean | * |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.IsToolEquipped |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.IsToolEquipped -->
 
 
 ### Is Tool In Use
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.IsToolInUse -->
 <!-- ProtofluxNode:start -->
 | Is Tool In Use | Type | Label |
 | --- | ---- | ----- |
@@ -95,10 +108,12 @@
 | output | Boolean | * |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.IsToolInUse |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.IsToolInUse -->
 
 
 ### Raw Data Tool Events
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.RawDataToolEvents -->
 <!-- ProtofluxNode:start -->
 | Raw Data Tool Events | Type | Label |
 | --- | ---- | ----- |
@@ -113,10 +128,12 @@
 | output | Call | SecondaryReleased |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.RawDataToolEvents |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.RawDataToolEvents -->
 
 
 ### Tool Equipping Side
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEquippingSide -->
 <!-- ProtofluxNode:start -->
 | Tool Equipping Side | Type | Label |
 | --- | ---- | ----- |
@@ -124,10 +141,12 @@
 | output | Chirality | * |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEquippingSide |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEquippingSide -->
 
 
 ### Tool Equipping Slot
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEquippingSlot -->
 <!-- ProtofluxNode:start -->
 | Tool Equipping Slot | Type | Label |
 | --- | ---- | ----- |
@@ -135,10 +154,12 @@
 | output | Slot | * |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEquippingSlot |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEquippingSlot -->
 
 
 ### Tool Events
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEvents -->
 <!-- ProtofluxNode:start -->
 | Tool Events | Type | Label |
 | --- | ---- | ----- |
@@ -146,5 +167,6 @@
 | output | Call | Dequipped |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEvents |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEvents -->
 
 

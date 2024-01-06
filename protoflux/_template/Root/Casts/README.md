@@ -7,6 +7,7 @@
 
 ### Value Cast
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Casts.NullableToObjectCast\`1 -->
 <!-- ProtofluxNode:start -->
 | Value Cast | Type | Label |
 | --- | ---- | ----- |
@@ -14,5 +15,6 @@
 | output | Object | * |
 | Root/Casts | ProtoFlux.Runtimes.Execution.Nodes.Casts.NullableToObjectCast\`1 |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Casts.NullableToObjectCast\`1 -->
 
 

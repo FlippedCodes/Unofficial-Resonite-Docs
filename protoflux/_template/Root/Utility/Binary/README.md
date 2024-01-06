@@ -7,6 +7,7 @@
 
 ### Adder
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.Adder -->
 <!-- ProtofluxNode:start -->
 | Adder | Type | Label |
 | --- | ---- | ----- |
@@ -17,23 +18,28 @@
 | input | Boolean | CarryIn |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.Adder |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.Adder -->
 
 
 ### Boolean Counter
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.BooleanCounter -->
 <!-- ProtofluxNode:start -->
 | Boolean Counter | Type | Label |
 | --- | ---- | ----- |
 | inputlist | Boolean | Booleans |
 | output | Int32 | TrueCount |
+| inputlistbuttons | Boolean | Booleans |
 | output | Int32 | FalseCount |
 | output | Int32 | TotalCount |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.BooleanCounter |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.BooleanCounter -->
 
 
 ### Compose Bits Byte
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_byte -->
 <!-- ProtofluxNode:start -->
 | Compose Bits Byte | Type | Label |
 | --- | ---- | ----- |
@@ -48,10 +54,12 @@
 | input | Boolean | Bit7 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_byte |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_byte -->
 
 
 ### Compose Bits Int
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_int -->
 <!-- ProtofluxNode:start -->
 | Compose Bits Int | Type | Label |
 | --- | ---- | ----- |
@@ -90,10 +98,12 @@
 | input | Boolean | Bit31 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_int |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_int -->
 
 
 ### Compose Bits Long
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_long -->
 <!-- ProtofluxNode:start -->
 | Compose Bits Long | Type | Label |
 | --- | ---- | ----- |
@@ -164,10 +174,12 @@
 | input | Boolean | Bit63 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_long |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_long -->
 
 
 ### Compose Bits Sbyte
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_sbyte -->
 <!-- ProtofluxNode:start -->
 | Compose Bits Sbyte | Type | Label |
 | --- | ---- | ----- |
@@ -182,10 +194,12 @@
 | input | Boolean | Bit7 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_sbyte |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_sbyte -->
 
 
 ### Compose Bits Short
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_short -->
 <!-- ProtofluxNode:start -->
 | Compose Bits Short | Type | Label |
 | --- | ---- | ----- |
@@ -208,10 +222,12 @@
 | input | Boolean | Bit15 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_short |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_short -->
 
 
 ### Compose Bits Uint
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_uint -->
 <!-- ProtofluxNode:start -->
 | Compose Bits Uint | Type | Label |
 | --- | ---- | ----- |
@@ -250,10 +266,12 @@
 | input | Boolean | Bit31 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_uint |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_uint -->
 
 
 ### Compose Bits Ulong
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_ulong -->
 <!-- ProtofluxNode:start -->
 | Compose Bits Ulong | Type | Label |
 | --- | ---- | ----- |
@@ -324,10 +342,12 @@
 | input | Boolean | Bit63 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_ulong |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_ulong -->
 
 
 ### Compose Bits Ushort
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_ushort -->
 <!-- ProtofluxNode:start -->
 | Compose Bits Ushort | Type | Label |
 | --- | ---- | ----- |
@@ -350,10 +370,12 @@
 | input | Boolean | Bit15 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_ushort |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ComposeBits_ushort -->
 
 
 ### Double As ULong
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.DoubleAsULong -->
 <!-- ProtofluxNode:start -->
 | Double As ULong | Type | Label |
 | --- | ---- | ----- |
@@ -361,10 +383,12 @@
 | output | UInt64 | * |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.DoubleAsULong |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.DoubleAsULong -->
 
 
 ### Extract Bits Byte
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_byte -->
 <!-- ProtofluxNode:start -->
 | Extract Bits Byte | Type | Label |
 | --- | ---- | ----- |
@@ -379,10 +403,12 @@
 | output | Boolean | Bit7 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_byte |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_byte -->
 
 
 ### Extract Bits Int
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_int -->
 <!-- ProtofluxNode:start -->
 | Extract Bits Int | Type | Label |
 | --- | ---- | ----- |
@@ -421,10 +447,12 @@
 | output | Boolean | Bit31 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_int |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_int -->
 
 
 ### Extract Bits Long
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_long -->
 <!-- ProtofluxNode:start -->
 | Extract Bits Long | Type | Label |
 | --- | ---- | ----- |
@@ -495,10 +523,12 @@
 | output | Boolean | Bit63 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_long |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_long -->
 
 
 ### Extract Bits Sbyte
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_sbyte -->
 <!-- ProtofluxNode:start -->
 | Extract Bits Sbyte | Type | Label |
 | --- | ---- | ----- |
@@ -513,10 +543,12 @@
 | output | Boolean | Bit7 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_sbyte |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_sbyte -->
 
 
 ### Extract Bits Short
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_short -->
 <!-- ProtofluxNode:start -->
 | Extract Bits Short | Type | Label |
 | --- | ---- | ----- |
@@ -539,10 +571,12 @@
 | output | Boolean | Bit15 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_short |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_short -->
 
 
 ### Extract Bits Uint
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_uint -->
 <!-- ProtofluxNode:start -->
 | Extract Bits Uint | Type | Label |
 | --- | ---- | ----- |
@@ -581,10 +615,12 @@
 | output | Boolean | Bit31 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_uint |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_uint -->
 
 
 ### Extract Bits Ulong
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_ulong -->
 <!-- ProtofluxNode:start -->
 | Extract Bits Ulong | Type | Label |
 | --- | ---- | ----- |
@@ -655,10 +691,12 @@
 | output | Boolean | Bit63 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_ulong |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_ulong -->
 
 
 ### Extract Bits Ushort
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_ushort -->
 <!-- ProtofluxNode:start -->
 | Extract Bits Ushort | Type | Label |
 | --- | ---- | ----- |
@@ -681,10 +719,12 @@
 | output | Boolean | Bit15 |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_ushort |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ExtractBits_ushort -->
 
 
 ### Float As UInt
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.FloatAsUInt -->
 <!-- ProtofluxNode:start -->
 | Float As UInt | Type | Label |
 | --- | ---- | ----- |
@@ -692,10 +732,12 @@
 | output | UInt32 | * |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.FloatAsUInt |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.FloatAsUInt -->
 
 
 ### Half Adder
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.HalfAdder -->
 <!-- ProtofluxNode:start -->
 | Half Adder | Type | Label |
 | --- | ---- | ----- |
@@ -705,10 +747,12 @@
 | output | Boolean | CarryOut |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.HalfAdder |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.HalfAdder -->
 
 
 ### Half As UShort
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.HalfAsUShort -->
 <!-- ProtofluxNode:start -->
 | Half As UShort | Type | Label |
 | --- | ---- | ----- |
@@ -716,10 +760,12 @@
 | output | UInt16 | * |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.HalfAsUShort |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.HalfAsUShort -->
 
 
 ### UInt As Float
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.UIntAsFloat -->
 <!-- ProtofluxNode:start -->
 | UInt As Float | Type | Label |
 | --- | ---- | ----- |
@@ -727,10 +773,12 @@
 | output | Single | * |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.UIntAsFloat |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.UIntAsFloat -->
 
 
 ### ULong As Double
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.ULongAsDouble -->
 <!-- ProtofluxNode:start -->
 | ULong As Double | Type | Label |
 | --- | ---- | ----- |
@@ -738,10 +786,12 @@
 | output | Double | * |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.ULongAsDouble |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.ULongAsDouble -->
 
 
 ### UShort As Half
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Binary.UShortAsHalf -->
 <!-- ProtofluxNode:start -->
 | UShort As Half | Type | Label |
 | --- | ---- | ----- |
@@ -749,5 +799,6 @@
 | output | half | * |
 | Root/Utility/Binary | ProtoFlux.Runtimes.Execution.Nodes.Binary.UShortAsHalf |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Binary.UShortAsHalf -->
 
 

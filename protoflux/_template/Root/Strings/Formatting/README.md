@@ -7,6 +7,7 @@
 
 ### Capitalize
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Strings.Capitalize -->
 <!-- ProtofluxNode:start -->
 | Capitalize | Type | Label |
 | --- | ---- | ----- |
@@ -14,10 +15,12 @@
 | output | String | * |
 | Root/Strings/Formatting | ProtoFlux.Runtimes.Execution.Nodes.Strings.Capitalize |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Strings.Capitalize -->
 
 
 ### Format
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatString -->
 <!-- ProtofluxNode:start -->
 | Format | Type | Label |
 | --- | ---- | ----- |
@@ -25,12 +28,15 @@
 | output | String | * |
 | input | IFormatProvider | FormatProvider |
 | inputlist | Object | Parameters |
+| inputlistbuttons | Object | Parameters |
 | Root/Strings/Formatting | ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatString |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatString -->
 
 
 ### Format As Time
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatAsTime -->
 <!-- ProtofluxNode:start -->
 | Format As Time | Type | Label |
 | --- | ---- | ----- |
@@ -40,10 +46,12 @@
 | input | IFormatProvider | FormatProvider |
 | Root/Strings/Formatting | ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatAsTime |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatAsTime -->
 
 
 ### Format Date Time As Date
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatDateTimeAsDate -->
 <!-- ProtofluxNode:start -->
 | Format Date Time As Date | Type | Label |
 | --- | ---- | ----- |
@@ -52,10 +60,12 @@
 | input | IFormatProvider | FormatProvider |
 | Root/Strings/Formatting | ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatDateTimeAsDate |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatDateTimeAsDate -->
 
 
 ### Format Date Time As Time
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatDateTimeAsTime -->
 <!-- ProtofluxNode:start -->
 | Format Date Time As Time | Type | Label |
 | --- | ---- | ----- |
@@ -67,10 +77,12 @@
 | input | IFormatProvider | FormatProvider |
 | Root/Strings/Formatting | ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatDateTimeAsTime |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatDateTimeAsTime -->
 
 
 ### Format Timespan
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatTimespan -->
 <!-- ProtofluxNode:start -->
 | Format Timespan | Type | Label |
 | --- | ---- | ----- |
@@ -81,10 +93,12 @@
 | input | IFormatProvider | FormatProvider |
 | Root/Strings/Formatting | ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatTimespan |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Strings.FormatTimespan -->
 
 
 ### To Lower
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Strings.ToLower -->
 <!-- ProtofluxNode:start -->
 | To Lower | Type | Label |
 | --- | ---- | ----- |
@@ -92,10 +106,12 @@
 | output | String | * |
 | Root/Strings/Formatting | ProtoFlux.Runtimes.Execution.Nodes.Strings.ToLower |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Strings.ToLower -->
 
 
 ### To Upper
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Strings.ToUpper -->
 <!-- ProtofluxNode:start -->
 | To Upper | Type | Label |
 | --- | ---- | ----- |
@@ -103,5 +119,6 @@
 | output | String | * |
 | Root/Strings/Formatting | ProtoFlux.Runtimes.Execution.Nodes.Strings.ToUpper |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Strings.ToUpper -->
 
 

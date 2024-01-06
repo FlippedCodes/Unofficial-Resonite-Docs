@@ -7,6 +7,7 @@
 
 ### Default User Scale
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.DefaultUserScale -->
 <!-- ProtofluxNode:start -->
 | Default User Scale | Type | Label |
 | --- | ---- | ----- |
@@ -14,10 +15,12 @@
 | output | Single | * |
 | Root/Avatars | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.DefaultUserScale |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.DefaultUserScale -->
 
 
 ### Equip Avatar
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.EquipAvatar -->
 <!-- ProtofluxNode:start -->
 | Equip Avatar | Type | Label |
 | --- | ---- | ----- |
@@ -28,10 +31,12 @@
 | input | Boolean | DestroyOld |
 | Root/Avatars | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.EquipAvatar |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.EquipAvatar -->
 
 
 ### Finger Pose
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.FingerPose -->
 <!-- ProtofluxNode:start -->
 | Finger Pose | Type | Label |
 | --- | ---- | ----- |
@@ -41,10 +46,12 @@
 | output | floatQ | Rotation |
 | Root/Avatars | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.FingerPose |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.FingerPose -->
 
 
 ### Nearest User Foot
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.NearestUserFoot -->
 <!-- ProtofluxNode:start -->
 | Nearest User Foot | Type | Label |
 | --- | ---- | ----- |
@@ -59,10 +66,12 @@
 | input | Boolean | GetRight |
 | Root/Avatars | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.NearestUserFoot |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.NearestUserFoot -->
 
 
 ### Nearest User Hand
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.NearestUserHand -->
 <!-- ProtofluxNode:start -->
 | Nearest User Hand | Type | Label |
 | --- | ---- | ----- |
@@ -77,10 +86,12 @@
 | input | Boolean | GetRight |
 | Root/Avatars | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.NearestUserHand |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.NearestUserHand -->
 
 
 ### Nearest User Head
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.NearestUserHead -->
 <!-- ProtofluxNode:start -->
 | Nearest User Head | Type | Label |
 | --- | ---- | ----- |
@@ -92,10 +103,12 @@
 | output | Single | Distance |
 | Root/Avatars | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.NearestUserHead |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.NearestUserHead -->
 
 
 ### User Finger Pose Source
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.UserFingerPoseSource -->
 <!-- ProtofluxNode:start -->
 | User Finger Pose Source | Type | Label |
 | --- | ---- | ----- |
@@ -103,5 +116,6 @@
 | output | IFingerPoseSource | * |
 | Root/Avatars | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.UserFingerPoseSource |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.UserFingerPoseSource -->
 
 

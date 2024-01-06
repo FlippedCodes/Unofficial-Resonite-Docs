@@ -7,6 +7,7 @@
 
 ### Cosmos Controller
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.CosmosController -->
 <!-- ProtofluxNode:start -->
 | Cosmos Controller | Type | Label |
 | --- | ---- | ----- |
@@ -29,10 +30,12 @@
 | output | Boolean | TriggerClick |
 | Root/Devices/Controllers | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.CosmosController |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.CosmosController -->
 
 
 ### HPReverb Controller
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.HPReverbController -->
 <!-- ProtofluxNode:start -->
 | HPReverb Controller | Type | Label |
 | --- | ---- | ----- |
@@ -54,10 +57,12 @@
 | output | Boolean | TriggerClick |
 | Root/Devices/Controllers | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.HPReverbController |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.HPReverbController -->
 
 
 ### Index Controller
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.IndexController -->
 <!-- ProtofluxNode:start -->
 | Index Controller | Type | Label |
 | --- | ---- | ----- |
@@ -86,10 +91,12 @@
 | output | Single | TouchpadForce |
 | Root/Devices/Controllers | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.IndexController |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.IndexController -->
 
 
 ### Standard Controller
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.StandardController -->
 <!-- ProtofluxNode:start -->
 | Standard Controller | Type | Label |
 | --- | ---- | ----- |
@@ -107,10 +114,12 @@
 | output | float2 | Axis |
 | Root/Devices/Controllers | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.StandardController |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.StandardController -->
 
 
 ### Touch Controller
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.TouchController -->
 <!-- ProtofluxNode:start -->
 | Touch Controller | Type | Label |
 | --- | ---- | ----- |
@@ -137,10 +146,12 @@
 | output | Boolean | TriggerClick |
 | Root/Devices/Controllers | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.TouchController |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.TouchController -->
 
 
 ### Vive Controller
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.ViveController -->
 <!-- ProtofluxNode:start -->
 | Vive Controller | Type | Label |
 | --- | ---- | ----- |
@@ -160,10 +171,12 @@
 | output | Boolean | TouchpadClick |
 | Root/Devices/Controllers | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.ViveController |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.ViveController -->
 
 
 ### Windows MRController
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.WindowsMRController -->
 <!-- ProtofluxNode:start -->
 | Windows MRController | Type | Label |
 | --- | ---- | ----- |
@@ -185,5 +198,6 @@
 | output | Boolean | TouchpadClick |
 | Root/Devices/Controllers | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.WindowsMRController |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Controllers.WindowsMRController -->
 
 

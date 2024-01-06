@@ -7,6 +7,7 @@
 
 ### General Headset
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Headsets.GeneralHeadset -->
 <!-- ProtofluxNode:start -->
 | General Headset | Type | Label |
 | --- | ---- | ----- |
@@ -16,5 +17,6 @@
 | output | Boolean | IsBatteryCharging |
 | Root/Devices | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Headsets.GeneralHeadset |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Input.Headsets.GeneralHeadset -->
 
 

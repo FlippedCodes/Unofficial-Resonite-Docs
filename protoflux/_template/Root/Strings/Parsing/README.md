@@ -7,6 +7,7 @@
 
 ### Parse Bool
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.ParsingFormatting.Parse_Bool -->
 <!-- ProtofluxNode:start -->
 | Parse Bool | Type | Label |
 | --- | ---- | ----- |
@@ -15,5 +16,6 @@
 | output | Boolean | IsParsed |
 | Root/Strings/Parsing | ProtoFlux.Runtimes.Execution.Nodes.ParsingFormatting.Parse_Bool |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.ParsingFormatting.Parse_Bool -->
 
 

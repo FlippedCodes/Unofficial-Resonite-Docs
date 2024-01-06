@@ -7,6 +7,7 @@
 
 ### Bake Reflection Probe
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.BakeReflectionProbe -->
 <!-- ProtofluxNode:start -->
 | Bake Reflection Probe | Type | Label |
 | --- | ---- | ----- |
@@ -18,10 +19,12 @@
 | output | Uri | BakedCubemapURL |
 | Root/Rendering | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.BakeReflectionProbe |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.BakeReflectionProbe -->
 
 
 ### Bake Reflection Probes
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.BakeReflectionProbes -->
 <!-- ProtofluxNode:start -->
 | Bake Reflection Probes | Type | Label |
 | --- | ---- | ----- |
@@ -39,10 +42,12 @@
 | output | Int32 | ProbeCount |
 | Root/Rendering | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.BakeReflectionProbes |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.BakeReflectionProbes -->
 
 
 ### Flash Highlight Hierarchy
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.FlashHighlightHierarchy -->
 <!-- ProtofluxNode:start -->
 | Flash Highlight Hierarchy | Type | Label |
 | --- | ---- | ----- |
@@ -58,10 +63,12 @@
 | input | colorX | Color |
 | Root/Rendering | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.FlashHighlightHierarchy |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.FlashHighlightHierarchy -->
 
 
 ### Render To Texture Asset
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.RenderToTextureAsset -->
 <!-- ProtofluxNode:start -->
 | Render To Texture Asset | Type | Label |
 | --- | ---- | ----- |
@@ -76,10 +83,12 @@
 | input | Int32 | Quality |
 | Root/Rendering | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.RenderToTextureAsset |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.RenderToTextureAsset -->
 
 
 ### Sample Color X
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.SampleColorX -->
 <!-- ProtofluxNode:start -->
 | Sample Color X | Type | Label |
 | --- | ---- | ----- |
@@ -94,5 +103,6 @@
 | input | Single | FarClip |
 | Root/Rendering | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.SampleColorX |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Rendering.SampleColorX -->
 
 

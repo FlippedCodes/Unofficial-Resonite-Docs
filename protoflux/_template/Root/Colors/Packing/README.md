@@ -7,6 +7,7 @@
 
 ### Pack Rgba
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Color -->
 <!-- ProtofluxNode:start -->
 | Pack Rgba | Type | Label |
 | --- | ---- | ----- |
@@ -17,10 +18,12 @@
 | input | Single | A |
 | Root/Colors/Packing | ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Color |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Color -->
 
 
 ### Pack Rgba
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_ColorX -->
 <!-- ProtofluxNode:start -->
 | Pack Rgba | Type | Label |
 | --- | ---- | ----- |
@@ -32,5 +35,6 @@
 | input | ColorProfile | Profile |
 | Root/Colors/Packing | ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_ColorX |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_ColorX -->
 
 

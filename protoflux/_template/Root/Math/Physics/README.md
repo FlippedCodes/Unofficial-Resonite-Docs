@@ -7,6 +7,7 @@
 
 ### Torque Estimate
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Physics.TorqueEstimate -->
 <!-- ProtofluxNode:start -->
 | Torque Estimate | Type | Label |
 | --- | ---- | ----- |
@@ -16,10 +17,12 @@
 | input | Single | Time |
 | Root/Math/Physics | ProtoFlux.Runtimes.Execution.Nodes.Math.Physics.TorqueEstimate |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Physics.TorqueEstimate -->
 
 
 ### Trajectory Position
 
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Physics.TrajectoryPosition -->
 <!-- ProtofluxNode:start -->
 | Trajectory Position | Type | Label |
 | --- | ---- | ----- |
@@ -30,5 +33,6 @@
 | input | Single | Time |
 | Root/Math/Physics | ProtoFlux.Runtimes.Execution.Nodes.Math.Physics.TrajectoryPosition |  |
 <!-- ProtofluxNode:end -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Physics.TrajectoryPosition -->
 
 
