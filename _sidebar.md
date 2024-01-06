@@ -8,6 +8,8 @@
     - [Cloud Variables](/gameplay/advanced/cloudVars.md)
 
 - Protoflux
+  - [Assets](/protoflux/assets.md)
+  - [Operators](/protoflux/operators.md)
   - [All Nodes](/protoflux/allNodes.md)
 
 - Headless
