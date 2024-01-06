@@ -75,6 +75,8 @@ The newly attached SpriteProvider component is available from the
 by `OnAttached`.
 <!-- panels:end -->
 
+<!-- panels:start -->
+<!-- div:title-panel -->
 ## Attach Texture 2D
 
 <!-- div:right-panel -->
