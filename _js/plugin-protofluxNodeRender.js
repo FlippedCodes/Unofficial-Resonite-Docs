@@ -123,7 +123,8 @@ function protofluxNodeRender(hook, vm) {
     data.forEach((dataTable) => {
       const connectors = tableToJson(createElementFromHTML(dataTable));
       const nodeTitle = connectors.shift()[0];
-      const nodeType = connectors.pop()[0];
+      const nodeTypePath = connectors.pop()[0];
+      const nodeType = nodeTypePath.split('/').at(-1);
 
       let table = addTitle(nodeTitle);
 
