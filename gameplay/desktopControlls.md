@@ -18,7 +18,6 @@ Resonite has a bunch of keybinds available in desktop mode, here is most of them
 | <kbd>RMB</kbd>  | Right Mouse Button (right click) |
 | <kbd>SCRW</kbd> | Scroll Wheel                     |
 
-
 <!-- div:left-panel -->
 
 ## Basic controls
