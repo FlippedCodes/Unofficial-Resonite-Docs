@@ -38,6 +38,8 @@ Creating Cloud Variables is actually really easy through commands sent to the Re
 
 #### Users
 
+<!-- embed:start:settingValuesUsers -->
+
 - `/createUserVar <path>` - Creates a Cloud Variable with the given path
 - `/setUserVarType <path> <type>` - Sets the type of the variable
 - `/setUserVarDefaultValue <path> <value>` - Sets the default value of the variable
@@ -45,7 +47,11 @@ Creating Cloud Variables is actually really easy through commands sent to the Re
 
 It is possible to do everything in one go using `/createUserVar <path> <type> <default> <read perms> <write perms> <list perms>`.
 
+<!-- embed:end:settingValuesUsers -->
+
 #### Groups
+
+<!-- embed:start:settingValuesGroups -->
 
 - `/createGroupVar <path>` - Creates a Cloud Variable with the given path
 - `/setGroupVarType <path> <type>` - Sets the type of the variable
@@ -53,6 +59,8 @@ It is possible to do everything in one go using `/createUserVar <path> <type> <d
 - `/setGroupVarPerms <path> <action> <permission>` - Sets the [permissions](#permissions) of the variable
 
 It is possible to do everything in one go using `/createGroupVar <path> <type> <default> <read perms> <write perms> <list perms>`.
+
+<!-- embed:end:settingValuesGroups -->
 
 ### Permissions
 
@@ -105,15 +113,23 @@ Due to the list permission being limited, here is the only type it can accept:
 
 #### Users
 
+<!-- embed:start:readingValuesUsers -->
+
 - `/getUserVar <path>` - Gets the definition of the variable (type, perms, default value)
 - `/getUserVarValue <owner> <path> <target user>` - Gets a user's variable value
 - `/listUserVars <user>` - Lists variable definitions of a user, requires the list permission
 
+<!-- embed:end:readingValuesUsers -->
+
 #### Groups
+
+<!-- embed:start:readingValuesGroups -->
 
 - `/getGroupVar <group> <path>` - Gets the definition of the variable (type, perms, default, value)
 - `/getGroupVarValue <group> <path> <target user>` - Get a user's variable value
 - `/listGroupVars <group>` - Lists variable definitions of a group, requires the list permission
+
+<!-- embed:end:readingValuesGroups -->
 
 #### Components
 

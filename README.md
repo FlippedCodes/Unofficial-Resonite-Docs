@@ -39,7 +39,7 @@ Also big thankies go to [Jae aka J4](https://777.tf/) for allowing us to use the
 
 ## ToDo List
 
-- [ ] Import Jae's Wiki articles about Resonite
+- [x] Import Jae's Wiki articles about Resonite
 - [ ] NeosVR MediaWiki import
   - [x] Get all XML files from all articles
   - [x] [Run Script](https://github.com/outofcontrol/mediawiki-to-gfm) and convert to Markdown files
@@ -48,7 +48,7 @@ Also big thankies go to [Jae aka J4](https://777.tf/) for allowing us to use the
   - [ ] Decide on how to handle the new Resonite Wikis content. (Import then override?)
 - [x] ~~Decide on custom URL Routing for Ingame help~~ Normal URLs can be used.
 - [ ] Sidebar
-  - [ ] [Check, if it can be automated](https://docsify.js.org/#/more-pages?id=sidebar)
+  - [x] [Check, if it can be automated](https://docsify.js.org/#/more-pages?id=sidebar) Can be automated with `docsify-tools` but it uses the filename instead of the first header or front matter info.
   - [ ] Write Script/Setup/Write manually
 - [x] Evaluate if Navbar is needed: Navbar is needed for language changes and official links
 - [ ] Evaluate MediaWiki Template Support
@@ -63,5 +63,6 @@ Also big thankies go to [Jae aka J4](https://777.tf/) for allowing us to use the
 - [x] Create render plugin to display protoflux nodes with dynamic content.
 - [x] Create full list of a Protoflux nodes
 - [ ] Hide drop shadow when sidebar is closed.
-- [ ] Look into how to use Github Pages with Docsify
-- [ ] Fix Light-Dark switcher overlapping with text on mobile.
+- [x] Look into how to use Github Pages with Docsify
+- [x] Fix Light-Dark switcher overlapping with text on mobile.
+- [x] Make ebedding partial content a thing
