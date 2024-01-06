@@ -66,6 +66,7 @@ Sidebar:
 */
 
 .sidebar {
+  scrollbar-width: thin;
   border-color: transparent;
   background-color: var(--codeBackgroundColor);
   direction: rtl;
