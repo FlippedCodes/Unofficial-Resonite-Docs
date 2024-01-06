@@ -34,7 +34,7 @@ ${editEmbed}
         .split('<!-- embedImport:start:')[1]
         .split(' -->')[0];
         // get part of the wiki that was wished for using the name
-        const importContent = embed
+      const importContent = embed
           .split(`<!-- embed:start:${importName} -->`)[1]
           .split(`<!-- embed:end:${importName} -->`)[0];
         // replace imported content with only the stuff we want
