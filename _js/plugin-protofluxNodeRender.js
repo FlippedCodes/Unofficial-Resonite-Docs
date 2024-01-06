@@ -135,6 +135,9 @@ function protofluxNodeRender(hook, vm) {
           type: connector[1],
           label: connector[2],
         };
+        // TEMP: Convert "inputlist" and "outputlist"
+        connectorData.connectorType = connectorData.connectorType.replace('list', '');
+
         if (connectorData.type.includes('\'')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
         if (connectorData.type.includes('"')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
         // check if first one is a output
