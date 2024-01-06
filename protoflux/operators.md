@@ -41,7 +41,7 @@ default. However, this node can be overloaded to accept a wide variety
 of value and reference datatypes if an appropriate wire is connected to
 one of the inputs.
 <!-- panels:end -->
-  
+
 <!-- panels:start -->
 <!-- div:title-panel -->
 ## Distance
@@ -57,7 +57,6 @@ Get distance by float between two object.
 Get actual distance between two object.
 
 ### Example
-
 
 <!-- panels:end -->
 
