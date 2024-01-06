@@ -819,16 +819,22 @@
   background-image: linear-gradient(rgba(219, 255, 74, 0.7), rgba(219, 255, 74, 0.7));
 }
 
+.PFN-TextureFormat {
+  stroke: rgb(166, 255, 168);
+  fill: rgb(166, 255, 168, 0.174);
+  background-image: linear-gradient(rgba(166, 255, 168, 0.7), rgba(166, 255, 168, 0.7));
+}
+
 .PFN-TextureWrapMode {
   stroke: rgb(127, 96, 85);
   fill: rgb(127, 96, 85, 0.174);
   background-image: linear-gradient(rgba(127, 96, 85, 0.7), rgba(127, 96, 85, 0.7));
 }
 
-.PFN-TextureFormat {
-  stroke: rgb(166, 255, 168);
-  fill: rgb(166, 255, 168, 0.174);
-  background-image: linear-gradient(rgba(166, 255, 168, 0.7), rgba(166, 255, 168, 0.7));
+.PFN-WrapMode {
+  stroke: rgb(255, 128, 72);
+  fill: rgb(255, 128, 72, 0.174);
+  background-image: linear-gradient(rgba(255, 128, 72, 0.7), rgba(255, 128, 72, 0.7));
 }
 
 .PFN-StaticAudioClip {
