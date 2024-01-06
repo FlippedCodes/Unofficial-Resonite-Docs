@@ -1,10 +1,29 @@
 const PMEregexGetImport = /<!-- embedImport:start:(.*?) -->(.*?)<!-- embedImport:end:(.*?) -->/gs;
+
 const PMEregexReplaceImport = (name) =>
   new RegExp(`<!-- embedImport:start:${name} -->(.*?)<!-- embedImport:end:${name} -->`, 'gs');
 
 const PMEregexGetImportName = /<!-- embedImport:start:(.*?) -->/g;
 
+const PMEregexGetEmbedImportName = /^(.*?).md#(.*?) ':include'\)$/gm;
+
 function partialMarkdownEmbed(hook, vm) {
+  hook.beforeEach((content) => {
+    if (!PMEregexGetEmbedImportName.test(content)) return;
+    const data = content.match(PMEregexGetEmbedImportName);
+    data.forEach((embed) => {
+      const parsedImportName = embed.split('.md#')[1].split(' \':include\')')[0]
+      const editEmbed = embed.replace(`#${parsedImportName}`, '');
+      const final = `
+<!-- embedImport:start:${parsedImportName} -->
+${editEmbed}
+<!-- embedImport:end:${parsedImportName} -->
+`;
+      content = content.replace(embed, final)
+    });
+    return content;
+  });
+
   hook.afterEach((content) => {
     if (!PMEregexGetImport.test(content)) return;
     const data = content.match(PMEregexGetImport);
