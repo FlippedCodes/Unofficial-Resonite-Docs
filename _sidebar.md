@@ -1,5 +1,5 @@
 - Gameplay
-  - [Desktop Controls](/gameplay/desktopControlls.md)
+  - [Desktop Controls](/gameplay/desktopControls.md)
   - [Bot Commands](/gameplay/botCommands.md)
   - [Miscellaneous](/gameplay/misc.md)
   - Advanced
