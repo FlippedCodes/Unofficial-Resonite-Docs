@@ -19,6 +19,6 @@ commonly referred to as the 'ternary' or 'conditional' operator.
 [Youtube Video](https://www.youtube-nocookie.com/embed/qIHwqWjaeyU ':include :type=iframe')
 
 <!-- div:right-panel -->
-<!-- you can get the right directory from "allNodes.md" -->
 [Node](./_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueConditional`1 ':include')
+
 <!-- panels:end -->
