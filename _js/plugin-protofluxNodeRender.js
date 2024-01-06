@@ -1,6 +1,6 @@
-const regexGet = /<!-- ProtofluxNode:start -->(.*?)<!-- ProtofluxNode:end -->/gs;
+const PFNregexGet = /<!-- ProtofluxNode:start -->(.*?)<!-- ProtofluxNode:end -->/gs;
 
-const regexReplace = /<!-- ProtofluxNode:start -->(.*?)<!-- ProtofluxNode:end -->/s;
+const PFNregexReplace = /<!-- ProtofluxNode:start -->(.*?)<!-- ProtofluxNode:end -->/s;
 
 const triggerTypes = [
   'SyncOperation',
@@ -32,8 +32,8 @@ const triggerConnector = `
     </svg>
 `;
 
-const addTitle = (title) => `
-<table class="PFN">
+const addTitle = (title, path) => `
+<table class="PFN" id="${path}">
   <thead>
     <tr>
       <th class="PFN-Title" colspan="4">${title}</th>
@@ -118,15 +118,16 @@ function tableToJson(table) {
 
 function protofluxNodeRender(hook, vm) {
   hook.afterEach((content) => {
-    if (!regexGet.test(content)) return;
-    const data = content.match(regexGet);
+    if (!PFNregexGet.test(content)) return;
+    const data = content.match(PFNregexGet);
     data.forEach((dataTable) => {
       const connectors = tableToJson(createElementFromHTML(dataTable));
       const nodeTitle = connectors.shift()[0];
-      const nodeTypePath = connectors.pop()[0];
-      const nodeType = nodeTypePath.split('/').at(-1);
+      const nodeTypePath = connectors.pop();
+      const nodePath = nodeTypePath[1];
+      const nodeType = nodeTypePath[0].split('/').at(-1);
 
-      let table = addTitle(nodeTitle);
+      let table = addTitle(nodeTitle, nodePath);
 
       connectors.forEach((connector, i) => {
         // write out out data
@@ -166,7 +167,7 @@ function protofluxNodeRender(hook, vm) {
 
       table += addType(nodeType);
 
-      content = content.replace(regexReplace, table);
+      content = content.replace(PFNregexReplace, table);
     });
     return content;
   });
