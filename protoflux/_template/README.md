@@ -18,7 +18,7 @@
 
 [Category Root/Avatars/Anchors](./Root/Avatars/Anchors/README.md ':include')
 
-[Category Root/Avatars/Body Nodes](./Root/Avatars/Body Nodes/README.md ':include')
+[Category Root/Avatars/Body Nodes](./Root/Avatars/Body%20Nodes/README.md ':include')
 
 [Category Root/Casts](./Root/Casts/README.md ':include')
 
@@ -70,9 +70,9 @@
 
 [Category Root/Math/Constants](./Root/Math/Constants/README.md ':include')
 
-[Category Root/Math/Geometry 2D](./Root/Math/Geometry 2D/README.md ':include')
+[Category Root/Math/Geometry 2D](./Root/Math/Geometry%202D/README.md ':include')
 
-[Category Root/Math/Geometry 3D](./Root/Math/Geometry 3D/README.md ':include')
+[Category Root/Math/Geometry 3D](./Root/Math/Geometry%203D/README.md ':include')
 
 [Category Root/Math/Interpolation](./Root/Math/Interpolation/README.md ':include')
 
@@ -104,7 +104,7 @@
 
 [Category Root/Operators](./Root/Operators/README.md ':include')
 
-[Category Root/Operators/Bool Vectors](./Root/Operators/Bool Vectors/README.md ':include')
+[Category Root/Operators/Bool Vectors](./Root/Operators/Bool%20Vectors/README.md ':include')
 
 [Category Root/Operators/Boolean](./Root/Operators/Boolean/README.md ':include')
 
@@ -166,11 +166,11 @@
 
 [Category Root/Users/Info](./Root/Users/Info/README.md ':include')
 
-[Category Root/Users/Local Output](./Root/Users/Local Output/README.md ':include')
+[Category Root/Users/Local Output](./Root/Users/Local%20Output/README.md ':include')
 
 [Category Root/Users/Status](./Root/Users/Status/README.md ':include')
 
-[Category Root/Users/User Root](./Root/Users/User Root/README.md ':include')
+[Category Root/Users/User Root](./Root/Users/User%20Root/README.md ':include')
 
 [Category Root/Utility](./Root/Utility/README.md ':include')
 
