@@ -65,4 +65,5 @@ Also big thankies go to [Jae aka J4](https://777.tf/) for allowing us to use the
 - [ ] Hide drop shadow when sidebar is closed.
 - [x] Look into how to use Github Pages with Docsify
 - [x] Fix Light-Dark switcher overlapping with text on mobile.
-- [x] Make ebedding partial content a thing
+- [x] Make embedding partial content a thing
+- [ ] Fix Language fallback
