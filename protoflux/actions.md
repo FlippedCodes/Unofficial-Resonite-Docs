@@ -38,11 +38,12 @@ receiver `Impulse` output.
 When spawning this node from the node browser there is a selection of
 possible datatypes for this node. See this tutorial by ProbablePrime for
 how to create receiver nodes for other data types.
-[Youtube Video](https://www.youtube-nocookie.com/embed/3j4FGONxfWk?si=Ka-aOglyqIXwZgMC ':include :type=iframe')
+
+[Youtube Video](https://www.youtube-nocookie.com/embed/3j4FGONxfWk ':include :type=iframe')
 
 ### Example
 
-[Youtube Video](https://www.youtube-nocookie.com/embed/6A0GQ4iABfY?si=a3Iody0kgSq88IdD ':include :type=iframe')
+[Youtube Video](https://www.youtube-nocookie.com/embed/6A0GQ4iABfY ':include :type=iframe')
 <!-- panels:end -->
 
 <!-- panels:start -->
@@ -91,7 +92,7 @@ Receiver](Dynamic_Impulse_Receiver_(Protoflux_node) "wikilink") nodes
 will be ignored. The hierarchy search is highly efficient, however it is
 best to set the input `TargetHierarchy` as close to the intended target
 node as possible to minimize performance costs.
-[Youtube Video](https://www.youtube-nocookie.com/embed/6A0GQ4iABfY?si=OeIyXLVnU6kLAPbs ':include :type=iframe')
+[Youtube Video](https://www.youtube-nocookie.com/embed/6A0GQ4iABfY ':include :type=iframe')
 <!-- panels:end -->
 
 <!-- panels:start -->
