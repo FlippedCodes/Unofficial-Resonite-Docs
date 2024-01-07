@@ -15,20 +15,20 @@ const triggerTypes = [
 ];
 
 const leftConnector = `
-    <svg width="16" height="32">
-      <path d="M 0 1 H 15 V 31 H 0"/>
+    <svg width="32" height="64">
+      <path d="M 0 1 H 31 V 63 H 0"/>
     </svg>
 `;
 
 const rightConnector = `
-    <svg width="16" height="32">
-      <path d="M 32 31 H 1 V 1 H 32"/>
+    <svg width="32" height="64">
+      <path d="M 64 63 H 1 V 1 H 63"/>
     </svg>
 `;
 
 const triggerConnector = `
-    <svg width="16" height="32">
-      <polygon style="stroke-width: 1px;" points="0.5,0 0.5,32 16,16" />
+    <svg width="32" height="64">
+      <polygon style="stroke-width: 1px;" points="0.5,0 0.5,64 32,32" />
     </svg>
 `;
 

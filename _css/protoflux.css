@@ -5,14 +5,14 @@
 }
 
 .PFN {
-  scale: 150%;
+  /* scale: 150%;
   margin: 32px;
   margin-top: 62px;
-  margin-bottom: 80px;
+  margin-bottom: 80px; */
   border-spacing: 0;
   background-color: #11151d;
   color: white;
-  width: 128px !important;
+  width: 256px !important;
   filter: drop-shadow(0 0 0.75rem var(--custom_dropshadow_color));
 }
 
@@ -25,8 +25,8 @@
 }
 
 .PFN tbody tr {
-  line-height: 8px;
-  height: 16px;
+  line-height: 16px;
+  height: 32px;
 }
 
 .PFN td,
@@ -38,19 +38,19 @@
 
 .PFN-Title,
 .PFN-NodeType {
-  width: 128px;
+  width: 256px;
   font-family: "Poppins-SemiBold";
   text-align: center;
-  height: 24px;
+  height: 48px;
   padding: 0px;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .PFN-NodeType {
-  font-size: 12px;
-  padding: 2px;
-  height: 12px;
+  font-size: 24px;
+  padding: 4px;
+  height: 24px;
   color: rgba(255, 255, 255, 0.2);
 }
 
@@ -58,25 +58,25 @@
 .PFN-LabelLeft {
   font-family: "Poppins-SemiBold";
   padding: 0px;
-  font-size: 8px;
+  font-size: 16px;
   background-repeat: no-repeat;
 }
 
 .PFN-LabelRight {
   text-align: right;
   background-position: 100% 50%;
-  background-size: 80px 12px;
+  background-size: 160px 24px;
 }
 
 .PFN-LabelLeft {
   background-position: 0% 50%;
-  background-size: 80px 12px;
+  background-size: 160px 24px;
 }
 
 .PFN-Connector {
-  height: 32px;
-  width: 16px;
-  stroke-width: 2px;
+  height: 64px;
+  width: 32px;
+  stroke-width: 4px;
   padding: 0px;
   background-image: linear-gradient(black, black) !important;
 }
