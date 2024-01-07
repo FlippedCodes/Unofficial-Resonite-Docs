@@ -5,20 +5,20 @@
 
 <svg width="32" height="64">
   <path style="stroke-width: 4px" d="M 0 2 H 30 V 62 H 0"/>
-  <path style="stroke-width: 2px" d="M 0 30 H 30"/>
+  <path style="stroke-width: 2px" d="M 0 32 H 30"/>
 </svg>
 
 <svg width="32" height="64">
   <path style="stroke-width: 4px" d="M 0 2 H 30 V 62 H 0"/>
-  <path style="stroke-width: 2px" d="M 0 20 H 30"/>
-  <path style="stroke-width: 2px" d="M 0 40 H 30"/>
+  <path style="stroke-width: 2px" d="M 0 22.166 H 30"/>
+  <path style="stroke-width: 2px" d="M 0 41.833 H 30"/>
 </svg>
 
 <svg width="32" height="64">
   <path style="stroke-width: 4px" d="M 0 2 H 30 V 62 H 0"/>
-  <path style="stroke-width: 2px" d="M 0 15 H 30"/>
-  <path style="stroke-width: 2px" d="M 0 30 H 30"/>
-  <path style="stroke-width: 2px" d="M 0 45 H 30"/>
+  <path style="stroke-width: 2px" d="M 0 17.5 H 30"/>
+  <path style="stroke-width: 2px" d="M 0 32 H 30"/>
+  <path style="stroke-width: 2px" d="M 0 46.5 H 30"/>
 </svg>
 
 <!-- right -->
@@ -28,18 +28,18 @@
 
 <svg width="32" height="64">
   <path style="stroke-width: 4px" d="M 32 2 H 2 V 62 H 32"/>
-  <path style="stroke-width: 2px" d="M 2 30 H 30"/>
+  <path style="stroke-width: 2px" d="M 2 32 H 32"/>
 </svg>
 
 <svg width="32" height="64">
   <path style="stroke-width: 4px" d="M 32 2 H 2 V 62 H 32"/>
-  <path style="stroke-width: 2px" d="M 2 20 H 30"/>
-  <path style="stroke-width: 2px" d="M 2 40 H 30"/>
+  <path style="stroke-width: 2px" d="M 2 22.166 H 32"/>
+  <path style="stroke-width: 2px" d="M 2 41.833 H 32"/>
 </svg>
 
 <svg width="32" height="64">
   <path style="stroke-width: 4px" d="M 32 2 H 2 V 62 H 32"/>
-  <path style="stroke-width: 2px" d="M 2 15 H 30"/>
-  <path style="stroke-width: 2px" d="M 2 30 H 30"/>
-  <path style="stroke-width: 2px" d="M 2 45 H 30"/>
+  <path style="stroke-width: 2px" d="M 2 17.5 H 32"/>
+  <path style="stroke-width: 2px" d="M 2 32 H 32"/>
+  <path style="stroke-width: 2px" d="M 2 46.5 H 32"/>
 </svg>
