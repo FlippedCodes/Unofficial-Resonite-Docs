@@ -471,6 +471,24 @@
   background-image: linear-gradient(rgba(51, 100, 64, 0.7), rgba(51, 100, 64, 0.7));
 }
 
+.PFN-ArgumentList {
+  stroke: rgb(84, 132, 103);
+  fill: rgb(84, 132, 103, 0.174);
+  background-image: linear-gradient(rgba(84, 132, 103, 0.7), rgba(84, 132, 103, 0.7));
+}
+
+.PFN-Action {
+  stroke: rgb(98, 113, 204);
+  fill: rgb(98, 113, 204, 0.174);
+  background-image: linear-gradient(rgba(98, 113, 204, 0.7), rgba(98, 113, 204, 0.7));
+}
+
+.PFN-Func_1 {
+  stroke: rgb(154, 99, 255);
+  fill: rgb(154, 99, 255, 0.174);
+  background-image: linear-gradient(rgba(154, 99, 255, 0.7), rgba(154, 99, 255, 0.7));
+}
+
 .PFN-Guid {
   stroke: rgb(112, 174, 200);
   fill: rgb(112, 174, 200, 0.174);
@@ -511,6 +529,18 @@
   stroke: rgb(49, 74, 113);
   fill: rgb(49, 74, 113, 0.174);
   background-image: linear-gradient(rgba(49, 74, 113, 0.7), rgba(49, 74, 113, 0.7));
+}
+
+.PFN-SyncRef {
+  stroke: rgb(238, 159, 255);
+  fill: rgb(238, 159, 255, 0.174);
+  background-image: linear-gradient(rgba(238, 159, 255, 0.7), rgba(238, 159, 255, 0.7));
+}
+
+.PFN-SyncRef_1 {
+  stroke: rgb(63, 224, 222);
+  fill: rgb(63, 224, 222, 0.174);
+  background-image: linear-gradient(rgba(63, 224, 222, 0.7), rgba(63, 224, 222, 0.7));
 }
 
 .PFN-ISyncRef {
@@ -651,10 +681,22 @@
   background-image: linear-gradient(rgba(55, 80, 136, 0.7), rgba(55, 80, 136, 0.7));
 }
 
+.PFN-IDestroyable {
+  stroke: rgb(179, 255, 152);
+  fill: rgb(179, 255, 152, 0.174);
+  background-image: linear-gradient(rgba(179, 255, 152, 0.7), rgba(179, 255, 152, 0.7));
+}
+
 .PFN-IWorldElement {
   stroke: rgb(214, 231, 145);
   fill: rgb(214, 231, 145, 0.174);
   background-image: linear-gradient(rgba(214, 231, 145, 0.7), rgba(214, 231, 145, 0.7));
+}
+
+.PFN-Worker {
+  stroke: rgb(52, 129, 50);
+  fill: rgb(52, 129, 50, 0.174);
+  background-image: linear-gradient(rgba(52, 129, 50, 0.7), rgba(52, 129, 50, 0.7));
 }
 
 .PFN-Slot {
@@ -673,6 +715,12 @@
   stroke: rgb(93, 135, 71);
   fill: rgb(93, 135, 71, 0.174);
   background-image: linear-gradient(rgba(93, 135, 71, 0.7), rgba(93, 135, 71, 0.7));
+}
+
+.PFN-INode {
+  stroke: rgb(196, 255, 149);
+  fill: rgb(196, 255, 149, 0.174);
+  background-image: linear-gradient(rgba(196, 255, 149, 0.7), rgba(196, 255, 149, 0.7));
 }
 
 .PFN-ProtoFluxNode {
@@ -897,10 +945,28 @@
   background-image: linear-gradient(rgba(188, 255, 152, 0.7), rgba(188, 255, 152, 0.7));
 }
 
+.PFN-GrabbableReceiverSurface {
+  stroke: rgb(255, 154, 93);
+  fill: rgb(255, 154, 93, 0.174);
+  background-image: linear-gradient(rgba(255, 154, 93, 0.7), rgba(255, 154, 93, 0.7));
+}
+
+.PFN-PhysicalLocomotion {
+  stroke: rgb(172, 218, 254);
+  fill: rgb(172, 218, 254, 0.174);
+  background-image: linear-gradient(rgba(172, 218, 254, 0.7), rgba(172, 218, 254, 0.7));
+}
+
 .PFN-ILocomotionModule {
   stroke: rgb(162, 223, 163);
   fill: rgb(162, 223, 163, 0.174);
   background-image: linear-gradient(rgba(162, 223, 163, 0.7), rgba(162, 223, 163, 0.7));
+}
+
+.PFN-LocomotionGrip {
+  stroke: rgb(88, 185, 86);
+  fill: rgb(88, 185, 86, 0.174);
+  background-image: linear-gradient(rgba(88, 185, 86, 0.7), rgba(88, 185, 86, 0.7));
 }
 
 .PFN-Animation {
@@ -933,10 +999,28 @@
   background-image: linear-gradient(rgba(174, 255, 94, 0.7), rgba(174, 255, 94, 0.7));
 }
 
+.PFN-IButton {
+  stroke: rgb(76, 255, 240);
+  fill: rgb(76, 255, 240, 0.174);
+  background-image: linear-gradient(rgba(76, 255, 240, 0.7), rgba(76, 255, 240, 0.7));
+}
+
+.PFN-TouchEventRelay {
+  stroke: rgb(246, 173, 255);
+  fill: rgb(246, 173, 255, 0.174);
+  background-image: linear-gradient(rgba(246, 173, 255, 0.7), rgba(246, 173, 255, 0.7));
+}
+
 .PFN-CurvePreset {
   stroke: rgb(87, 255, 253);
   fill: rgb(87, 255, 253, 0.174);
   background-image: linear-gradient(rgba(87, 255, 253, 0.7), rgba(87, 255, 253, 0.7));
+}
+
+.PFN-TwitchInterface {
+  stroke: rgb(160, 255, 191);
+  fill: rgb(160, 255, 191, 0.174);
+  background-image: linear-gradient(rgba(160, 255, 191, 0.7), rgba(160, 255, 191, 0.7));
 }
 
 .PFN-BadgeColor {
@@ -955,6 +1039,12 @@
   stroke: rgb(194, 242, 175);
   fill: rgb(194, 242, 175, 0.174);
   background-image: linear-gradient(rgba(194, 242, 175, 0.7), rgba(194, 242, 175, 0.7));
+}
+
+.PFN-TextEditor {
+  stroke: rgb(110, 154, 253);
+  fill: rgb(110, 154, 253, 0.174);
+  background-image: linear-gradient(rgba(110, 154, 253, 0.7), rgba(110, 154, 253, 0.7));
 }
 
 .PFN-T {
