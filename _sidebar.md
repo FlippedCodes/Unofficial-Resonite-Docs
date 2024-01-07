@@ -8,6 +8,7 @@
     - [Cloud Variables](/gameplay/advanced/cloudVars.md)
 
 - Protoflux
+<!-- embed:start:protoflux -->
   - [Actions](/protoflux/actions.md)
   - [Assets](/protoflux/assets.md)
   - [Audio](/protoflux/audio.md)
@@ -16,6 +17,7 @@
     - [Vectors](/protoflux/operators/vectors.md)
   - [Users](/protoflux/users.md)
   - [All Nodes](/protoflux/allNodes.md)
+<!-- embed:end:protoflux -->
 
 - Headless
   - [Headless Client](/headless/headlessClient.md)
