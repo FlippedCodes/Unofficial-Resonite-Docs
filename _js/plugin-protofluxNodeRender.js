@@ -173,13 +173,21 @@ function protofluxNodeRender(hook, vm) {
     if (!PFNregexGet.test(content)) return;
     const data = content.match(PFNregexGet);
     data.forEach((dataTable) => {
-      const connectors = tableToJson(createElementFromHTML(dataTable));
+      let connectors = tableToJson(createElementFromHTML(dataTable));
       const nodeTitle = connectors.shift()[0];
       const nodeTypePath = connectors.pop();
       const nodePath = nodeTypePath[1];
       const nodeType = nodeTypePath[0].split('/').at(-1);
 
       let table = addTitle(nodeTitle, nodePath);
+
+      // TEMP: Converts
+      connectors = connectors.map((connector) => {
+        connector[0] = connector[0].replace('listbuttons', '');
+        connector[0] = connector[0].replace('reference', 'input');
+        connector[0] = connector[0].replace('list', '');
+        return connector;
+      })
 
       connectors.forEach((connector, i) => {
         // write out out data
@@ -191,11 +199,6 @@ function protofluxNodeRender(hook, vm) {
         const connectorRankArr = connectorData.type.match(PFNregexCheckForVector);
         let connectorRank = 1;
         if (connectorRankArr) connectorRank = connectorRankArr[0];
-        // TEMP: Converts
-        connectorData.connectorType = connectorData.connectorType.replace('list', '');
-        connectorData.connectorType = connectorData.connectorType.replace('reference', 'input');
-        if (connectorData.connectorType === 'inputbuttons' ||
-            connectorData.connectorType === 'outputbuttons') return;
 
         if (connectorData.type.includes('\'')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
         if (connectorData.type.includes('"')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
