@@ -136,8 +136,9 @@ function protofluxNodeRender(hook, vm) {
           type: connector[1],
           label: connector[2],
         };
-        // TEMP: Convert "inputlist" and "outputlist". Delete "inputbuttons" and "outputbuttons"
+        // TEMP: Converts
         connectorData.connectorType = connectorData.connectorType.replace('list', '');
+        connectorData.connectorType = connectorData.connectorType.replace('reference', 'input');
         if (connectorData.connectorType === 'inputbuttons' ||
             connectorData.connectorType === 'outputbuttons') return;
 
