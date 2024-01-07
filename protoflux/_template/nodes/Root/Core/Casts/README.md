@@ -7,14 +7,14 @@
 
 ### Object Cast
 
-<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Casts.ObjectCast\`2 -->
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Casts.ObjectCast`2 -->
 <!-- ProtofluxNode:start -->
 | Object Cast | Type | Label |
 | --- | ---- | ----- |
 | input | I | Input |
 | output | O | * |
-| Root/Core/Casts | ProtoFlux.Runtimes.Execution.Nodes.Casts.ObjectCast\`2 |  |
+| Root/Core/Casts | ProtoFlux.Runtimes.Execution.Nodes.Casts.ObjectCast`2 |  |
 <!-- ProtofluxNode:end -->
-<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Casts.ObjectCast\`2 -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Casts.ObjectCast`2 -->
 
 

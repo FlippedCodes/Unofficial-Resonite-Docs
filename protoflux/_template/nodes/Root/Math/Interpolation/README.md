@@ -9,13 +9,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.BezierCurve_Float -->
 <!-- ProtofluxNode:start -->
-| Bezier Curve            | Type                                                      | Label |
-| ----------------------- | --------------------------------------------------------- | ----- |
-| input                   | TangentPointFloat                                         | From  |
-| output                  | Single                                                    | *     |
-| input                   | TangentPointFloat                                         | To    |
-| input                   | Single                                                    | Lerp  |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.BezierCurve_Float |       |
+| Bezier Curve | Type | Label |
+| --- | ---- | ----- |
+| input | TangentPointFloat | From |
+| output | Single | * |
+| input | TangentPointFloat | To |
+| input | Single | Lerp |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.BezierCurve_Float |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.BezierCurve_Float -->
 
@@ -24,13 +24,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.CosineLerp_Float -->
 <!-- ProtofluxNode:start -->
-| Cosine Lerp             | Type                                                     | Label |
-| ----------------------- | -------------------------------------------------------- | ----- |
-| input                   | Single                                                   | A     |
-| output                  | Single                                                   | *     |
-| input                   | Single                                                   | B     |
-| input                   | Single                                                   | Lerp  |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.CosineLerp_Float |       |
+| Cosine Lerp | Type | Label |
+| --- | ---- | ----- |
+| input | Single | A |
+| output | Single | * |
+| input | Single | B |
+| input | Single | Lerp |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.CosineLerp_Float |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.CosineLerp_Float -->
 
@@ -39,13 +39,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.CubicLerp_Float -->
 <!-- ProtofluxNode:start -->
-| Cubic Lerp              | Type                                                    | Label |
-| ----------------------- | ------------------------------------------------------- | ----- |
-| input                   | TangentPointFloat                                       | From  |
-| output                  | Single                                                  | *     |
-| input                   | TangentPointFloat                                       | To    |
-| input                   | Single                                                  | Lerp  |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.CubicLerp_Float |       |
+| Cubic Lerp | Type | Label |
+| --- | ---- | ----- |
+| input | TangentPointFloat | From |
+| output | Single | * |
+| input | TangentPointFloat | To |
+| input | Single | Lerp |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.CubicLerp_Float |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.CubicLerp_Float -->
 
@@ -54,13 +54,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueInverseLerp`1 -->
 <!-- ProtofluxNode:start -->
-| Inverse Lerp            | Type                                                       | Label |
-| ----------------------- | ---------------------------------------------------------- | ----- |
-| input                   | T                                                          | From  |
-| output                  | Single                                                     | *     |
-| input                   | T                                                          | To    |
-| input                   | T                                                          | Value |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueInverseLerp`1 |       |
+| Inverse Lerp | Type | Label |
+| --- | ---- | ----- |
+| input | T | From |
+| output | Single | * |
+| input | T | To |
+| input | T | Value |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueInverseLerp`1 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueInverseLerp`1 -->
 
@@ -69,13 +69,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueLerp`1 -->
 <!-- ProtofluxNode:start -->
-| Lerp                    | Type                                                | Label |
-| ----------------------- | --------------------------------------------------- | ----- |
-| input                   | T                                                   | From  |
-| output                  | T                                                   | *     |
-| input                   | T                                                   | To    |
-| input                   | Single                                              | Lerp  |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueLerp`1 |       |
+| Lerp | Type | Label |
+| --- | ---- | ----- |
+| input | T | From |
+| output | T | * |
+| input | T | To |
+| input | Single | Lerp |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueLerp`1 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueLerp`1 -->
 
@@ -84,13 +84,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueLerpUnclamped`1 -->
 <!-- ProtofluxNode:start -->
-| Lerp (unclamped)        | Type                                                         | Label |
-| ----------------------- | ------------------------------------------------------------ | ----- |
-| input                   | T                                                            | From  |
-| output                  | T                                                            | *     |
-| input                   | T                                                            | To    |
-| input                   | Single                                                       | Lerp  |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueLerpUnclamped`1 |       |
+| Lerp (unclamped) | Type | Label |
+| --- | ---- | ----- |
+| input | T | From |
+| output | T | * |
+| input | T | To |
+| input | Single | Lerp |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueLerpUnclamped`1 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueLerpUnclamped`1 -->
 
@@ -99,13 +99,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.MultiBezierCurve_Float -->
 <!-- ProtofluxNode:start -->
-| Bezier Curve            | Type                                                           | Label    |
-| ----------------------- | -------------------------------------------------------------- | -------- |
-| input                   | Single                                                         | Lerp     |
-| output                  | Single                                                         | *        |
-| inputlist               | TangentPointFloat                                              | Operands |
-| inputlistbuttons        | TangentPointFloat                                              | Operands |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.MultiBezierCurve_Float |          |
+| Bezier Curve | Type | Label |
+| --- | ---- | ----- |
+| input | Single | Lerp |
+| output | Single | * |
+| inputlist | TangentPointFloat | Operands |
+| inputlistbuttons | TangentPointFloat | Operands |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.MultiBezierCurve_Float |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.MultiBezierCurve_Float -->
 
@@ -114,13 +114,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.MultiCosineLerp_Float -->
 <!-- ProtofluxNode:start -->
-| Cosine Lerp             | Type                                                          | Label    |
-| ----------------------- | ------------------------------------------------------------- | -------- |
-| input                   | Single                                                        | Lerp     |
-| output                  | Single                                                        | *        |
-| inputlist               | Single                                                        | Operands |
-| inputlistbuttons        | Single                                                        | Operands |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.MultiCosineLerp_Float |          |
+| Cosine Lerp | Type | Label |
+| --- | ---- | ----- |
+| input | Single | Lerp |
+| output | Single | * |
+| inputlist | Single | Operands |
+| inputlistbuttons | Single | Operands |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.MultiCosineLerp_Float |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.MultiCosineLerp_Float -->
 
@@ -129,13 +129,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.MultiCubicLerp_Float -->
 <!-- ProtofluxNode:start -->
-| Cubic Lerp              | Type                                                         | Label    |
-| ----------------------- | ------------------------------------------------------------ | -------- |
-| input                   | Single                                                       | Lerp     |
-| output                  | Single                                                       | *        |
-| inputlist               | TangentPointFloat                                            | Operands |
-| inputlistbuttons        | TangentPointFloat                                            | Operands |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.MultiCubicLerp_Float |          |
+| Cubic Lerp | Type | Label |
+| --- | ---- | ----- |
+| input | Single | Lerp |
+| output | Single | * |
+| inputlist | TangentPointFloat | Operands |
+| inputlistbuttons | TangentPointFloat | Operands |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.MultiCubicLerp_Float |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.MultiCubicLerp_Float -->
 
@@ -144,13 +144,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueMultiLerp`1 -->
 <!-- ProtofluxNode:start -->
-| Lerp                    | Type                                                     | Label    |
-| ----------------------- | -------------------------------------------------------- | -------- |
-| input                   | Single                                                   | Lerp     |
-| output                  | T                                                        | *        |
-| inputlist               | T                                                        | Operands |
-| inputlistbuttons        | T                                                        | Operands |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueMultiLerp`1 |          |
+| Lerp | Type | Label |
+| --- | ---- | ----- |
+| input | Single | Lerp |
+| output | T | * |
+| inputlist | T | Operands |
+| inputlistbuttons | T | Operands |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueMultiLerp`1 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueMultiLerp`1 -->
 
@@ -159,13 +159,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.MultiSlerp_Float3 -->
 <!-- ProtofluxNode:start -->
-| Slerp                   | Type                                                      | Label    |
-| ----------------------- | --------------------------------------------------------- | -------- |
-| input                   | Single                                                    | Lerp     |
-| output                  | float3                                                    | *        |
-| inputlist               | float3                                                    | Operands |
-| inputlistbuttons        | float3                                                    | Operands |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.MultiSlerp_Float3 |          |
+| Slerp | Type | Label |
+| --- | ---- | ----- |
+| input | Single | Lerp |
+| output | float3 | * |
+| inputlist | float3 | Operands |
+| inputlistbuttons | float3 | Operands |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.MultiSlerp_Float3 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.MultiSlerp_Float3 -->
 
@@ -174,13 +174,13 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.Slerp_Float3 -->
 <!-- ProtofluxNode:start -->
-| Slerp                   | Type                                                 | Label |
-| ----------------------- | ---------------------------------------------------- | ----- |
-| input                   | float3                                               | From  |
-| output                  | float3                                               | *     |
-| input                   | float3                                               | To    |
-| input                   | Single                                               | Lerp  |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.Slerp_Float3 |       |
+| Slerp | Type | Label |
+| --- | ---- | ----- |
+| input | float3 | From |
+| output | float3 | * |
+| input | float3 | To |
+| input | Single | Lerp |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.Slerp_Float3 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.Slerp_Float3 -->
 
@@ -189,12 +189,12 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueConstantLerp`1 -->
 <!-- ProtofluxNode:start -->
-| Constant Lerp           | Type                                                        | Label |
-| ----------------------- | ----------------------------------------------------------- | ----- |
-| input                   | T                                                           | Input |
-| output                  | T                                                           | *     |
-| input                   | Single                                                      | Speed |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueConstantLerp`1 |       |
+| Constant Lerp | Type | Label |
+| --- | ---- | ----- |
+| input | T | Input |
+| output | T | * |
+| input | Single | Speed |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueConstantLerp`1 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueConstantLerp`1 -->
 
@@ -203,12 +203,12 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.ConstantSlerp_floatQ -->
 <!-- ProtofluxNode:start -->
-| Constant Slerp          | Type                                                         | Label |
-| ----------------------- | ------------------------------------------------------------ | ----- |
-| input                   | floatQ                                                       | Input |
-| output                  | floatQ                                                       | *     |
-| input                   | Single                                                       | Speed |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ConstantSlerp_floatQ |       |
+| Constant Slerp | Type | Label |
+| --- | ---- | ----- |
+| input | floatQ | Input |
+| output | floatQ | * |
+| input | Single | Speed |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ConstantSlerp_floatQ |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.ConstantSlerp_floatQ -->
 
@@ -217,12 +217,12 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueSmoothLerp`1 -->
 <!-- ProtofluxNode:start -->
-| Smooth Lerp             | Type                                                      | Label |
-| ----------------------- | --------------------------------------------------------- | ----- |
-| input                   | T                                                         | Input |
-| output                  | T                                                         | *     |
-| input                   | Single                                                    | Speed |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueSmoothLerp`1 |       |
+| Smooth Lerp | Type | Label |
+| --- | ---- | ----- |
+| input | T | Input |
+| output | T | * |
+| input | Single | Speed |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.ValueSmoothLerp`1 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.ValueSmoothLerp`1 -->
 
@@ -231,12 +231,12 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Math.SmoothSlerp_floatQ -->
 <!-- ProtofluxNode:start -->
-| Smooth Slerp            | Type                                                       | Label |
-| ----------------------- | ---------------------------------------------------------- | ----- |
-| input                   | floatQ                                                     | Input |
-| output                  | floatQ                                                     | *     |
-| input                   | Single                                                     | Speed |
-| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.SmoothSlerp_floatQ |       |
+| Smooth Slerp | Type | Label |
+| --- | ---- | ----- |
+| input | floatQ | Input |
+| output | floatQ | * |
+| input | Single | Speed |
+| Root/Math/Interpolation | ProtoFlux.Runtimes.Execution.Nodes.Math.SmoothSlerp_floatQ |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Math.SmoothSlerp_floatQ -->
 

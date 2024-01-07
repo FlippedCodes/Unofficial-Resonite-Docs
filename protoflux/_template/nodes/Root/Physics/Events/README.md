@@ -13,6 +13,7 @@
 | --- | ---- | ----- |
 | output | Call | OnEvent |
 | output | ICollider | Other |
+| reference | ICollider | Collider |
 | Root/Physics/Events | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnContactEnd |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnContactEnd -->
@@ -26,6 +27,7 @@
 | --- | ---- | ----- |
 | output | Call | OnEvent |
 | output | ICollider | Other |
+| reference | ICollider | Collider |
 | Root/Physics/Events | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnContactStart |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnContactStart -->
@@ -39,6 +41,7 @@
 | --- | ---- | ----- |
 | output | Call | OnEvent |
 | output | ICollider | Other |
+| reference | ICollider | Collider |
 | Root/Physics/Events | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnContactStay |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnContactStay -->
@@ -53,6 +56,7 @@
 | output | Call | OnEvent |
 | output | ILocomotionModule | Module |
 | output | BodyNode | GrippingBodyNode |
+| reference | LocomotionGrip | Grip |
 | Root/Physics/Events | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnGripEnd |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnGripEnd -->
@@ -67,6 +71,7 @@
 | output | Call | OnEvent |
 | output | ILocomotionModule | Module |
 | output | BodyNode | GrippingBodyNode |
+| reference | LocomotionGrip | Grip |
 | Root/Physics/Events | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnGripStart |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnGripStart -->
@@ -81,6 +86,7 @@
 | output | Call | OnEvent |
 | output | ILocomotionModule | Module |
 | output | BodyNode | GrippingBodyNode |
+| reference | LocomotionGrip | Grip |
 | Root/Physics/Events | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnGripStay |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnGripStay -->
@@ -96,6 +102,7 @@
 | output | Slot | GrippedSlot |
 | output | float3 | GrippedPoint |
 | output | Chirality | GrippingHand |
+| reference | PhysicalLocomotion | Locomotion |
 | Root/Physics/Events | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnLocomotionGripBegin |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnLocomotionGripBegin -->
@@ -111,6 +118,7 @@
 | output | Slot | GrippedSlot |
 | output | float3 | GrippedPoint |
 | output | Chirality | GrippingHand |
+| reference | PhysicalLocomotion | Locomotion |
 | Root/Physics/Events | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnLocomotionGripEnd |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.OnLocomotionGripEnd -->

@@ -9,10 +9,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.InvertedDeltaTime -->
 <!-- ProtofluxNode:start -->
-| 1/d T     | Type                                                                  | Label |
-| --------- | --------------------------------------------------------------------- | ----- |
-| output    | Single                                                                | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.InvertedDeltaTime |       |
+| 1/d T | Type | Label |
+| --- | ---- | ----- |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.InvertedDeltaTime |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.InvertedDeltaTime -->
 
@@ -21,10 +21,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.DeltaTime -->
 <!-- ProtofluxNode:start -->
-| D T       | Type                                                          | Label |
-| --------- | ------------------------------------------------------------- | ----- |
-| output    | Single                                                        | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.DeltaTime |       |
+| D T | Type | Label |
+| --- | ---- | ----- |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.DeltaTime |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.DeltaTime -->
 
@@ -33,12 +33,12 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.ElapsedTimeFloat -->
 <!-- ProtofluxNode:start -->
-| Elapsed Time | Type                                                                 | Label   |
-| ------------ | -------------------------------------------------------------------- | ------- |
-| input        | SyncOperation                                                        | Reset   |
-| output       | Continuation                                                         | OnReset |
-| output       | Single                                                               | *       |
-| Root/Time    | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.ElapsedTimeFloat |         |
+| Elapsed Time | Type | Label |
+| --- | ---- | ----- |
+| input | SyncOperation | Reset |
+| output | Continuation | OnReset |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.ElapsedTimeFloat |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.ElapsedTimeFloat -->
 
@@ -47,11 +47,11 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Operators.DivDeltaTime`1 -->
 <!-- ProtofluxNode:start -->
-| ÷d T      | Type                                                                    | Label |
-| --------- | ----------------------------------------------------------------------- | ----- |
-| input     | T                                                                       | A     |
-| output    | T                                                                       | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Operators.DivDeltaTime`1 |       |
+| ÷d T | Type | Label |
+| --- | ---- | ----- |
+| input | T | A |
+| output | T | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Operators.DivDeltaTime`1 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Operators.DivDeltaTime`1 -->
 
@@ -60,11 +60,11 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Operators.MulDeltaTime`1 -->
 <!-- ProtofluxNode:start -->
-| *d T      | Type                                                                    | Label |
-| --------- | ----------------------------------------------------------------------- | ----- |
-| input     | T                                                                       | A     |
-| output    | T                                                                       | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Operators.MulDeltaTime`1 |       |
+| *d T | Type | Label |
+| --- | ---- | ----- |
+| input | T | A |
+| output | T | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Operators.MulDeltaTime`1 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Operators.MulDeltaTime`1 -->
 
@@ -73,12 +73,12 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.FromUnixMilliseconds -->
 <!-- ProtofluxNode:start -->
-| From Unix Milliseconds | Type                                                                | Label           |
-| ---------------------- | ------------------------------------------------------------------- | --------------- |
-| input                  | Int64                                                               | UnixMiliseconds |
-| output                 | DateTime                                                            | *               |
-| input                  | Boolean                                                             | IsLocal         |
-| Root/Time              | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.FromUnixMilliseconds |                 |
+| From Unix Milliseconds | Type | Label |
+| --- | ---- | ----- |
+| input | Int64 | UnixMiliseconds |
+| output | DateTime | * |
+| input | Boolean | IsLocal |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.FromUnixMilliseconds |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.FromUnixMilliseconds -->
 
@@ -87,12 +87,12 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.FromUnixSeconds -->
 <!-- ProtofluxNode:start -->
-| From Unix Seconds | Type                                                           | Label       |
-| ----------------- | -------------------------------------------------------------- | ----------- |
-| input             | Int64                                                          | UnixSeconds |
-| output            | DateTime                                                       | *           |
-| input             | Boolean                                                        | IsLocal     |
-| Root/Time         | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.FromUnixSeconds |             |
+| From Unix Seconds | Type | Label |
+| --- | ---- | ----- |
+| input | Int64 | UnixSeconds |
+| output | DateTime | * |
+| input | Boolean | IsLocal |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.FromUnixSeconds |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.FromUnixSeconds -->
 
@@ -101,10 +101,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.InvertedSmoothDeltaTime -->
 <!-- ProtofluxNode:start -->
-| Smooth 1/d T | Type                                                                        | Label |
-| ------------ | --------------------------------------------------------------------------- | ----- |
-| output       | Single                                                                      | *     |
-| Root/Time    | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.InvertedSmoothDeltaTime |       |
+| Smooth 1/d T | Type | Label |
+| --- | ---- | ----- |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.InvertedSmoothDeltaTime |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.InvertedSmoothDeltaTime -->
 
@@ -113,10 +113,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.SmoothDeltaTime -->
 <!-- ProtofluxNode:start -->
-| Smooth D T | Type                                                                | Label |
-| ---------- | ------------------------------------------------------------------- | ----- |
-| output     | Single                                                              | *     |
-| Root/Time  | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.SmoothDeltaTime |       |
+| Smooth D T | Type | Label |
+| --- | ---- | ----- |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.SmoothDeltaTime |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.SmoothDeltaTime -->
 
@@ -125,17 +125,17 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.Stopwatch -->
 <!-- ProtofluxNode:start -->
-| Stopwatch | Type                                                          | Label     |
-| --------- | ------------------------------------------------------------- | --------- |
-| input     | SyncOperation                                                 | Start     |
-| output    | Continuation                                                  | OnStart   |
-| input     | SyncOperation                                                 | Stop      |
-| output    | Continuation                                                  | OnStop    |
-| input     | SyncOperation                                                 | Reset     |
-| output    | Continuation                                                  | OnReset   |
-| output    | Single                                                        | Time      |
-| output    | Boolean                                                       | IsRunning |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.Stopwatch |           |
+| Stopwatch | Type | Label |
+| --- | ---- | ----- |
+| input | SyncOperation | Start |
+| output | Continuation | OnStart |
+| input | SyncOperation | Stop |
+| output | Continuation | OnStop |
+| input | SyncOperation | Reset |
+| output | Continuation | OnReset |
+| output | Single | Time |
+| output | Boolean | IsRunning |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.Stopwatch |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.Stopwatch -->
 
@@ -144,10 +144,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeFloat -->
 <!-- ProtofluxNode:start -->
-| T         | Type                                                               | Label |
-| --------- | ------------------------------------------------------------------ | ----- |
-| output    | Single                                                             | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeFloat |       |
+| T | Type | Label |
+| --- | ---- | ----- |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeFloat |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeFloat -->
 
@@ -156,10 +156,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeDouble -->
 <!-- ProtofluxNode:start -->
-| T (double) | Type                                                                | Label |
-| ---------- | ------------------------------------------------------------------- | ----- |
-| output     | Double                                                              | *     |
-| Root/Time  | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeDouble |       |
+| T (double) | Type | Label |
+| --- | ---- | ----- |
+| output | Double | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeDouble |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeDouble -->
 
@@ -168,10 +168,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTime10Float -->
 <!-- ProtofluxNode:start -->
-| T*10      | Type                                                                 | Label |
-| --------- | -------------------------------------------------------------------- | ----- |
-| output    | Single                                                               | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTime10Float |       |
+| T*10 | Type | Label |
+| --- | ---- | ----- |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTime10Float |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTime10Float -->
 
@@ -180,10 +180,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTime2Float -->
 <!-- ProtofluxNode:start -->
-| T*2       | Type                                                                | Label |
-| --------- | ------------------------------------------------------------------- | ----- |
-| output    | Single                                                              | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTime2Float |       |
+| T*2 | Type | Label |
+| --- | ---- | ----- |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTime2Float |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTime2Float -->
 
@@ -192,10 +192,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeTenthFloat -->
 <!-- ProtofluxNode:start -->
-| T/10      | Type                                                                    | Label |
-| --------- | ----------------------------------------------------------------------- | ----- |
-| output    | Single                                                                  | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeTenthFloat |       |
+| T/10 | Type | Label |
+| --- | ---- | ----- |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeTenthFloat |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeTenthFloat -->
 
@@ -204,10 +204,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeHalfFloat -->
 <!-- ProtofluxNode:start -->
-| T/2       | Type                                                                   | Label |
-| --------- | ---------------------------------------------------------------------- | ----- |
-| output    | Single                                                                 | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeHalfFloat |       |
+| T/2 | Type | Label |
+| --- | ---- | ----- |
+| output | Single | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeHalfFloat |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Time.WorldTimeHalfFloat -->
 
@@ -216,11 +216,11 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToLocalTime -->
 <!-- ProtofluxNode:start -->
-| To Local Time | Type                                                       | Label    |
-| ------------- | ---------------------------------------------------------- | -------- |
-| input         | DateTime                                                   | DateTime |
-| output        | DateTime                                                   | *        |
-| Root/Time     | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToLocalTime |          |
+| To Local Time | Type | Label |
+| --- | ---- | ----- |
+| input | DateTime | DateTime |
+| output | DateTime | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToLocalTime |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToLocalTime -->
 
@@ -229,11 +229,11 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUniversalTime -->
 <!-- ProtofluxNode:start -->
-| To Universal Time | Type                                                           | Label    |
-| ----------------- | -------------------------------------------------------------- | -------- |
-| input             | DateTime                                                       | DateTime |
-| output            | DateTime                                                       | *        |
-| Root/Time         | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUniversalTime |          |
+| To Universal Time | Type | Label |
+| --- | ---- | ----- |
+| input | DateTime | DateTime |
+| output | DateTime | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUniversalTime |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUniversalTime -->
 
@@ -242,11 +242,11 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUnixMilliseconds -->
 <!-- ProtofluxNode:start -->
-| To Unix Milliseconds | Type                                                              | Label    |
-| -------------------- | ----------------------------------------------------------------- | -------- |
-| input                | DateTime                                                          | DateTime |
-| output               | Int64                                                             | *        |
-| Root/Time            | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUnixMilliseconds |          |
+| To Unix Milliseconds | Type | Label |
+| --- | ---- | ----- |
+| input | DateTime | DateTime |
+| output | Int64 | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUnixMilliseconds |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUnixMilliseconds -->
 
@@ -255,11 +255,11 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUnixSeconds -->
 <!-- ProtofluxNode:start -->
-| To Unix Seconds | Type                                                         | Label    |
-| --------------- | ------------------------------------------------------------ | -------- |
-| input           | DateTime                                                     | DateTime |
-| output          | Int64                                                        | *        |
-| Root/Time       | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUnixSeconds |          |
+| To Unix Seconds | Type | Label |
+| --- | ---- | ----- |
+| input | DateTime | DateTime |
+| output | Int64 | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUnixSeconds |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.ToUnixSeconds -->
 
@@ -268,10 +268,10 @@
 
 <!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.UtcNow -->
 <!-- ProtofluxNode:start -->
-| Utc Now   | Type                                                  | Label |
-| --------- | ----------------------------------------------------- | ----- |
-| output    | DateTime                                              | *     |
-| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.UtcNow |       |
+| Utc Now | Type | Label |
+| --- | ---- | ----- |
+| output | DateTime | * |
+| Root/Time | ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.UtcNow |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.TimeAndDate.UtcNow -->
 

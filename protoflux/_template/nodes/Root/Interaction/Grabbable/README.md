@@ -104,6 +104,7 @@
 | On Grabbable Grabbed | Type | Label |
 | --- | ---- | ----- |
 | output | Call | OnGrabbed |
+| reference | IGrabbable | Grabbable |
 | Root/Interaction/Grabbable | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.OnGrabbableGrabbed |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.OnGrabbableGrabbed -->
@@ -118,6 +119,7 @@
 | output | Call | OnReceived |
 | output | IGrabbable | ReceivedGrabbable |
 | output | Grabber | FromGrabber |
+| reference | GrabbableReceiverSurface | Source |
 | Root/Interaction/Grabbable | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.OnGrabbableReceiverSurfaceReceived |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.OnGrabbableReceiverSurfaceReceived -->
@@ -130,6 +132,7 @@
 | On Grabbable Released | Type | Label |
 | --- | ---- | ----- |
 | output | Call | OnReleased |
+| reference | IGrabbable | Grabbable |
 | Root/Interaction/Grabbable | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.OnGrabbableReleased |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.OnGrabbableReleased -->

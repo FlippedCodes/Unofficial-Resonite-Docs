@@ -591,6 +591,12 @@
   background-image: linear-gradient(rgba(148, 255, 241, 0.7), rgba(148, 255, 241, 0.7));
 }
 
+.PFN-UserVoiceMode {
+  stroke: rgb(88, 103, 255);
+  fill: rgb(88, 103, 255, 0.174);
+  background-image: linear-gradient(rgba(88, 103, 255, 0.7), rgba(88, 103, 255, 0.7));
+}
+
 .PFN-UserRoot {
   stroke: rgb(199, 255, 153);
   fill: rgb(199, 255, 153, 0.174);
@@ -952,6 +958,12 @@
 }
 
 .PFN-T {
+  stroke: rgb(166, 255, 70);
+  fill: rgb(166, 255, 70, 0.174);
+  background-image: linear-gradient(rgba(166, 255, 70, 0.7), rgba(166, 255, 70, 0.7));
+}
+
+.PFN-TResult {
   stroke: rgb(166, 255, 70);
   fill: rgb(166, 255, 70, 0.174);
   background-image: linear-gradient(rgba(166, 255, 70, 0.7), rgba(166, 255, 70, 0.7));

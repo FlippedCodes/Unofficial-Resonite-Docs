@@ -28,6 +28,7 @@
 | output | Double | BitsDollars |
 | output | Int32 | SubscribedMonthCount |
 | output | String | CustomRewardId |
+| reference | TwitchInterface | Interface |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchChatMessageEvent |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchChatMessageEvent -->
@@ -42,6 +43,7 @@
 | output | Call | OnFollow |
 | output | String | UserId |
 | output | String | DisplayName |
+| reference | TwitchInterface | Interface |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchFollowEvent |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchFollowEvent -->
@@ -59,6 +61,7 @@
 | output | color | Color |
 | output | Int32 | ViewerCount |
 | output | Boolean | IsSubscriber |
+| reference | TwitchInterface | Interface |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRaidEvent |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRaidEvent -->
@@ -79,6 +82,7 @@
 | output | String | RewardPrompt |
 | output | String | Status |
 | output | Int32 | RewardCost |
+| reference | TwitchInterface | Interface |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRewardRedeemEvent |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchRewardRedeemEvent -->
@@ -100,6 +104,7 @@
 | output | Boolean | IsGifted |
 | output | String | GiftedBy |
 | output | Boolean | IsAnonymous |
+| reference | TwitchInterface | Interface |
 | Root/Network/Twitch | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchSubscriptionEvent |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Cloud.Twitch.TwitchSubscriptionEvent -->

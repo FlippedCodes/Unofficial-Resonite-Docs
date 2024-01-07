@@ -14,6 +14,7 @@
 | output | Call | OnAnchored |
 | output | Call | OnReleased |
 | output | User | User |
+| reference | AvatarAnchor | Anchor |
 | Root/Avatars/Anchors | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.Anchors.AnchorEvents |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.Anchors.AnchorEvents -->
@@ -32,6 +33,7 @@
 | output | float2 | SecondaryAxis |
 | output | Boolean | PrimaryAction |
 | output | Boolean | SecondaryAction |
+| reference | AvatarAnchor | Anchor |
 | Root/Avatars/Anchors | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.Anchors.AnchorLocomotionData |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Avatar.Anchors.AnchorLocomotionData -->

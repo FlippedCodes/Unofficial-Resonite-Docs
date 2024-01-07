@@ -7,7 +7,7 @@
 
 ### Indirect Decrement
 
-<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectDecrement\`2 -->
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectDecrement`2 -->
 <!-- ProtofluxNode:start -->
 | Indirect Decrement | Type | Label |
 | --- | ---- | ----- |
@@ -15,14 +15,14 @@
 | output | Continuation | OnWritten |
 | input | IVariable_2 | Variable |
 | output | Continuation | OnFail |
-| Root/Actions/Indirect | ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectDecrement\`2 |  |
+| Root/Actions/Indirect | ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectDecrement`2 |  |
 <!-- ProtofluxNode:end -->
-<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectDecrement\`2 -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectDecrement`2 -->
 
 
 ### Indirect Increment
 
-<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectIncrement\`2 -->
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectIncrement`2 -->
 <!-- ProtofluxNode:start -->
 | Indirect Increment | Type | Label |
 | --- | ---- | ----- |
@@ -30,14 +30,14 @@
 | output | Continuation | OnWritten |
 | input | IVariable_2 | Variable |
 | output | Continuation | OnFail |
-| Root/Actions/Indirect | ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectIncrement\`2 |  |
+| Root/Actions/Indirect | ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectIncrement`2 |  |
 <!-- ProtofluxNode:end -->
-<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectIncrement\`2 -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.Actions.ValueIndirectIncrement`2 -->
 
 
 ### Indirect Write
 
-<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWrite\`2 -->
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWrite`2 -->
 <!-- ProtofluxNode:start -->
 | Indirect Write | Type | Label |
 | --- | ---- | ----- |
@@ -46,14 +46,14 @@
 | input | IVariable_2 | Variable |
 | output | Continuation | OnFail |
 | input | T | Value |
-| Root/Actions/Indirect | ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWrite\`2 |  |
+| Root/Actions/Indirect | ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWrite`2 |  |
 <!-- ProtofluxNode:end -->
-<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWrite\`2 -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWrite`2 -->
 
 
 ### Indirect Write Latch
 
-<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWriteLatch\`2 -->
+<!-- embed:start:ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWriteLatch`2 -->
 <!-- ProtofluxNode:start -->
 | Indirect Write Latch | Type | Label |
 | --- | ---- | ----- |
@@ -65,8 +65,8 @@
 | output | Continuation | OnFail |
 | input | T | SetValue |
 | input | T | ResetValue |
-| Root/Actions/Indirect | ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWriteLatch\`2 |  |
+| Root/Actions/Indirect | ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWriteLatch`2 |  |
 <!-- ProtofluxNode:end -->
-<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWriteLatch\`2 -->
+<!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.ValueIndirectWriteLatch`2 -->
 
 
