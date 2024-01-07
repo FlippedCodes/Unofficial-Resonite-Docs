@@ -7,6 +7,12 @@ const PMEregexGetImportName = /<!-- embedImport:start:(.*?) -->/g;
 
 const PMEregexGetEmbedImportName = /^(.*?).md#(.*?) ':include'\)$/gm;
 
+function PMEcreateElementFromHTML(htmlString) {
+  var div = document.createElement('div');
+  div.innerHTML = htmlString.trim();
+  return div;
+}
+
 function partialMarkdownEmbed(hook, vm) {
   hook.beforeEach((content) => {
     if (!PMEregexGetEmbedImportName.test(content)) return;
@@ -28,6 +34,25 @@ ${editEmbed}
     if (!PMEregexGetImport.test(content)) return;
     const data = content.match(PMEregexGetImport);
     data.forEach((embed) => {
+      // get navbar entries for removal
+      const htmlEmbed = PMEcreateElementFromHTML(embed);
+      const delTitles = [];
+      for (let i = 1; i < 6; i++) {
+        if (delTitles.length !== 0) continue;
+        const titles = htmlEmbed.querySelectorAll(`div > h${i}`);
+        if (titles.length !== 0) titles.forEach((title) => delTitles.push(title.id));
+      }
+      // remove navbar entries
+      hook.doneEach(() => {
+        console.log(delTitles);
+        const url = window.location.hash.split('?id=')[0];
+        delTitles.forEach((delTitle) => {
+          const target = document.querySelectorAll(`.section-link[href='${url}?id=${delTitle}']`);
+          target.forEach((element) => element.parentElement.remove());
+        });
+      });
+
+      // embed content
       // get name of the embed defined in source file
       const importName = embed
         .match(PMEregexGetImportName)[0]
@@ -43,6 +68,7 @@ ${editEmbed}
     return content;
   });
 }
+
 // Add plugin to docsify's plugin array
 window.$docsify = window.$docsify || {};
 $docsify.plugins = [partialMarkdownEmbed, ...($docsify.plugins || [])];
