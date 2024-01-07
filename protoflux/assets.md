@@ -1,4 +1,4 @@
-#   Assets
+# Assets
 
 <!-- panels:start -->
 <!-- div:title-panel -->
