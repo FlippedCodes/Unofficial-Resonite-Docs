@@ -48,7 +48,10 @@ ${editEmbed}
         const url = window.location.hash.split('?id=')[0];
         delTitles.forEach((delTitle) => {
           const target = document.querySelectorAll(`.section-link[href='${url}?id=${delTitle}']`);
-          target.forEach((element) => element.parentElement.remove());
+          target.forEach((element) => {
+            element.parentElement.nextElementSibling.remove();
+            element.parentElement.remove();
+          });
         });
       });
 
