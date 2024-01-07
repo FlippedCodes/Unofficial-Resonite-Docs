@@ -22,7 +22,7 @@ All prices are in Euros (EUR) per month and without VAT; final prices may vary d
 
 In order to get your benefits make sure:
 
-- The e-mail address is the same on Patreon and Resonite (if not, you can add your Patreon e-mail as an alternative e-mail on your Resonite account via `/addAlternativeEmail <e-mail>`)
+- The e-mail address is the same on Patreon and Resonite (if not, you can add your Patreon e-mail as an alternate e-mail on your Resonite account via `/addAlternateEmail <e-mail>`)
 - See the [Resonite Bot documentation](gameplay/botCommands.md) to see the commands you can use
 
 At the moment, Patreon is the only way to receive benefits, though issue [#497](https://github.com/Yellow-Dog-Man/Resonite-Issues/issues/497) is exploring alternatives to Patreon.
