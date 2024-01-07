@@ -76,8 +76,6 @@
 .PFN-Connector {
   height: 64px;
   width: 32px;
-  stroke-width: 4px;
-  padding: 0px;
   background-image: linear-gradient(black, black) !important;
 }
 
