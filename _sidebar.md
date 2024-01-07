@@ -10,7 +10,11 @@
 - Protoflux
   - [Actions](/protoflux/actions.md)
   - [Assets](/protoflux/assets.md)
-  - [Operators](/protoflux/operators.md)
+  - [Audio](/protoflux/audio.md)
+  - [Operators](/protoflux/operators/README.md)
+    - [Packing](/protoflux/operators/packing.md)
+    - [Vectors](/protoflux/operators/vectors.md)
+  - [Users](/protoflux/users.md)
   - [All Nodes](/protoflux/allNodes.md)
 
 - Headless
