@@ -15,7 +15,7 @@
 - Headless
   - [Headless Client](/headless/headlessClient.md)
 
-- General Resonite Information
+- General Info
   - [Patreon Tiers](/general/patreon.md)
 
 - Wiki Guides And Guidelines
