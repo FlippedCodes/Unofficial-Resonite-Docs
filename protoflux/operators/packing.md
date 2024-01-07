@@ -12,16 +12,11 @@ Constructs a 3 composited data type from three individual inputs(Equal data type
 
 ### Usage
 
-This node can make every 3 composited data. But, Input data type is must
-same each other.
+This node can make every 3 composited data. But, Input data type is must same each other.
 
 ### Examples
 
-In this example Float3s are analagous to Vector3s in several other game
-engines. They are useful for representing several types of values,
-particularly Cartesian coordinates and Euler angle rotations. By using
-the Pack XYZ node, float3s can be constructed directly, allowing for
-manipulation of properties such as object transforms.
+In this example Float3s are analagous to Vector3s in several other game engines. They are useful for representing several types of values, particularly Cartesian coordinates and Euler angle rotations. By using the Pack XYZ node, float3s can be constructed directly, allowing for manipulation of properties such as object transforms.
 <!-- panels:end -->
 
 #### Page end

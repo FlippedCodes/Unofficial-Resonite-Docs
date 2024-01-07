@@ -13,9 +13,7 @@ The **Local User** node outputs a reference to the Local User.
 
 ### Usage
 
-The output of this node will necessarily be different dependent on which
-user owns the impulse chain under which the Local User node's output is
-checked.
+The output of this node will necessarily be different dependent on which user owns the impulse chain under which the Local User node's output is checked.
 
 Imagine world session hosted by Alice where Bob is also present.
 

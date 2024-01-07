@@ -14,30 +14,13 @@
 [Node](./_template/nodes/Root/Flow/Async/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseReceiverWithValue`1 ':include')
 
 <!-- div:left-panel -->
-The **Dynamic Impulse Receiver With Data** node fires an impulse
-whenever a [Dynamic Impulse Trigger With
-Value\`1](Dynamic_Impulse_Trigger_With_Value`1_(Protoflux_node) "wikilink")
-is triggered and the receiver node is present under the trigger's
-`TargetHierarchy`. This will only occur if the `Tag` string inputs of
-the trigger and receiver are identical. The `Value` output by the
-receiver node is equal to the `Value` input of the trigger node at the
-moment it was triggered.
+The **Dynamic Impulse Receiver With Data** node fires an impulse whenever a [Dynamic Impulse Trigger With Value\`1](Dynamic_Impulse_Trigger_With_Value`1_(Protoflux_node) "wikilink") is triggered and the receiver node is present under the trigger's `TargetHierarchy`. This will only occur if the `Tag` string inputs of the trigger and receiver are identical. The `Value` output by the receiver node is equal to the `Value` input of the trigger node at the moment it was triggered.
 
 ### Usage
 
-Note that the tag system for dynamic impulse triggers / receivers is
-completely unrelated to slot tag properties. This node will only respond
-to Dynamic Impulse Trigger With Value\`1 nodes with identical `Value`
-datatypes - it ignores dynamic impulses from [Dynamic Impulse
-Trigger](Dynamic_Impulse_Trigger_(Protoflux_node) "wikilink") nodes or
-Dynamic Impulse Trigger With Value\`1 nodes with different `Value`
-datatypes. The output `Value` is only equal to the `Value` input from
-the trigger for the duration of the impulse chain started from the
-receiver `Impulse` output.
+Note that the tag system for dynamic impulse triggers / receivers is completely unrelated to slot tag properties. This node will only respond to Dynamic Impulse Trigger With Value\`1 nodes with identical `Value` datatypes - it ignores dynamic impulses from [Dynamic Impulse Trigger](Dynamic_Impulse_Trigger_(Protoflux_node) "wikilink") nodes or Dynamic Impulse Trigger With Value\`1 nodes with different `Value` datatypes. The output `Value` is only equal to the `Value` input from the trigger for the duration of the impulse chain started from the receiver `Impulse` output.
 
-When spawning this node from the node browser there is a selection of
-possible datatypes for this node. See this tutorial by ProbablePrime for
-how to create receiver nodes for other data types.
+When spawning this node from the node browser there is a selection of possible datatypes for this node. See this tutorial by ProbablePrime for how to create receiver nodes for other data types.
 
 [Youtube Video](https://www.youtube-nocookie.com/embed/3j4FGONxfWk ':include :type=iframe')
 
@@ -60,38 +43,16 @@ how to create receiver nodes for other data types.
 [Node](./_template/nodes/Root/Flow/Async/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseTriggerWithValue`1 ':include')
 
 <!-- div:left-panel -->
-The Dynamic Impulse Trigger With Data\`1 node sends a dynamic
-impulse when an impulse is received at `Run` which triggers any [Dynamic
-Impulse
-Receiver](Dynamic_Impulse_Receiver_With_Value`1_(Protoflux_node) "wikilink")
-nodes (with the same `Value` datatype) present under the input
-`TargetHierarchy` whose `Tag` input matches that on the Dynamic Impulse
-Trigger With Value\`1.
+The Dynamic Impulse Trigger With Data\`1 node sends a dynamic impulse when an impulse is received at `Run` which triggers any [Dynamic Impulse Receiver](Dynamic_Impulse_Receiver_With_Value`1_(Protoflux_node) "wikilink") nodes (with the same `Value` datatype) present under the input `TargetHierarchy` whose `Tag` input matches that on the Dynamic Impulse Trigger With Value\`1.
 
 ### Usage
 
-The `ExcludeDisabled` input determines whether [Dynamic Impulse Receiver
-With
-Value\`1](Dynamic_Impulse_Receiver_With_Value`1_(Protoflux_node) "wikilink")
-nodes present on inactive slots will be triggered. Default is False,
-meaning that all valid receivers may be triggered.
+The `ExcludeDisabled` input determines whether [Dynamic Impulse Receiver With Value\`1](Dynamic_Impulse_Receiver_With_Value`1_(Protoflux_node) "wikilink") nodes present on inactive slots will be triggered. Default is False, meaning that all valid receivers may be triggered.
 
-The `OnTriggered` output fires an impulse after any impulse chains
-triggered from Dynamic Impulse Receiver With Value\`1 nodes have
-completed. This continues the impulse chain which arrived at `Run`
+The `OnTriggered` output fires an impulse after any impulse chains triggered from Dynamic Impulse Receiver With Value\`1 nodes have completed. This continues the impulse chain which arrived at `Run`
 
-Note that the tag system for dynamic impulse triggers / receivers is
-completely unrelated to slot tag properties. When an impulse is received
-at `Run`, this node starts a descending search for any [Dynamic Impulse
-Receiver With
-Value\`1](Dynamic_Impulse_Receiver_With_Value`1_(Protoflux_node) "wikilink")
-nodes present under the `TargetHierarchy` whose `Value` datatype matches
-that of the trigger. All such receiver nodes with `Tag` inputs matching
-the trigger `Tag` will fire an impulse. Note that [Dynamic Impulse
-Receiver](Dynamic_Impulse_Receiver_(Protoflux_node) "wikilink") nodes
-will be ignored. The hierarchy search is highly efficient, however it is
-best to set the input `TargetHierarchy` as close to the intended target
-node as possible to minimize performance costs.
+Note that the tag system for dynamic impulse triggers / receivers is completely unrelated to slot tag properties. When an impulse is received at `Run`, this node starts a descending search for any [Dynamic Impulse Receiver With Value\`1](Dynamic_Impulse_Receiver_With_Value`1_(Protoflux_node) "wikilink") nodes present under the `TargetHierarchy` whose `Value` datatype matches that of the trigger. All such receiver nodes with `Tag` inputs matching the trigger `Tag` will fire an impulse. Note that [Dynamic Impulse Receiver](Dynamic_Impulse_Receiver_(Protoflux_node) "wikilink") nodes will be ignored. The hierarchy search is highly efficient, however it is best to set the input `TargetHierarchy` as close to the intended target node as possible to minimize performance costs.
+
 [Youtube Video](https://www.youtube-nocookie.com/embed/6A0GQ4iABfY ':include :type=iframe')
 <!-- panels:end -->
 
