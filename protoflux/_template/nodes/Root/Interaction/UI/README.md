@@ -69,6 +69,7 @@
 | output | Call | EditingChanged |
 | output | Call | EditingFinished |
 | output | Call | SubmitPressed |
+| reference | TextEditor | Editor |
 | Root/Interaction/UI | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.TextEditorEvents |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.TextEditorEvents -->

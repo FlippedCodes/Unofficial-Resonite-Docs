@@ -21,6 +21,7 @@
 | output | float3 | GlobalPoint |
 | output | float2 | LocalPoint |
 | output | float2 | NormalizedPoint |
+| reference | IButton | Button |
 | Root/Interaction | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.ButtonEvents |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.ButtonEvents -->
@@ -66,6 +67,7 @@
 | output | float3 | Tip |
 | output | TouchType | Type |
 | output | Component | Source |
+| reference | TouchEventRelay | EventSource |
 | Root/Interaction | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.TouchableEvents |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.TouchableEvents -->

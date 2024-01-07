@@ -29,6 +29,7 @@
 | --- | ---- | ----- |
 | output | Call | OnConnected |
 | output | Call | OnDisconnected |
+| reference | WebsocketClient | Client |
 | Root/Network/Websockets | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.WebsocketConnectionEvents |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.WebsocketConnectionEvents -->
@@ -42,6 +43,7 @@
 | --- | ---- | ----- |
 | output | Call | OnReceived |
 | output | String | Data |
+| reference | WebsocketClient | Client |
 | Root/Network/Websockets | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.WebsocketTextMessageReceiver |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Network.WebsocketTextMessageReceiver -->

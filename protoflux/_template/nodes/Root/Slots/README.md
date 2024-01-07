@@ -213,6 +213,7 @@
 | output | Call | OnChildAdded |
 | output | Call | OnChildRemoved |
 | output | Slot | Child |
+| reference | Slot | Instance |
 | Root/Slots | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.SlotChildrenEvents |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Slots.SlotChildrenEvents -->

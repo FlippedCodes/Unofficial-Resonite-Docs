@@ -126,6 +126,7 @@
 | output | Call | SecondaryPressed |
 | output | Call | SecondaryHeld |
 | output | Call | SecondaryReleased |
+| reference | RawDataTool | Tool |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.RawDataToolEvents |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.RawDataToolEvents -->
@@ -165,6 +166,7 @@
 | --- | ---- | ----- |
 | output | Call | Equipped |
 | output | Call | Dequipped |
+| reference | ITool | Tool |
 | Root/Tools | ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEvents |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Interaction.Tools.ToolEvents -->
