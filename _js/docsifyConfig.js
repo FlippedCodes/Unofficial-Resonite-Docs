@@ -37,6 +37,12 @@ window.$docsify = {
         pathNamespaces: ['/jp', '/kr', '/zh-tw', '/zh-cn'],
     },
     fallbackLanguages: ['jp', 'kr', 'zh-tw', 'zh-cn'],
+    // alias: {
+    //     'jp/(.*)': '/jp$1',
+    //     'kr/(.*)': '/kr$1',
+    //     'zh-tw/(.*)': '/zh-tw/$1',
+    //     'zh-cn/(.*)': '/zh-cn/$1',
+    // },
     progress: {
         position: "top",
         color: "var(--accent)",
