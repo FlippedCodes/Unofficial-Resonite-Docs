@@ -52,10 +52,6 @@ one of the inputs.
 <!-- div:left-panel -->
 Get distance by float between two object.
 
-### Usage
-
-Get actual distance between two object.
-
 ### Example
 
 <!-- panels:end -->
