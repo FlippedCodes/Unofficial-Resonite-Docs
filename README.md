@@ -43,7 +43,8 @@ Also big thankies go to [Jae aka J4](https://777.tf/) for allowing us to use the
 - [ ] NeosVR MediaWiki import
   - [x] Get all XML files from all articles
   - [x] [Run Script](https://github.com/outofcontrol/mediawiki-to-gfm) and convert to Markdown files
-  - [ ] Try different configurations on how to sort the articles
+  - [x] ~~Try different configurations on how to sort the articles~~
+  - [ ] Complete manual import
   - [ ] Consolidate articles for repetitive content and use [embedding/nesting](https://docsify.js.org/#/embed-files?id=embed-files) of files
   - [ ] Decide on how to handle the new Resonite Wikis content. (Import then override?)
 - [x] ~~Decide on custom URL Routing for Ingame help~~ Normal URLs can be used.
