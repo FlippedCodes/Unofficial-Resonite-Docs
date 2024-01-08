@@ -63,6 +63,7 @@ Sidebar:
   add drop shadow
   make it darker
   move Scrollbar to the left
+  hide drop shadow when closed
 */
 
 .sidebar {
@@ -77,6 +78,10 @@ Sidebar:
 .search,
 nav {
   direction: ltr;
+}
+
+.close main .sidebar {
+  filter: unset;
 }
 
 /* 
