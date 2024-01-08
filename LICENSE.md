@@ -51,9 +51,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Creative Commons Attribution-ShareAlike 4.0 International
 
-![CC Logo](_media/Cc.svg) ![CC Attribution Logo](_media/Cc-by.svg) ![CC ShareAlike Logo](_media/Cc-sa.svg) 
+## Creative Commons Attribution-ShareAlike 4.0 International +
 
 > A simple simplified explanation can be found on [creativecommons.org](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
