@@ -7,7 +7,7 @@ const aliasList = {
   'kr/(.*)': '/kr/$1',
   'zh-tw/(.*)': '/zh-tw/$1',
   'zh-cn/(.*)': '/zh-cn/$1',
-  // in game documentation
+  // in game documentation FIXME: not working
   // '/node/ProtoFlux\.Runtimes\.Execution\.Nodes\.(.*)\..*': '/protoflux/$1',
   // '/node/ProtoFlux.Runtimes.Execution.Nodes.*': '/protoflux/_404.md',
 };
