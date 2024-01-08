@@ -26,9 +26,21 @@
   - [Patreon Tiers](/general/patreon.md)
 
 - Modding
-  - [ResoniteModLoader](/modding/ResoniteModLoader/README.md)
+<!-- Articles imported trough URL. Files don't exist! Check /_js/plugin-alias.js -->
+  - [ResoniteModLoader](/modding/resoniteModLoader/README.md)
+    - [Launch Options](/modding/resoniteModLoader/launch_options.md)
+    - [Configuration System](/modding/resoniteModLoader/config.md)
+    - [Directories](/modding/resoniteModLoader/directories.md)
+    - [FAQ](/modding/resoniteModLoader/faq.md)
+    - [Troubleshooting](/modding/resoniteModLoader/troubleshooting.md)
+    - [Problem Solving Techniques](/modding/resoniteModLoader/problem_solving_techniques.md)
+    - [Guidelines](/modding/resoniteModLoader/guidelines.md)
+    - Advanced
+      - [Mod Creation Guide](/modding/resoniteModLoader/making_mods.md)
+      - [Linux Notes](/modding/resoniteModLoader/linux.md)
+      - [Modloader Configuration](/modding/resoniteModLoader/modloader_config.md)
 
 - Wiki Guides And Guidelines
   - [About the Wiki](README.md)
   - [Protoflux Node Showcase](/wikiGuides/nodeRender.md)
-  - [Licensing and Terms](/wikiGuides/licence.md)
+  - [Licensing and Terms](/LICENSE.md)
