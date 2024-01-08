@@ -8,9 +8,7 @@ description: "Resonite Bot commands."
 The Resonite bot can be found in your contacts list by default and commands can be sent to it to do various things like assign yourself badges or get the headless beta code.  
 Note that all those commands are case insensitive.
 
-## Resonite Bot commands
-
-### Basic commands
+## Basic commands
 
 - `/addHearingImpaired` - Adds the hearing impairment badge
 - `/removeHearingImpaired` - Removes the hearing impairment badge
@@ -34,7 +32,7 @@ Note that all those commands are case insensitive.
 - `/getBenefits` - Will display your current Patreon benefits
 - `/echo <message>` - Will make the Resonite Bot reply with your message
 
-### Patreon only
+## Patreon only
 
 - `/addExitMessage <message>` - Submits an exit message
 - `/listExitMessages` - Lists your submitted exit messages
@@ -54,7 +52,7 @@ Note that all those commands are case insensitive.
 - `/requestDeleteRecovery <time period> <name search>` - Starts the recovery of a deleted record matching a certain name under a certain time period
 - `/headlessCode` - Displays the headless access code (requires Patreon Discoverer (10€/month) or more)
 
-### Group Commands
+## Group Commands
 
 Groups allow you to share an inventory space with a multitude of users, which can be useful to cooperate on projects.  
 Creating a group is available starting at the Trailblazer Patreon tier (20€/month). Some other pledges can allow you to create more groups, for instance, Builder (73€/month) will allow you to create two groups and Crafter (145€/month) three groups.
@@ -69,25 +67,27 @@ Groups created on Resonite start without any storage and you will need to use `/
 - `/setMemberQuota <group> <user> <quota>` - Sets a user's quota
 - `/getGroupSpace <group>` - Get how much storage is a group using
 
-### Cloud variables
+## Cloud variables
 
-#### Reading Values
+More infos about Cloud variables can be found [here](../gameplay/advanced/cloudVars.md).
 
-##### Users
+### Reading Values
+
+#### Users
 
 [Working with Cloud Variables](../gameplay/advanced/cloudVars.md#readingValuesUsers ':include')
 
-##### Groups
+#### Groups
 
 [Working with Cloud Variables](../gameplay/advanced/cloudVars.md#readingValuesGroups ':include')
 
-#### Setting Values
+### Setting Values
 
-##### Users
+#### Users
 
 [Working with Cloud Variables](../gameplay/advanced/cloudVars.md#settingValuesUsers ':include')
 
-##### Groups
+#### Groups
 
 [Working with Cloud Variables](../gameplay/advanced/cloudVars.md#settingValuesGroups ':include')
 
