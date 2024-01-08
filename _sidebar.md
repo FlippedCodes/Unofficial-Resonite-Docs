@@ -25,6 +25,9 @@
 - General Info
   - [Patreon Tiers](/general/patreon.md)
 
+- Modding
+  - [ResoniteModLoader](/modding/ResoniteModLoader/README.md)
+
 - Wiki Guides And Guidelines
   - [About the Wiki](README.md)
   - [Protoflux Node Showcase](/wikiGuides/nodeRender.md)
