@@ -138,3 +138,39 @@ th {
 td:first-child, th:first-child {
    border-left: none;
 } */
+
+/*
+Accordion fixes
+  Colors
+  Spacing between accordions
+*/
+
+.accordion {
+  background-color: var(--codeBackgroundColor);
+  color: var(--codeTextColor);
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  border-radius: 0.25rem;
+}
+
+.accordion:hover, .accordion.opened {
+  background-color: var(--borderColor);
+}
+
+.accordion.opened {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel.opened {
+  height: 100%;
+}
+
+.panel {
+  height: 0px;
+  border: 0px;
+  background-color: var(--codeBackgroundColor);
+  filter: drop-shadow(0 0 1rem var(--custom_dropshadow_color));
+  border-radius: 0.25rem;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
