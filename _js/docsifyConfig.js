@@ -47,6 +47,7 @@ window.$docsify = {
         dark: {
             custom_dropshadow_color: 'var(--codeBackgroundColor)',
             custom_logo_invert: 'invert()',
+            'theme-color': 'var(--accent)',
             accent: '#ba64f2',
             toogleBackground: '#ffffff',
             background: '#2b2f35',
@@ -59,6 +60,7 @@ window.$docsify = {
         light: {
             custom_dropshadow_color: 'var(--borderColor)',
             custom_logo_invert: '',
+            'theme-color': 'var(--accent)',
             accent: '#e69e50',
             toogleBackground: '#091a28',
             background: '#fff',

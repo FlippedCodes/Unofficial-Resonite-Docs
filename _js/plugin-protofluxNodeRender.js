@@ -103,7 +103,7 @@ const addType = (type) => `
 `;
 
 const connectorOutputStart = (data, connectorRank) => `
-<tr>
+<tr id="jump">
   <td colspan="3"></td>
   <td class="PFN-Connector PFN-${data.type}" rowspan="2">
     ${triggerTypes.includes(data.type) ? triggerConnector : rightConnector[connectorRank]}
@@ -153,7 +153,28 @@ const connectorInputEnd = (data, connectorRank) => `
   <td class="PFN-LabelLeft PFN-${data.type}" colspan="2">${data.label}</td>
 </tr>
 <tr></tr>
-`; 
+`;
+
+const connectorReference = (data) => `
+<tr>
+  <td class="PFN-ConnectorReference" colspan="4">
+    <svg width="8" height="32" class="PFN-${data.type} PFN-LabelReferenceLayout">
+      <path style="stroke-width: 8px" d="M 4 0 V 32"/>
+    </svg>
+    <span class="PFN-LabelReferenceTitle PFN-LabelReferenceLayout">${data.label}</span>
+  </td>
+</tr>
+<tr>
+  <td colspan="4">
+    <svg width="8" height="32" class="PFN-LabelReferenceLayout PFN-${data.type}">
+      <path style="stroke-width: 8px" d="M 4 0 V 32"/>
+    </svg>
+    <span contenteditable="true" class="PFN-LabelReferenceEditor PFN-LabelReferenceLayout">null</span>
+    <span class="PFN-LabelReferenceLayout" style="width: 4px; display: list-item"></span>
+    <span class="PFN-LabelReferenceSetNull PFN-LabelReferenceLayout">∅</span>
+  </td>
+</tr>
+`;
 
 function createElementFromHTML(htmlString) {
   var div = document.createElement('div');
@@ -167,6 +188,11 @@ function tableToJson(table) {
   });
   return data;
 }
+
+function referenceHandler(connectorData) {
+  return connectorReference(connectorData);
+}
+
 
 function protofluxNodeRender(hook, vm) {
   hook.afterEach((content) => {
@@ -184,10 +210,9 @@ function protofluxNodeRender(hook, vm) {
       // TEMP: Converts
       connectors = connectors.map((connector) => {
         connector[0] = connector[0].replace('listbuttons', '');
-        connector[0] = connector[0].replace('reference', 'input');
         connector[0] = connector[0].replace('list', '');
         return connector;
-      })
+      });
 
       connectors.forEach((connector, i) => {
         // write out out data
@@ -202,6 +227,9 @@ function protofluxNodeRender(hook, vm) {
 
         if (connectorData.type.includes('\'')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
         if (connectorData.type.includes('"')) return console.warn(`Forbidden char in type. ${connectorData.label}: "${connectorData.type}"`);
+
+        if (connectorData.connectorType === 'reference') return table += referenceHandler(connectorData);
+
         // check if first one is a output
         if (i === 0 && connectorData.connectorType === 'output') {
           return table += connectorOutputStart(connectorData, connectorRank);

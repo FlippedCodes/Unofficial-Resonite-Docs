@@ -50,23 +50,67 @@
   color: rgba(255, 255, 255, 0.2);
 }
 
+.PFN-LabelReferenceTitle {
+  font-family: "Poppins-SemiBold";
+  font-size: 24px;
+  text-align: center;
+  line-height: 24px;
+  width: 248px;
+  padding-top: 2px;
+}
+
 .PFN-LabelRight,
 .PFN-LabelLeft {
   font-family: "Poppins-SemiBold";
   padding: 0px;
   font-size: 16px;
   background-repeat: no-repeat;
+  background-size: 160px 26px;
 }
 
 .PFN-LabelRight {
   text-align: right;
   background-position: 100% 50%;
-  background-size: 160px 24px;
 }
 
 .PFN-LabelLeft {
   background-position: 0% 50%;
-  background-size: 160px 24px;
+}
+
+.PFN-LabelReferenceSetNull {
+  width: 64px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #2b2f35;
+  text-align: center;
+  line-height: 32px;
+}
+
+.PFN-LabelReferenceEditor {
+  outline: none;
+  width: 180px;
+  height: 32px;
+  font-style: italic;
+  background-color: #808080;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.PFN-LabelReferenceLayout {
+  float: left;
+}
+
+.PFN-LabelReferenceSetNull:hover {
+  background-color: #86888b;
+}
+
+.PFN-LabelReferenceEditor:hover {
+  background-color: #e1e1e0;
+}
+
+.PFN-ConnectorReference {
+  width: 8px;
 }
 
 .PFN-Connector {
