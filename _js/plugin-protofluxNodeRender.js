@@ -103,7 +103,7 @@ const addType = (type) => `
 `;
 
 const connectorOutputStart = (data, connectorRank) => `
-<tr id="jump">
+<tr>
   <td colspan="3"></td>
   <td class="PFN-Connector PFN-${data.type}" rowspan="2">
     ${triggerTypes.includes(data.type) ? triggerConnector : rightConnector[connectorRank]}
