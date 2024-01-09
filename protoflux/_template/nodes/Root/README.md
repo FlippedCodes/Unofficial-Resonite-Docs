@@ -61,7 +61,7 @@
 | inputlist | Any | Inputs |
 | outputlist | Any | Outputs |
 | inputlistbuttons | ArgumentList | Inputs |
-| outputlistbuttons | * | Outputs |
+| outputlistbuttons | Any | Outputs |
 | Root | ProtoFlux.Runtimes.Execution.NestedNode`1 |  |
 <!-- ProtofluxNode:end -->
 <!-- embed:end:ProtoFlux.Runtimes.Execution.NestedNode`1 -->

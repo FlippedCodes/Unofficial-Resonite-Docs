@@ -477,6 +477,12 @@
   background-image: linear-gradient(rgba(84, 132, 103, 0.7), rgba(84, 132, 103, 0.7));
 }
 
+.PFN-OutputList {
+  stroke: rgb(193, 97, 237);
+  fill: rgb(193, 97, 237, 0.174);
+  background-image: linear-gradient(rgba(193, 97, 237, 0.7), rgba(193, 97, 237, 0.7));
+}
+
 .PFN-Action {
   stroke: rgb(98, 113, 204);
   fill: rgb(98, 113, 204, 0.174);
@@ -1048,6 +1054,18 @@
 }
 
 .PFN-T {
+  stroke: rgb(166, 255, 70);
+  fill: rgb(166, 255, 70, 0.174);
+  background-image: linear-gradient(rgba(166, 255, 70, 0.7), rgba(166, 255, 70, 0.7));
+}
+
+.PFN-\* {
+  stroke: rgb(166, 255, 70);
+  fill: rgb(166, 255, 70, 0.174);
+  background-image: linear-gradient(rgba(166, 255, 70, 0.7), rgba(166, 255, 70, 0.7));
+}
+
+.PFN-Any {
   stroke: rgb(166, 255, 70);
   fill: rgb(166, 255, 70, 0.174);
   background-image: linear-gradient(rgba(166, 255, 70, 0.7), rgba(166, 255, 70, 0.7));

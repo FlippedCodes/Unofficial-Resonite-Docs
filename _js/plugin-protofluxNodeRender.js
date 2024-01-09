@@ -240,7 +240,7 @@ function protofluxNodeRender(hook, vm) {
           if (connectorData.connectorType === 'output') return table += connectorOutputEnd(connectorData, connectorRank);
         }
         // check if last entry on left side with prev on the left
-        if (i !== connectors.length - 1 && connectorData.connectorType === connectors[i+1][0]) {
+        if (i !== connectors.length - 1 && (connectorData.connectorType === connectors[i+1][0] || connectors[i+1][0] === "reference")) {
           if (connectorData.connectorType === 'input') return table += connectorInputEnd(connectorData, connectorRank);
         }
         // check if last entry on the left with prev. on the right
