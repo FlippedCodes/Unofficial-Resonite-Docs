@@ -1,3 +1,5 @@
+<!-- markdownlint-disable ul-indent -->
+<!-- markdownlint-disable-next-line first-line-heading -->
 - Gameplay
   - [Desktop Controls](/gameplay/desktopControls.md)
   - [Bot Commands](/gameplay/botCommands.md)
@@ -40,7 +42,10 @@
       - [Linux Notes](/modding/resoniteModLoader/linux.md)
       - [Modloader Configuration](/modding/resoniteModLoader/modloader_config.md)
 
+<!-- markdownlint-disable-next-line list-indent -->
 - Wiki Guides And Guidelines
   - [About the Wiki](README.md)
   - [Protoflux Node Showcase](/wikiGuides/nodeRender.md)
   - [Licensing and Terms](/LICENSE.md)
+
+<!-- markdownlint-enable ul-indent -->
