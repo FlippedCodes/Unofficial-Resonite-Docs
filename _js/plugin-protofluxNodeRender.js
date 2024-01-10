@@ -2,7 +2,7 @@ const PFNregexGet = /<!-- ProtofluxNode:start -->(.*?)<!-- ProtofluxNode:end -->
 
 const PFNregexReplace = /<!-- ProtofluxNode:start -->(.*?)<!-- ProtofluxNode:end -->/s;
 
-const PFNregexCheckForVector = /(?<!\dx)\d$/;
+const PFNregexCheckForVector = /(?<!\dx?)\d$/;
 
 const triggerTypes = [
   'SyncOperation',
