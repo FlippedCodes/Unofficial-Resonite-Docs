@@ -107,4 +107,64 @@ It is recommended to specify the `FiringUser` to minimize redundant
 impulses and to keep behavior predictable.
 <!-- panels:end -->
 
+<!-- panels:start -->
+<!-- div:title-panel -->
+## Tween
+
+<!-- div:right-panel -->
+[Node](./_template/nodes/Root/Actions/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Animation.TweenValue`1 ':include')
+
+<!-- div:left-panel -->
+The **Tween** node is used to [interpolate](https://en.wikipedia.org/wiki/Interpolation) the value of `Target` starting at `From`, and ending at `To` over `Duration` seconds when an impulse is received at `Tween`.
+
+### Usage
+
+When an impulse is received at `Tween` a \[Tween (Component)\|Tween\]\] component is created which [drives](Drive "wikilink") the referenced `Target` value over the duration.
+
+The `To` value determines the final value reached at the end of the `Duration`.
+
+The `From` value determines the initial value at the start of the `Duration`.
+
+The `Duration` input determines how long the transition from `From` to `To` takes in seconds. Default is 1.
+
+The `CurvePreset` determines the shape of the interpolated values. Default is Smooth.
+
+The `OnStarted` output fires an impulse when tweening of the `Target` begins as a result of an impulse received at `Tween`. An impulse will not be fired if there is no valid `Target`. This impulse continues the impulse chain which arrived at `Tween`.
+
+The `OnDone` output fires an impulse when tweening of the `Target` has finished. This does not continue the impulse chain which arrived at `Tween`.
+
+Note that only one tween operation for the `Target` can be active at any time. Currently target value changes work via sequential writes to the value which may not appear smooth depending on framerates and network latency. Similar, potentially smoother, effects can be achieved with e.g. the various Lerp nodes under [:Category:Protoflux:Math](:Category:Protoflux:Math "wikilink")
+<!-- panels:end -->
+
+<!-- panels:start -->
+<!-- div:title-panel -->
+## Write Latch
+
+<!-- div:right-panel -->
+[Node](./_template/nodes/Root/Actions/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueWriteLatch`2 ':include')
+
+<!-- div:left-panel -->
+The **Write Latch** node node overwrites the referenced `Target` value with the input `SetValue` or `ResetValue` when an impulse is received at `Set` or `Reset` respectively.
+
+### Usage
+
+When spawned from the node browser, the `SetValue` and `ResetValue` inputs have a dummy datatype. This will overload to match the input data type when a valid input is connected. The type of these two inputs and that of the referenced `Target` must match.
+
+The `OnSet` output fires an impulse after an impulse is received at `Set`. This occurs regardless of whether there is a valid `Target` or whether any `Target` was actually written to. This continues the impulse chain which arrived at `Set`.
+
+The `OnReset` output fires an impulse after an impulse is received at `Reset`. This occurs regardless of whether there is a valid `Target` or whether any `Target` was actually written to. This continues the impulse chain which arrived at `Reset`.
+
+Changing the value of a Variable node, Component field etc. via a Write Latch node results in a datamodel change which will then be synchronised to other users in the session. Note that changes are only synchronised at the end of every update so, if multiple writes to the same target are performed by a single client within an update, only the final value will be sent. Additionally, no changes will be broadcast if the value is reset to the value it held at the beginning of an update. Due to this synchronisation process, it is inadvisable to write to a value very regularly (e.g. every update) unless absolutely necessary. It is generally better to use the [Drive](drive "wikilink") system instead for continuously changing values to avoid unnecessary network traffic. [Source](https://github.com/Resonite-Metaverse/ResonitePublic/issues/2590#issuecomment-874788205).
+
+Generally, with a Write/Write Latch node, one can only write to component or slot fields which are value-typed (e.g. bools, ints, strings, floats), whereas reference-typed fields (e.g. slot, user, IAssetProvider<AudioClip> etc.) require [Write Ref](Write_Ref_(Protoflux_node) "wikilink"). However, it *is* possible to write to reference-typed Protoflux variable nodes using a Write/Write Latch node where it *isn't* possible to do so with Write Ref. It is also possible to write to reference-typed fields using Write/Write Latch if the input `SetValue` and `ResetValue` are RefIDs, rather than reference datatypes - it is generally not recommended to work with raw RefIDs though.
+
+## Examples
+
+These two images illustrate comparable Protoflux setups using either one
+Write Latch node or two [Write](Write_(Protoflux_node) "wikilink")
+nodes. Note that the presence of the `OnFail` impulse output and
+different behaviour of `OnDone` and `OnFail` compared with `OnSet` and
+`OnReset` means that the two setups are not exactly identical.
+<!-- panels:end -->
+
 #### Page end

@@ -2,11 +2,27 @@
 
 <!-- panels:start -->
 <!-- div:title-panel -->
-## Attach Audio Clip
+<!-- ## Audio Clip -->
 
 <!-- div:right-panel -->
 <!-- you can get the right directory from "allNodes.md" -->
-[Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include')
+<!-- [Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include') -->
+
+<!-- div:left-panel -->
+<!-- The **Audio Clip** node stores a reference to a an audio file for use with [Play One Shot (Protoflux node)](Play_One_Shot_(Protoflux_node) "wikilink") and [Play One Shot & Wait (Protoflux node)](Play_One_Shot_&_Wait_(Protoflux_node) "wikilink").
+
+### Usage
+
+The easiest way to store a reference to an audio clip with this node is to grab an audio player orb and release while the laser is hovering over the Audio Clip Input node - essentially "drag and drop". If the node has a reference stored it will display the clip name on the node's visual. -->
+<!-- panels:end -->
+
+<!-- panels:start -->
+<!-- div:title-panel -->
+## Attach Audio Clip
+
+<!-- div:right-panel -->
+<!-- TODO: Import broken -->
+<!-- [Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include') -->
 
 <!-- div:left-panel -->
 The **Attach Audio Clip** node creates an AudioClipProvider component on the `Target` slot and fills the component's URL field with the input `URL`.
@@ -81,11 +97,12 @@ The newly attached StaticTexture2D component is available from the `AttachedProv
 [Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.BakeMeshes ':include')
 
 <!-- div:left-panel -->
-The **Bake Meshes** node creates a new single mesh as a combination of all meshes under the `Root` input slot's hierarchy. Specific behaviour depends significantly on the input values, see below.
+The **Bake Meshes** node creates a new single mesh as a combination of all meshes under the `Root` input slot's hierarchy. Specific behaviour depends significantly on the input values, see
+[Usage](#Usage "wikilink").
 
 ### Usage
 
-When an impulse is received at `Bake`, and with all default bool inputs, this node creates a new slot whose name is the name of the original `Root` input slot with " - Baked" appended. This slot contains MeshRenderer, Grabbable, and MeshCollider components. The MeshRenderer and MeshCollider components' Mesh field is filled with a reference to the newly baked mesh. This is a combination of all meshes previously referenced by enabled MeshRenderer/SkinnedMeshRenderer components under any active slots under the input `Root` slot's hierarchy. The MeshRenderer component contains references to the materials previously present on the individual meshes; if these are subsequently changed, the changes only affect the part of the baked mesh which was originally affected by the changed material.
+When an impulse is received at `Bake`, and with all default bool inputs, this node creates a new slot whose name is the name of the original `Root` input slot with " - Baked" appended. This slot contains [`MeshRenderer`](MeshRenderer "wikilink"), [`Grabbable`](Grabbable "wikilink"), and [`MeshCollider`](MeshCollider "wikilink") components. The `MeshRenderer` and `MeshCollider` components' Mesh field is filled with a reference to the newly baked mesh. This is a combination of all meshes previously referenced by enabled `MeshRenderer`/`SkinnedMeshRenderer` components under any active slots under the input `Root` slot's hierarchy. The `MeshRenderer` component contains references to the materials previously present on the individual meshes; if these are subsequently changed, the changes only affect the part of the baked mesh which was originally affected by the changed material.
 
 If the `IncludeInactive` input is True (False by default) the baked mesh will also include any meshes on inactive slots under the input Root slot's hierarchy. Inactive meshes will be visible in the final baked mesh.
 
