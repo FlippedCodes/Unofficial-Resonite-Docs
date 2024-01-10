@@ -1053,6 +1053,12 @@
   background-image: linear-gradient(rgba(110, 154, 253, 0.7), rgba(110, 154, 253, 0.7));
 }
 
+.PFN-AvatarAnchor {
+  stroke: rgb(212, 163, 101);
+  fill: rgb(212, 163, 101, 0.174);
+  background-image: linear-gradient(rgba(212, 163, 101, 0.7), rgba(212, 163, 101, 0.7));
+}
+
 .PFN-T {
   stroke: rgb(166, 255, 70);
   fill: rgb(166, 255, 70, 0.174);
