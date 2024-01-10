@@ -44,7 +44,6 @@ ${editEmbed}
       }
       // remove navbar entries
       hook.doneEach(() => {
-        console.log(delTitles);
         const url = window.location.hash.split('?id=')[0];
         delTitles.forEach((delTitle) => {
           const target = document.querySelectorAll(`.section-link[href='${url}?id=${delTitle}']`);
