@@ -14,10 +14,16 @@
   - [Actions](/protoflux/actions.md)
   - [Assets](/protoflux/assets.md)
   - [Audio](/protoflux/audio.md)
+  - [Colors](/protoflux/colors.md)
+  - [Media](/protoflux/media.md)
   - [Operators](/protoflux/operators/README.md)
     - [Packing](/protoflux/operators/packing.md)
     - [Vectors](/protoflux/operators/vectors.md)
-  - [Users](/protoflux/users.md)
+  - [Physics](/protoflux/physics.md)
+  - Transform
+    - [Direction](/protoflux/transform/direction.md)
+  - [Users](/protoflux/users/README.md)
+    - [User ](/protoflux/users/userRoot.md)
   - [All Nodes](/protoflux/allNodes.md)
 <!-- embed:end:protoflux -->
 
