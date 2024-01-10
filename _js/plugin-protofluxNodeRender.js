@@ -85,7 +85,8 @@ const triggerConnector = `
 `;
 
 const addTitle = (title, path) => `
-<table class="PFN" id="${path}">
+<div id="${path}.md"></div>
+<table class="PFN">
   <thead>
     <tr>
       <th class="PFN-Title" colspan="4">${title}</th>

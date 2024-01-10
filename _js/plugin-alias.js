@@ -16,15 +16,15 @@ const aliasList = {
   '/modding/resoniteModLoader/(.*)': 'https://raw.githubusercontent.com/resonite-modding-group/ResoniteModLoader/main/doc/$1.md',
 
   // in game documentation FIXME: not working
-  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.(.*)': (url) => {
-    const regEx = /\/protoflux\/ProtoFlux\.Runtimes\.Execution\.Nodes\.(.*)/;
-    const found = url.match(regEx);
-    // const nodePath = url.split('/protoflux/')[1];
-    if (found.length === 2) {
-      const [category] = found[1].toLowerCase().split('.');
-      const final = `/protoflux/${category}.md`;
-      return final;
-    } else return '/protoflux/_404.md';
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.(.*)': (url, rawNode) => {
+    const nodePath = url.split('/protoflux/')[1];
+    const node = rawNode.toLowerCase().split('.');
+    // Sometimes there is an extra "FrooxEngine" in the path, so the array is popped from the back ensure the right entry
+    // const nodeName = node.pop();
+    // const nodeType = node.pop();
+    const final = `/protoflux/${node.at(-2)}.md?id=${nodePath}`;
+    console.log(final);
+    return final;
   },
 };
 
