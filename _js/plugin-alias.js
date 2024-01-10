@@ -16,8 +16,16 @@ const aliasList = {
   '/modding/resoniteModLoader/(.*)': 'https://raw.githubusercontent.com/resonite-modding-group/ResoniteModLoader/main/doc/$1.md',
 
   // in game documentation FIXME: not working
-  // '/node/ProtoFlux\.Runtimes\.Execution\.Nodes\.(.*)\..*': '/protoflux/$1',
-  // '/node/ProtoFlux.Runtimes.Execution.Nodes.*': '/protoflux/_404.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.(.*)': (url) => {
+    const regEx = /\/protoflux\/ProtoFlux\.Runtimes\.Execution\.Nodes\.(.*)/;
+    const found = url.match(regEx);
+    // const nodePath = url.split('/protoflux/')[1];
+    if (found.length === 2) {
+      const [category] = found[1].toLowerCase().split('.');
+      const final = `/protoflux/${category}.md`;
+      return final;
+    } else return '/protoflux/_404.md';
+  },
 };
 
 window.$docsify.alias = {
