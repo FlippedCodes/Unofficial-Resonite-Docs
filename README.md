@@ -3,9 +3,6 @@
 ![](_media/logo_light.png#gh-dark-mode-only)
 ![](_media/logo_dark.png#gh-light-mode-only)
 
-> [!NOTE]
-> This project is a WIP. But there is a "[ToDo List](/README.md#todo-list)"
-
 <!-- panels:start -->
 <!-- div:right-panel -->
 ## Table of Contents
