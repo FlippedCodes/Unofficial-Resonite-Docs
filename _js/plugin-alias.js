@@ -15,17 +15,47 @@ const aliasList = {
   '/doc/(.*)': '/modding/resoniteModLoader/$1',
   '/modding/resoniteModLoader/(.*)': 'https://raw.githubusercontent.com/resonite-modding-group/ResoniteModLoader/main/doc/$1.md',
 
-  // in game documentation FIXME: not working
-  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.(.*)': (url, rawNode) => {
-    const nodePath = url.split('/protoflux/')[1];
-    const node = rawNode.toLowerCase().split('.');
-    // Sometimes there is an extra "FrooxEngine" in the path, so the array is popped from the back ensure the right entry
-    // const nodeName = node.pop();
-    // const nodeType = node.pop();
-    const final = `/protoflux/${node.at(-2)}.md?id=${nodePath}`;
-    console.log(final);
-    return final;
-  },
+
+  // a backticks "`" need to be url encoded "%60"
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiverWithValue`1': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseReceiverWithValue`1': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseTriggerWithValue`1': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseTriggerWithValue`1': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.FireOnTrue': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.FireWhileTrue': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Animation.TweenValue`1': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.ValueWriteLatch`2': '/protoflux/actions.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip': '/protoflux/assets.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachMesh': '/protoflux/assets.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachSprite': '/protoflux/assets.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachTexture2D': '/protoflux/assets.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.BakeMeshes': '/protoflux/assets.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Audio.PlayOneShot': '/protoflux/audio.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Color.ColorAlphaBlend': '/protoflux/colors.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.If': '/protoflux/flow.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.ApplyCharacterForce': '/protoflux/physics.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.ApplyCharacterImpulse': '/protoflux/physics.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.AsCharacterController': '/protoflux/physics.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool3': '/protoflux/operators/packing.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.ValueConditional%601': '/protoflux/operators/README.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Operators.Distance_Float': '/protoflux/operators/README.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Operators.Mask_Uint2': '/protoflux/operators/README.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Operators.Magnitude_Uint2': '/protoflux/operators/vectors.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Operators.SqrMagnitude_Uint2': '/protoflux/operators/vectors.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Transform.GetBackward': '/protoflux/transform/direction.md',
+
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.LocalUser': '/protoflux/users/README.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.Roots.ActiveUserRootUser': '/protoflux/users/userRoot.md',
+
 };
 
 window.$docsify.alias = {
