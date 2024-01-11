@@ -33,8 +33,8 @@
 - General Info
   - [Patreon Tiers](/general/patreon.md)
 
-- Modding
 <!-- Articles imported trough URL. Files don't exist! Check /_js/plugin-alias.js -->
+- Modding
   - [ResoniteModLoader](/modding/resoniteModLoader/README.md)
     - [Launch Options](/modding/resoniteModLoader/launch_options.md)
     - [Configuration System](/modding/resoniteModLoader/config.md)
