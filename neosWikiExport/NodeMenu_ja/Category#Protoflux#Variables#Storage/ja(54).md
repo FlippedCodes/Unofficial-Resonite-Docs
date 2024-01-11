@@ -1,3 +1,0 @@
-[Storage](Category:Protoflux{{#translation:}} "wikilink")
-[Storage](Category:Protoflux:Variables{{#translation:}} "wikilink")
-[Storage](Category:NodeMenu{{#translation:}} "wikilink")
