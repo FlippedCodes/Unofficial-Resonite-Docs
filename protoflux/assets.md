@@ -5,8 +5,7 @@
 <!-- ## Audio Clip -->
 
 <!-- div:right-panel -->
-<!-- you can get the right directory from "allNodes.md" -->
-<!-- [Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include') -->
+<!-- [Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudio ':include') -->
 
 <!-- div:left-panel -->
 <!-- The **Audio Clip** node stores a reference to a an audio file for use with [Play One Shot (Protoflux node)](Play_One_Shot_(Protoflux_node) "wikilink") and [Play One Shot & Wait (Protoflux node)](Play_One_Shot_&_Wait_(Protoflux_node) "wikilink").
@@ -21,8 +20,7 @@ The easiest way to store a reference to an audio clip with this node is to grab 
 ## Attach Audio Clip
 
 <!-- div:right-panel -->
-<!-- TODO: Import broken -->
-<!-- [Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include') -->
+[Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include')
 
 <!-- div:left-panel -->
 The **Attach Audio Clip** node creates an AudioClipProvider component on the `Target` slot and fills the component's URL field with the input `URL`.
