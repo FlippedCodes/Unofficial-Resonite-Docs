@@ -17,14 +17,14 @@ const aliasList = {
 
 
   // a backticks "`" need to be url encoded "%60"
-  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiverWithValue`1': '/protoflux/actions.md',
-  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseReceiverWithValue`1': '/protoflux/actions.md',
-  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseTriggerWithValue`1': '/protoflux/actions.md',
-  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseTriggerWithValue`1': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiverWithValue%601': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseReceiverWithValue%601': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseTriggerWithValue%601': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseTriggerWithValue%601': '/protoflux/actions.md',
   '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.FireOnTrue': '/protoflux/actions.md',
   '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.Actions.FireWhileTrue': '/protoflux/actions.md',
-  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Animation.TweenValue`1': '/protoflux/actions.md',
-  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.ValueWriteLatch`2': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Animation.TweenValue%601': '/protoflux/actions.md',
+  '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.ValueWriteLatch%602': '/protoflux/actions.md',
 
   '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip': '/protoflux/assets.md',
   '/protoflux/ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachMesh': '/protoflux/assets.md',
