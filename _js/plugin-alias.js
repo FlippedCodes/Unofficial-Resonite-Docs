@@ -8,7 +8,7 @@ const aliasList = {
   'zh-tw/(.*)': '/zh-tw/$1',
   'zh-cn/(.*)': '/zh-cn/$1',
 
-  // Resonite Mod Loader
+  // Resonite Mod Loader articles
   '/modding/resoniteModLoader/README': 'https://raw.githubusercontent.com/resonite-modding-group/ResoniteModLoader/main/README.md',
   // FIXME: Write separate js that replaces the links in markdown
   // '/modding/ResoniteModLoader/img/(.*)': 'https://raw.githubusercontent.com/resonite-modding-group/ResoniteModLoader/main/doc/img/$1',
