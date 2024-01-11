@@ -59,4 +59,64 @@ The **As Character Controller** node attempts to output the [CharacterController
 Output is *null* unless the input is a valid character collider.
 <!-- panels:end -->
 
+<!-- panels:start -->
+<!-- div:title-panel -->
+## Character Controller User
+
+<!-- div:right-panel -->
+[Node](-/protoflux/_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.CharacterControllerUser ':include')
+
+<!-- div:left-panel -->
+The **Character Controller User** node attempts to output the user referenced in the SimulatingUser field of the input `CharacterController`.
+
+### Usage
+
+Output is *null* unless a valid user reference is available.
+<!-- panels:end -->
+
+<!-- panels:start -->
+<!-- div:title-panel -->
+## Character Gravity
+
+<!-- div:right-panel -->
+[Node](-/protoflux/_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.CharacterGravity ':include')
+
+<!-- div:left-panel -->
+The **Character Gravity** node outputs the `Gravity` vector for the input `Character` [CharacterController (Component)](CharacterController_(Component) "wikilink").
+
+### Usage
+
+The `Gravity` output provides the current Gravity value.
+
+The `ActualGravity` output provides the Gravity value from the previous update.
+
+Default values are \[0;0;0\] for both outputs if there is no valid input `CharacterController`.
+<!-- panels:end -->
+
+<!-- panels:start -->
+<!-- div:title-panel -->
+## Character Ground Collider
+
+<!-- div:right-panel -->
+[Node](-/protoflux/_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.CharacterGroundCollider ':include')
+
+<!-- div:left-panel -->
+The **Character Ground Collider** node outputs a reference to the collider the user of the input `Character` [CharacterController (Component)](CharacterController_(Component) "wikilink") is standing on.
+
+### Usage
+
+Output is *null* if there is no valid input or the relevant user is not standing on a surface.
+<!-- panels:end -->
+
+<!-- panels:start -->
+<!-- div:title-panel -->
+## Character Linear Velocity
+
+<!-- div:right-panel -->
+[Node](-/protoflux/_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.CharacterLinearVelocity ':include')
+
+<!-- div:left-panel -->
+The **Character Linear Velocity** node outputs the linear velocity of the input `Character` [CharacterController (Component)](CharacterController_(Component) "wikilink") in global coordinate space.
+<!-- panels:end -->
+
 #### Page end
