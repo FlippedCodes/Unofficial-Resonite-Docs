@@ -5,7 +5,7 @@
 ## Magnitude (|V|)
 
 <!-- div:right-panel -->
-[Node](../_template/nodes/Root/Operators/Vectors/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.Magnitude_Uint2 ':include')
+[Node](-/protoflux/_template/nodes/Root/Operators/Vectors/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.Magnitude_Uint2 ':include')
 
 <!-- div:left-panel -->
 Get distance by float from center(Coordinate 0.0.0) of parent object with root(√) calculate.
@@ -21,7 +21,7 @@ world.
 ## Magnitude Squared (|V|2)
 
 <!-- div:right-panel -->
-[Node](../_template/nodes/Root/Operators/Vectors/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.SqrMagnitude_Uint2 ':include')
+[Node](-/protoflux/_template/nodes/Root/Operators/Vectors/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.SqrMagnitude_Uint2 ':include')
 
 <!-- div:left-panel -->
 Get distance by float from center(Coordinate 0.0.0) of parent without root(√) calculate. It's equal to Magnitude(\|V\|) after root calculate

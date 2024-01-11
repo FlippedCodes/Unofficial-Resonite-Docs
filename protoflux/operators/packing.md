@@ -5,7 +5,7 @@
 ## Pack XYZ
 
 <!-- div:right-panel -->
-[Node](../_template/nodes/Root/Operators/Packing/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool3 ':include')
+[Node](-/protoflux/_template/nodes/Root/Operators/Packing/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.Pack_Bool3 ':include')
 
 <!-- div:left-panel -->
 Constructs a 3 composited data type from three individual inputs(Equal data types). Unconnected inputs will act as a default data by individual data types.

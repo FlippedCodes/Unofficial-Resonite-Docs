@@ -5,7 +5,7 @@
 ## Playback Drive
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Media/README.md#FrooxEngine.ProtoFlux.CoreNodes.PlaybackDrive ':include')
+[Node](-/protoflux/_template/nodes/Root/Media/README.md#FrooxEngine.ProtoFlux.CoreNodes.PlaybackDrive ':include')
 
 <!-- div:left-panel -->
 The **Drive Playback** node can be used to directly control the rate of

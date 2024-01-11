@@ -5,7 +5,7 @@
 ## Apply Character Force
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.ApplyCharacterForce ':include')
+[Node](-/protoflux/_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.ApplyCharacterForce ':include')
 
 <!-- div:left-panel -->
 The **Apply Character Force** node changes the linear velocity of the input `Character` [CharacterController (Component)](CharacterController_(Component) "wikilink") proportional to the input `Force` when an impulse is received at `Apply`.
@@ -27,7 +27,7 @@ Note that for the input `CharacterController` to be affected, the impulse receiv
 ## Apply Character Impulse
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.ApplyCharacterImpulse ':include')
+[Node](-/protoflux/_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.ApplyCharacterImpulse ':include')
 
 <!-- div:left-panel -->
 The **Apply Character Impulse** node changes the linear velocity of the input `Character` [CharacterController (Component)](CharacterController_(Component) "wikilink") proportional to the value of the input `Impulse` when an impulse is received at `Apply`.
@@ -49,7 +49,7 @@ Note that for the input `CharacterController` to be affected, the impulse receiv
 ## As Character Controller
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.AsCharacterController ':include')
+[Node](-/protoflux/_template/nodes/Root/Physics/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Physics.AsCharacterController ':include')
 
 <!-- div:left-panel -->
 The **As Character Controller** node attempts to output the [CharacterController (Component)](CharacterController_(Component) "wikilink") associated with the input `Collider`.

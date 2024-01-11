@@ -5,7 +5,7 @@
 ## If
 
 <!-- div:right-panel -->
-[Node](../_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.If ':include')
+[Node](-/protoflux/_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.If ':include')
 
 <!-- div:left-panel -->
 The **If** node fires an impulse from one of two outputs dependent on the `Condition` when an impulse is received at `Run`.

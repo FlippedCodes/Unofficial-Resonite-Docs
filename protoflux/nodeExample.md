@@ -4,7 +4,7 @@
 
 <!-- div:right-panel -->
 <!-- you can get the right directory from "allNodes.md" -->
-[Node](./_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueConditional`1 ':include')
+[Node](-/protoflux/_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueConditional`1 ':include')
 
 <!-- div:left-panel -->
 The **?:** node outputs either the OnTrue or OnFalse input values depending on the value of the Condition input.

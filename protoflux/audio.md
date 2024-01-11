@@ -5,7 +5,7 @@
 ## Play One Shot
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Audio/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Audio.PlayOneShot ':include')
+[Node](-/protoflux/_template/nodes/Root/Audio/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Audio.PlayOneShot ':include')
 
 <!-- div:left-panel -->
 The **Play One Shot** node plays the input `Clip` once when an impulse is received at `Play`. The manner in which the clip is played is highly configurable.

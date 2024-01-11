@@ -5,7 +5,7 @@
 ## ?:
 
 <!-- div:right-panel -->
-[Node](../_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueConditional`1 ':include')
+[Node](-/protoflux/_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueConditional`1 ':include')
 
 <!-- div:left-panel -->
 The **?:** node outputs either the OnTrue or OnFalse input values
@@ -26,7 +26,7 @@ commonly referred to as the 'ternary' or 'conditional' operator.
 ## ==
 
 <!-- div:right-panel -->
-[Node](../_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueEquals`1 ':include')
+[Node](-/protoflux/_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueEquals`1 ':include')
 
 <!-- div:left-panel -->
 The **==** node checks whether inputs A and B are equal, outputting True if they are equal and False if they are not equal.
@@ -41,7 +41,7 @@ When spawned from the node browser, this node accepts float data by default. How
 ## Distance
 
 <!-- div:right-panel -->
-[Node](../_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.Distance_Float ':include')
+[Node](-/protoflux/_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.Distance_Float ':include')
 
 <!-- div:left-panel -->
 Get distance by float between two object.
@@ -52,7 +52,7 @@ Get distance by float between two object.
 ## Mask
 
 <!-- div:right-panel -->
-[Node](../_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.Mask_Uint2 ':include')
+[Node](-/protoflux/_template/nodes/Root/Operators/README.md#ProtoFlux.Runtimes.Execution.Nodes.Operators.Mask_Uint2 ':include')
 
 <!-- div:left-panel -->
 Filtered value from Input data by bool switch.

@@ -5,7 +5,7 @@
 ## Local User
 
 <!-- div:right-panel -->
-[Node](../_template/nodes/Root/Users/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.LocalUser ':include')
+[Node](-/protoflux/_template/nodes/Root/Users/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Users.LocalUser ':include')
 
 <!-- div:left-panel -->
 The **Local User** node outputs a reference to the Local User.

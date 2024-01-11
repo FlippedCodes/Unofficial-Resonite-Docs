@@ -5,7 +5,7 @@
 ## Alpha Blend
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Colors/README.md#ProtoFlux.Runtimes.Execution.Nodes.Color.ColorAlphaBlend ':include')
+[Node](-/protoflux/_template/nodes/Root/Colors/README.md#ProtoFlux.Runtimes.Execution.Nodes.Color.ColorAlphaBlend ':include')
 
 <!-- div:left-panel -->
 The **Alpha Blend** node outputs a blend of the input `Source` and `Desination` colors according their respective alpha values.

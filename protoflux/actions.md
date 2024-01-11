@@ -8,10 +8,10 @@
 > [!Warning]
 > This article has been imported from the NeosVR wiki page on ``Dynamic Impulse Receiver With Value`1'``. In Resonite you can find the node under the name displayed here, but have to pick between ``Dynamic Impulse Receiver With Value`1`` and ``Dynamic Impulse Receiver With Object`1`` - depending on which kind of data you want to pass along.
 
-[Node](./_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiverWithValue`1 ':include')
+[Node](-/protoflux/_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseReceiverWithValue`1 ':include')
 </br>
 
-[Node](./_template/nodes/Root/Flow/Async/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseReceiverWithValue`1 ':include')
+[Node](-/protoflux/_template/nodes/Root/Flow/Async/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseReceiverWithValue`1 ':include')
 
 <!-- div:left-panel -->
 The **Dynamic Impulse Receiver With Data** node fires an impulse whenever a [Dynamic Impulse Trigger With Value\`1](Dynamic_Impulse_Trigger_With_Value`1_(Protoflux_node) "wikilink") is triggered and the receiver node is present under the trigger's `TargetHierarchy`. This will only occur if the `Tag` string inputs of the trigger and receiver are identical. The `Value` output by the receiver node is equal to the `Value` input of the trigger node at the moment it was triggered.
@@ -37,10 +37,10 @@ When spawning this node from the node browser there is a selection of possible d
 > [!Warning]
 > This article has been imported from the NeosVR wiki page on ``Dynamic Impulse Trigger With Value`1``. In Resonite you can find the node under the name displayed here, but have to pick between ``Dynamic Impulse Trigger With Value`1`` and ``Dynamic Impulse Trigger With Object`1`` - depending on which kind of data you want to pass along.
 
-[Node](./_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseTriggerWithValue`1 ':include')
+[Node](-/protoflux/_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.DynamicImpulseTriggerWithValue`1 ':include')
 </br>
 
-[Node](./_template/nodes/Root/Flow/Async/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseTriggerWithValue`1 ':include')
+[Node](-/protoflux/_template/nodes/Root/Flow/Async/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.AsyncDynamicImpulseTriggerWithValue`1 ':include')
 
 <!-- div:left-panel -->
 The Dynamic Impulse Trigger With Data\`1 node sends a dynamic impulse when an impulse is received at `Run` which triggers any [Dynamic Impulse Receiver](Dynamic_Impulse_Receiver_With_Value`1_(Protoflux_node) "wikilink") nodes (with the same `Value` datatype) present under the input `TargetHierarchy` whose `Tag` input matches that on the Dynamic Impulse Trigger With Value\`1.
@@ -61,7 +61,7 @@ Note that the tag system for dynamic impulse triggers / receivers is completely 
 ## Fire On True
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.FireOnTrue ':include')
+[Node](-/protoflux/_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.FireOnTrue ':include')
 
 <!-- div:left-panel -->
 The **Fire On True** node fires a single impulse whenever the input
@@ -88,7 +88,7 @@ then reset to False within a single impulse chain.
 ## Fire While True
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.FireWhileTrue ':include')
+[Node](-/protoflux/_template/nodes/Root/Flow/README.md#ProtoFlux.Runtimes.Execution.Nodes.Actions.FireWhileTrue ':include')
 
 <!-- div:left-panel -->
 The **Fire While True** node fires an impulse every frame while the
@@ -112,7 +112,7 @@ impulses and to keep behavior predictable.
 ## Tween
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Actions/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Animation.TweenValue`1 ':include')
+[Node](-/protoflux/_template/nodes/Root/Actions/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Animation.TweenValue`1 ':include')
 
 <!-- div:left-panel -->
 The **Tween** node is used to [interpolate](https://en.wikipedia.org/wiki/Interpolation) the value of `Target` starting at `From`, and ending at `To` over `Duration` seconds when an impulse is received at `Tween`.
@@ -141,7 +141,7 @@ Note that only one tween operation for the `Target` can be active at any time. C
 ## Write Latch
 
 <!-- div:right-panel -->
-[Node](./_template/nodes/Root/Actions/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueWriteLatch`2 ':include')
+[Node](-/protoflux/_template/nodes/Root/Actions/README.md#ProtoFlux.Runtimes.Execution.Nodes.ValueWriteLatch`2 ':include')
 
 <!-- div:left-panel -->
 The **Write Latch** node node overwrites the referenced `Target` value with the input `SetValue` or `ResetValue` when an impulse is received at `Set` or `Reset` respectively.

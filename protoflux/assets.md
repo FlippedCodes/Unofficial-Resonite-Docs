@@ -6,7 +6,7 @@
 
 <!-- div:right-panel -->
 <!-- you can get the right directory from "allNodes.md" -->
-<!-- [Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include') -->
+<!-- [Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include') -->
 
 <!-- div:left-panel -->
 <!-- The **Audio Clip** node stores a reference to a an audio file for use with [Play One Shot (Protoflux node)](Play_One_Shot_(Protoflux_node) "wikilink") and [Play One Shot & Wait (Protoflux node)](Play_One_Shot_&_Wait_(Protoflux_node) "wikilink").
@@ -22,7 +22,7 @@ The easiest way to store a reference to an audio clip with this node is to grab 
 
 <!-- div:right-panel -->
 <!-- TODO: Import broken -->
-<!-- [Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include') -->
+<!-- [Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachAudioClip ':include') -->
 
 <!-- div:left-panel -->
 The **Attach Audio Clip** node creates an AudioClipProvider component on the `Target` slot and fills the component's URL field with the input `URL`.
@@ -40,7 +40,7 @@ The newly attached StaticAudioClip component is available from the `AttachedProv
 
 <!-- div:right-panel -->
 <!-- you can get the right directory from "allNodes.md" -->
-[Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachMesh ':include')
+[Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachMesh ':include')
 
 <!-- div:left-panel -->
 The **Attach Mesh** node creates a StaticMesh component under the `Target` slot and fills the component's URL field with the input `URL`.
@@ -58,7 +58,7 @@ The newly attached StaticMesh component is available from the `AttachedProvider`
 
 <!-- div:right-panel -->
 <!-- you can get the right directory from "allNodes.md" -->
-[Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachSprite ':include')
+[Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachSprite ':include')
 
 <!-- div:left-panel -->
 The **Attach Sprite** node creates a StaticTexture2D component on the `Target` slot and fills the component's URL field with the input `URL`. A SpriteProvider component is also created whose Texture field is filled with a reference to the newly created StaticTexture2D component.
@@ -76,7 +76,7 @@ The newly attached SpriteProvider component is available from the `AttachedProvi
 
 <!-- div:right-panel -->
 <!-- you can get the right directory from "allNodes.md" -->
-[Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachTexture2D ':include')
+[Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.AttachTexture2D ':include')
 
 <!-- div:left-panel -->
 The **Attach Texture 2D** node creates a StaticTexture2D component under the `Target` slot and fills the component's URL field with the input `URL`.
@@ -94,7 +94,7 @@ The newly attached StaticTexture2D component is available from the `AttachedProv
 
 <!-- div:right-panel -->
 <!-- you can get the right directory from "allNodes.md" -->
-[Node](./_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.BakeMeshes ':include')
+[Node](-/protoflux/_template/nodes/Root/Assets/README.md#ProtoFlux.Runtimes.Execution.Nodes.FrooxEngine.Assets.BakeMeshes ':include')
 
 <!-- div:left-panel -->
 The **Bake Meshes** node creates a new single mesh as a combination of all meshes under the `Root` input slot's hierarchy. Specific behaviour depends significantly on the input values, see
