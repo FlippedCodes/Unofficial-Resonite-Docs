@@ -1,3 +1,6 @@
+
+<!-- Dequip Tool? -->
+
 <languages></languages> <translate> The **Dequip Tooltip** node dequips
 any equipped tooltip from the specified User's hand according to the
 Node enum input.
