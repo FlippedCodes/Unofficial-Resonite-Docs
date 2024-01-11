@@ -17,6 +17,7 @@ When spawned from the node browser, this node accepts the float datatype
 by default. However, this node can be overloaded to use other value or
 reference types if an appropriate wire is connected. This operator is
 commonly referred to as the 'ternary' or 'conditional' operator.
+
 [Youtube Video](https://www.youtube-nocookie.com/embed/qIHwqWjaeyU ':include :type=iframe')
 <!-- panels:end -->
 
