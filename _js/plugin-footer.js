@@ -28,8 +28,7 @@ function footer(hook, vm) {
         "https://github.com/FlippedCodes/Unofficial-Resonite-Docs/blob/main/" +
         vm.route.file;
     }
-    // FIXME: move edit text to the right
-    const editText = `\n\n[:memo: Edit on GitHub](${url})`;
+    const editText = `\n\<div style="text-align: right"><a href="${url}" target="_blank">:memo: Edit on GitHub</a></div>`;
 
     return html + editText + footer;
   });
