@@ -5,7 +5,7 @@ function footer(hook, vm) {
     '<footer style="text-align: center; padding-top: 40px;">',
     // 'Unoffical Resonite Wiki &copy; 2024',
     // '<br/>',
-    '"Resonite" is a trademark of Yellow Dog Man Studios s.r.o.',
+    '"Resonite" is a copyright of Yellow Dog Man Studios s.r.o.',
     "<br/>",
     "We are not affiliated with Yellow Dog Man Studios.",
     "<br/>",
