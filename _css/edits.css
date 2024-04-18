@@ -144,6 +144,13 @@ td:first-child, th:first-child {
    border-left: none;
 } */
 
+/* Picture Zoom Fixes */
+
+.medium-zoom-overlay {
+  background: none !important;
+  backdrop-filter: blur(10px);
+}
+
 /*
 Accordion fixes
   Colors
