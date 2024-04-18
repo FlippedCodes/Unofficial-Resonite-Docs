@@ -2,6 +2,7 @@ window.$docsify = {
     catchPluginErrors: true,
     name: "Unoffical Resonite Documentaiton",
     repo: "https://github.com/FlippedCodes/Unofficial-Resonite-Docs/",
+    routerMode: "histroy",
     auto2top: true,
     loadSidebar: true,
     loadNavbar: true,
